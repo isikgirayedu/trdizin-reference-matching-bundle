@@ -1,0 +1,13 @@
+{
+  "base_found_before_experiment14": 6367,
+  "base_found_before_experiment14_rate_percent": 63.67,
+  "complete": true,
+  "experiment14_auto_resolved_found": 6367,
+  "experiment14_auto_resolved_rate_percent": 63.67,
+  "experiment_label": "Deney 14 - Hidden DOI cleanup",
+  "hidden_doi_no_match": 11,
+  "hidden_doi_strong_matches": 0,
+  "hidden_doi_targets": 11,
+  "hidden_doi_unique_candidates": 11,
+  "sampled_references": 10000
+}

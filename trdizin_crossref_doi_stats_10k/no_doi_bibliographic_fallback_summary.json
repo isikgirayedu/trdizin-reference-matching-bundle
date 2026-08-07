@@ -1,0 +1,23 @@
+{
+  "base_crossref_found": 1915,
+  "broad_crossref_found_after_fallback": 1949,
+  "broad_found_rate_all_references_percent": 19.49,
+  "broad_found_rate_doi_references_percent": null,
+  "doi_reference_rate_applicable": false,
+  "fallback_checked": 8052,
+  "fallback_no_match": 44,
+  "fallback_possible_matches": 0,
+  "fallback_recovery_rate_broad_percent": 0.42,
+  "fallback_recovery_rate_strong_percent": 0.42,
+  "fallback_scope": "rows selected by source crossref_status",
+  "fallback_search_errors": 7974,
+  "fallback_strong_matches": 34,
+  "source_rows": 10000,
+  "strict_crossref_found_after_fallback": 1949,
+  "strict_found_rate_all_references_percent": 19.49,
+  "strict_found_rate_doi_references_percent": null,
+  "target_statuses": [
+    "no_doi"
+  ],
+  "target_total": 8052
+}

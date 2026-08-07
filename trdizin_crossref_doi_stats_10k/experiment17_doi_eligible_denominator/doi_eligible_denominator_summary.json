@@ -1,0 +1,23 @@
+{
+  "auto_resolved_before_experiment17": 6367,
+  "auto_resolved_before_experiment17_rate_percent": 63.67,
+  "experiment_label": "Deney 17 - DOI eligible denominator",
+  "note": "Denominator, cozulmeyen kalan setten kitap/web/tez/rapor/konferans gibi DOI beklenmesi zayif kategorileri cikarir; otomatik strong eslesme sayisini degistirmez.",
+  "operational_doi_eligible_denominator": 8038,
+  "operational_doi_eligible_resolution_rate_percent": 79.21,
+  "remaining_before_experiment17": 3633,
+  "remaining_category_counts": {
+    "book_or_chapter": 952,
+    "conference": 53,
+    "dergipark_file": 11,
+    "hidden_doi": 11,
+    "journal_like_left": 556,
+    "other": 1093,
+    "report_policy_legal": 184,
+    "thesis": 291,
+    "url_web": 482
+  },
+  "remaining_doi_unlikely_count": 1962,
+  "remaining_doi_unlikely_rate_percent": 54.0,
+  "sampled_references": 10000
+}

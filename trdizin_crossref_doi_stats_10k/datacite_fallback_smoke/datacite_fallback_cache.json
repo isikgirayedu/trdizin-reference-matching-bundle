@@ -1,0 +1,252 @@
+{
+  "doi:10.1002/pc.32800": {
+    "http_status": 404,
+    "status": "not_found"
+  },
+  "doi:10.1007/s11207-021-01845-2": {
+    "http_status": 404,
+    "status": "not_found"
+  },
+  "doi:10.1080/00218839.2020.1728294": {
+    "http_status": 404,
+    "status": "not_found"
+  },
+  "doi:10.14359/51684395": {
+    "http_status": 404,
+    "status": "not_found"
+  },
+  "doi:10.21162/pakjas/24.155": {
+    "http_status": 404,
+    "status": "not_found"
+  },
+  "doi:10.2305/iucn.uk.2018-": {
+    "http_status": 404,
+    "status": "not_found"
+  },
+  "doi:10.2900/63495": {
+    "http_status": 404,
+    "status": "not_found"
+  },
+  "doi:10.31838/jcr.07.17.141": {
+    "http_status": 404,
+    "status": "not_found"
+  },
+  "doi:10.5829/idosi.wasj.2012.19.05.1114": {
+    "http_status": 404,
+    "status": "not_found"
+  },
+  "doi:10.5923/j.ijit.20160501.05": {
+    "http_status": 404,
+    "status": "not_found"
+  },
+  "doi:10.9790/0837-2110060106": {
+    "http_status": 404,
+    "status": "not_found"
+  },
+  "search:2019 World Health Organization. Suicide Worldwide": {
+    "http_status": 200,
+    "items": [
+      {
+        "authors": [
+          "Avila Nicolau, Fabiana Mirta"
+        ],
+        "creator_surnames": [
+          "nicolau"
+        ],
+        "doi": "10.5281/zenodo.19561174",
+        "id": "10.5281/zenodo.19561174",
+        "publication_year": 2026,
+        "publisher": "Zenodo",
+        "resource_type": "Text",
+        "search_rank": 1,
+        "title": "$ARG FAN TOKEN - Ingeniería Financiera, Detección de Manipulación y Riesgo de Fraude Global _ V2",
+        "url": "https://zenodo.org/doi/10.5281/zenodo.19561174"
+      },
+      {
+        "authors": [
+          "Avila Nicolau, Fabiana Mirta"
+        ],
+        "creator_surnames": [
+          "nicolau"
+        ],
+        "doi": "10.5281/zenodo.21350314",
+        "id": "10.5281/zenodo.21350314",
+        "publication_year": 2026,
+        "publisher": "Zenodo",
+        "resource_type": "Text",
+        "search_rank": 2,
+        "title": "$ARG FAN TOKEN - Ingeniería Financiera, Detección de Manipulación y Riesgo de Fraude Global _ V2",
+        "url": "https://zenodo.org/doi/10.5281/zenodo.21350314"
+      },
+      {
+        "authors": [
+          "Avila Nicolau, Fabiana Mirta"
+        ],
+        "creator_surnames": [
+          "nicolau"
+        ],
+        "doi": "10.5281/zenodo.21314359",
+        "id": "10.5281/zenodo.21314359",
+        "publication_year": 2026,
+        "publisher": "Zenodo",
+        "resource_type": "Text",
+        "search_rank": 3,
+        "title": "ANÁLISIS EXHAUSTIVO: $ARG FAN TOKEN - Ingeniería Financiera, Detección de Manipulación y Riesgo de Fraude Global",
+        "url": "https://zenodo.org/doi/10.5281/zenodo.21314359"
+      },
+      {
+        "authors": [
+          "Avila Nicolau, Fabiana Mirta"
+        ],
+        "creator_surnames": [
+          "nicolau"
+        ],
+        "doi": "10.5281/zenodo.21303250",
+        "id": "10.5281/zenodo.21303250",
+        "publication_year": 2026,
+        "publisher": "Zenodo",
+        "resource_type": "Text",
+        "search_rank": 4,
+        "title": "FIFA · AFA · MESSI · MACRI · MILEI · TRUMP · ISRAEL · CRIPTO · IA · BOLSA _ Análisis de Inteligencia Financiera",
+        "url": "https://zenodo.org/doi/10.5281/zenodo.21303250"
+      },
+      {
+        "authors": [
+          "Lukas Moebus"
+        ],
+        "creator_surnames": [
+          "moebus"
+        ],
+        "doi": "10.17605/osf.io/y5bqm",
+        "id": "10.17605/osf.io/y5bqm",
+        "publication_year": 2021,
+        "publisher": "OSF Registries",
+        "resource_type": "StudyRegistration",
+        "search_rank": 5,
+        "title": "The Role of Functional Cerebral Asymmetry in Symptoms of Bipolar Disorder: A Scoping Review Protocol",
+        "url": "https://osf.io/y5bqm/"
+      }
+    ],
+    "status": "ok"
+  },
+  "search:Ali el-Kârî, Ebu’l-Hasen Nûrüddîn Ali b. Sultan Muhammed el-Kârî el-Herevî. Mirkâtu’l-mefâtîh şerhu mişkâti’l-mesâbîh. 9 Cilt. Beyrut: Dâru’l-Fikr, 1. Basım, 1422": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Apaydın, Hacı Yunus. “Şahit”. Türkiye Diyanet Vakfı İslam Ansiklopedisi. 38/278-283. İstanbul: TDV Yayınları, 2010": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Aydoğan, A. ve Geray, H. (2010). Televizyon Haberciliğinde Etik. [(der). Bülent Çaplı ve Hakan Tuncel (içinde), “Yeni İletişim Teknolojileri ve Etik”, 305-321]. Ankara: Fersa Matbaacılık": {
+    "error": "{\"errors\":{\"title\":\"parse_exception: Encountered \\\" \\u003cRANGE_GOOP\\u003e \\\"B\\\\u00fclent \\\"\\\" at line 1, column 73.\\nWas expecting:\\n    \\\"TO\\\" ...\\n    \"}}",
+    "http_status": 400,
+    "status": "error"
+  },
+  "search:Baki, A. & Gökçek, T. (2012). Karma yöntem araştırmalarına genel bir bakış. Elektronik Sosyal Bilimler Dergisi, 11(42): 1-21": {
+    "error": "{\"errors\":{\"title\":\"parse_exception: Encountered \\\" \\\":\\\" \\\": \\\"\\\" at line 1, column 118.\\nWas expecting one of:\\n    \\u003cEOF\\u003e \\n    \\u003cAND\\u003e ...\\n    \\u003cOR\\u003e ...\\n    \\u003cNOT\\u003e ...\\n    \\\"+\\\" ...\\n    \\\"-\\\" ...\\n    \\u003cBAREOPER\\u003e ...\\n    \\\"(\\\" ...\\n    \\\"*\\\" ...\\n",
+    "http_status": 400,
+    "status": "error"
+  },
+  "search:Cengil, E. and Çınar, A. (2021). Poisonous mushroom detection using YOLOV5. Turkish Journal of Science and Technology, 16(1), 119-127": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Foucault, M. (1994) “What is an Author?”, çev. Harari, J. V., Aesthetics, Method, and Epistemology, (ed. Faubion, James D.), 205–222, New York: The New Press": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Hebestreit, L. (2008). The role of the university of the third age in meeting needs of adult learners in victoria, Australia. Australian Journal of Adult Learning, 48, 547-565": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Hoberman, J. L. (2016). 'Triumph of the Will': Fashist Rants and the Hollywood Responce. The New York Times: adresinden alındı": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:JVL, Jewish Virtual Library. “Amorites”. Erişim 22 Şubat 2024. https.//": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Kalın, İ. (2021a). Ben öteki ve ötesi (22. Basım). İnsan Yayınları": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Ott, D., Peikert, C. (2019). Identifying research challenges in post quantum cryptography mi- gration and cryptographic agility. arXiv preprint arXiv:1909.07353": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:POGGI, G. (2014). Devlet: Doğası, gelişimi ve geleceği. (A. Babacan, Çev.). İstanbul: İstanbul Bilgi Üniversitesi Yayınları": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Poroy, Reha ve Yasaman, Hamdi. Ticari İşletme Hukuku. İstanbul: Vedat Kitapçılık, 2019": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:R. S. Ayers, and D. W. Westcot, “Rome: Food and Agriculture Organization of the United Nations”, Water Quality for Agriculture (Vol. 29, pp. 174), 1985": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Rice, Tamara Talbot. Bizans’ta Günlük Yaşam. Bizans’ın Mücevheri Konstantinopolis. Çev. Bilgi Altınok. İstanbul: Özne Yayınları, 1998)": {
+    "error": "{\"errors\":{\"title\":\"parse_exception: Encountered \\\" \\\")\\\" \\\") \\\"\\\" at line 1, column 133.\\nWas expecting one of:\\n    \\u003cEOF\\u003e \\n    \\u003cAND\\u003e ...\\n    \\u003cOR\\u003e ...\\n    \\u003cNOT\\u003e ...\\n    \\\"+\\\" ...\\n    \\\"-\\\" ...\\n    \\u003cBAREOPER\\u003e ...\\n    \\\"(\\\" ...\\n    \\\"*\\\" ...\\n",
+    "http_status": 400,
+    "status": "error"
+  },
+  "search:SHLAIM, Avi (2023). “Britain and the Nakba: A history of betrayal”, Middle East Eye, 10 Mayıs": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Sampson, H., Ellis, N., & International, S. (2019). Seafarers’ mental health and wellbeing. Retrieved on December 12, 2023, from": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Sever, S. (2015). Çocuk Edebiyatı ve Okuma Kültürü. Tudem Yayınları": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Sinan, A. Turan. “Deyim Kavramı Üzerine Notlar-I.”, Fırat Üniversitesi Sosyal Bi-limler Dergisi, c. 18, no. 2, 2008, ss. 91-98": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Social Institutions and Gender Index. Elde edilme tarihi: 22.03.2022": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:The effect of osthole on lipopolysaccharide-induced macrophages polarization and inflammatory reaction Wang FF 2022 Shanghai Kou Qiang Yi Xue": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Türkiye Cumhuriyeti Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı (2023), Kamu sektörü istihdam sayıları 2023, Erişim Tarihi: Erişim Tarihi: 31.03.2023": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:Yavaş, H. (2005). Doğal afetler yönüyle Türkiye’de belediyelerde kriz yönetimi, Orion Yayınevi, Ankara": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  },
+  "search:İstanbul 6. Vergi Mahkemesi E:2023/1555 K:2023/2664 T: 30.11.2023": {
+    "http_status": 200,
+    "items": [],
+    "status": "ok"
+  }
+}

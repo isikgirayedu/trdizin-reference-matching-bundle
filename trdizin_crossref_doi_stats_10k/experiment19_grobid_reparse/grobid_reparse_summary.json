@@ -1,0 +1,125 @@
+{
+  "base_found_before_experiment19": 6367,
+  "base_found_before_experiment19_rate_percent": 63.67,
+  "complete": false,
+  "crossref_search_queries": 1254,
+  "experiment19_auto_resolved_found": 6410,
+  "experiment19_auto_resolved_rate_percent": 64.1,
+  "experiment19_no_match": 1240,
+  "experiment19_possible_matches": 19,
+  "experiment19_strong_by_category": {
+    "book_or_chapter": 3,
+    "conference": 1,
+    "dergipark_file": 1,
+    "journal_like_left": 5,
+    "other": 22,
+    "report_policy_legal": 2,
+    "url_web": 9
+  },
+  "experiment19_strong_by_resolver": {
+    "grobid_crossref_bibliographic": 6,
+    "grobid_doi_crossref": 24,
+    "grobid_openalex": 5,
+    "grobid_trdizin_title_search": 8
+  },
+  "experiment19_strong_matches": 43,
+  "experiment_label": "Deney 19 - GROBID re-parse + resolver retry",
+  "grobid_retry_targets": 1302,
+  "grobid_service_alive": true,
+  "grobid_service_url": "http://localhost:8072",
+  "grobid_unique_doi_targets": 42,
+  "include_doi_unlikely": false,
+  "openalex_cached_queries": 955,
+  "openalex_fetch_skipped": true,
+  "openalex_missing_queries": 299,
+  "openalex_search_queries": 1254,
+  "remaining_before_experiment19": 3633,
+  "remaining_summary": {
+    "doi_unlikely_exclusive_count": 1947,
+    "doi_unlikely_exclusive_remaining_rate_percent": 54.23,
+    "exclusive_categories": [
+      {
+        "category": "hidden_doi",
+        "count": 11,
+        "label": "Gizli DOI",
+        "remaining_rate_percent": 0.31,
+        "total_rate_percent": 0.11
+      },
+      {
+        "category": "dergipark_file",
+        "count": 10,
+        "label": "DergiPark article-file",
+        "remaining_rate_percent": 0.28,
+        "total_rate_percent": 0.1
+      },
+      {
+        "category": "thesis",
+        "count": 291,
+        "label": "Tez",
+        "remaining_rate_percent": 8.11,
+        "total_rate_percent": 2.91
+      },
+      {
+        "category": "report_policy_legal",
+        "count": 182,
+        "label": "Rapor / mevzuat / hukuk",
+        "remaining_rate_percent": 5.07,
+        "total_rate_percent": 1.82
+      },
+      {
+        "category": "url_web",
+        "count": 473,
+        "label": "Web / haber / video",
+        "remaining_rate_percent": 13.18,
+        "total_rate_percent": 4.73
+      },
+      {
+        "category": "conference",
+        "count": 52,
+        "label": "Konferans / bildiri",
+        "remaining_rate_percent": 1.45,
+        "total_rate_percent": 0.52
+      },
+      {
+        "category": "book_or_chapter",
+        "count": 949,
+        "label": "Kitap / kitap bolumu",
+        "remaining_rate_percent": 26.43,
+        "total_rate_percent": 9.49
+      },
+      {
+        "category": "journal_like_left",
+        "count": 551,
+        "label": "Journal-like kalan",
+        "remaining_rate_percent": 15.35,
+        "total_rate_percent": 5.51
+      },
+      {
+        "category": "other",
+        "count": 1071,
+        "label": "Diger / zayif parse",
+        "remaining_rate_percent": 29.83,
+        "total_rate_percent": 10.71
+      }
+    ],
+    "experiment_label": "Deney 19 sonrasi kalan referans siniflandirmasi",
+    "found_after_experiment19": 6410,
+    "found_after_experiment19_rate_percent": 64.1,
+    "remaining_after_experiment19": 3590,
+    "remaining_after_experiment19_rate_percent": 35.9,
+    "sampled_references": 10000
+  },
+  "remaining_with_grobid_alignment": 3445,
+  "remaining_with_grobid_doi": 42,
+  "remaining_with_grobid_title": 3158,
+  "remaining_with_grobid_title_year": 3058,
+  "sampled_references": 10000,
+  "target_categories": [
+    "conference",
+    "dergipark_file",
+    "hidden_doi",
+    "journal_like_left",
+    "other"
+  ],
+  "trdizin_search_queries": 2506
+}

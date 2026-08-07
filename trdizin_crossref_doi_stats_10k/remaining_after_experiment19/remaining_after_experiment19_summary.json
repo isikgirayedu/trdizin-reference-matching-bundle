@@ -1,0 +1,75 @@
+{
+  "doi_unlikely_exclusive_count": 1947,
+  "doi_unlikely_exclusive_remaining_rate_percent": 54.23,
+  "exclusive_categories": [
+    {
+      "category": "hidden_doi",
+      "count": 11,
+      "label": "Gizli DOI",
+      "remaining_rate_percent": 0.31,
+      "total_rate_percent": 0.11
+    },
+    {
+      "category": "dergipark_file",
+      "count": 10,
+      "label": "DergiPark article-file",
+      "remaining_rate_percent": 0.28,
+      "total_rate_percent": 0.1
+    },
+    {
+      "category": "thesis",
+      "count": 291,
+      "label": "Tez",
+      "remaining_rate_percent": 8.11,
+      "total_rate_percent": 2.91
+    },
+    {
+      "category": "report_policy_legal",
+      "count": 182,
+      "label": "Rapor / mevzuat / hukuk",
+      "remaining_rate_percent": 5.07,
+      "total_rate_percent": 1.82
+    },
+    {
+      "category": "url_web",
+      "count": 473,
+      "label": "Web / haber / video",
+      "remaining_rate_percent": 13.18,
+      "total_rate_percent": 4.73
+    },
+    {
+      "category": "conference",
+      "count": 52,
+      "label": "Konferans / bildiri",
+      "remaining_rate_percent": 1.45,
+      "total_rate_percent": 0.52
+    },
+    {
+      "category": "book_or_chapter",
+      "count": 949,
+      "label": "Kitap / kitap bolumu",
+      "remaining_rate_percent": 26.43,
+      "total_rate_percent": 9.49
+    },
+    {
+      "category": "journal_like_left",
+      "count": 551,
+      "label": "Journal-like kalan",
+      "remaining_rate_percent": 15.35,
+      "total_rate_percent": 5.51
+    },
+    {
+      "category": "other",
+      "count": 1071,
+      "label": "Diger / zayif parse",
+      "remaining_rate_percent": 29.83,
+      "total_rate_percent": 10.71
+    }
+  ],
+  "experiment_label": "Deney 19 sonrasi kalan referans siniflandirmasi",
+  "found_after_experiment19": 6410,
+  "found_after_experiment19_rate_percent": 64.1,
+  "remaining_after_experiment19": 3590,
+  "remaining_after_experiment19_rate_percent": 35.9,
+  "sampled_references": 10000
+}

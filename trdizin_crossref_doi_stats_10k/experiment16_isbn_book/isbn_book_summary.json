@@ -1,0 +1,14 @@
+{
+  "base_found_before_experiment16": 6367,
+  "base_found_before_experiment16_rate_percent": 63.67,
+  "complete": true,
+  "experiment16_auto_resolved_found": 6367,
+  "experiment16_auto_resolved_rate_percent": 63.67,
+  "experiment_label": "Deney 16 - ISBN / book resolver",
+  "isbn_no_match": 9,
+  "isbn_possible_matches": 0,
+  "isbn_strong_matches": 0,
+  "isbn_targets": 9,
+  "isbn_unique_candidates": 11,
+  "sampled_references": 10000
+}

@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TR Dizin Referans Eslesme Paneli</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="dashboard-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">10.000 referanslik orneklem</p>
+          <h1>TR Dizin Referans Eslesme Paneli</h1>
+        </div>
+        <div class="run-meta" aria-label="Calisma ozeti">
+          <span>TR Dizin</span>
+          <strong>DOI ve referans resolution</strong>
+        </div>
+      </header>
+
+      <section class="summary-strip" aria-label="Genel metrikler">
+        <article class="metric-tile">
+          <span>Toplam referans</span>
+          <strong id="totalReferences">10.000</strong>
+        </article>
+        <article class="metric-tile">
+          <span>Referansta DOI var</span>
+          <strong id="doiReferences">1.948</strong>
+        </article>
+        <article class="metric-tile">
+          <span>Referansta DOI yok</span>
+          <strong id="noDoiReferences">8.052</strong>
+        </article>
+        <article class="metric-tile">
+          <span>Arama hatasi</span>
+          <strong id="searchErrors">0</strong>
+        </article>
+      </section>
+
+      <section class="experiment-layout">
+        <aside class="experiment-list" aria-label="Deney secimi">
+          <button class="experiment-button is-active" type="button" data-experiment="doi">
+            <span>Deney 1</span>
+            <strong>Sadece DOI</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="strict">
+            <span>Deney 2</span>
+            <strong>Strict</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="stq">
+            <span>Deney 3</span>
+            <strong>SimpleTextQuery</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="openalex">
+            <span>Deney 4</span>
+            <strong>OpenAlex</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="datacite">
+            <span>Deney 5</span>
+            <strong>DataCite</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="openalex-key">
+            <span>Deney 6</span>
+            <strong>OpenAlex Key</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="dergipark">
+            <span>Deney 7</span>
+            <strong>DergiPark OAI</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="crossref-cleanup">
+            <span>Deney 8</span>
+            <strong>Crossref Cleanup</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="europepmc">
+            <span>Deney 9</span>
+            <strong>Europe PMC</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="dergipark-file">
+            <span>Deney 10</span>
+            <strong>Article-file</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="journal-like-parser">
+            <span>Deney 11</span>
+            <strong>Journal-like</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="trdizin-target">
+            <span>Deney 12</span>
+            <strong>TR Dizin ID</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="trdizin-title">
+            <span>Deney 13</span>
+            <strong>TR Dizin Title</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="hidden-doi">
+            <span>Deney 14</span>
+            <strong>Hidden DOI</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="dergipark-file-v2">
+            <span>Deney 15</span>
+            <strong>Article-file v2</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="isbn-book">
+            <span>Deney 16</span>
+            <strong>ISBN / Book</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="doi-eligible">
+            <span>Deney 17</span>
+            <strong>DOI-eligible</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="pubmed">
+            <span>Deney 18</span>
+            <strong>PubMed</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="grobid-reparse">
+            <span>Deney 19</span>
+            <strong>GROBID</strong>
+          </button>
+          <button class="experiment-button" type="button" data-experiment="broad">
+            <span>Ek Deney</span>
+            <strong>Broad</strong>
+          </button>
+        </aside>
+
+        <section class="experiment-detail" aria-live="polite">
+          <div class="detail-heading">
+            <div>
+              <p id="experimentLabel" class="eyebrow">Deney 1</p>
+              <h2 id="experimentTitle">Sadece DOI</h2>
+            </div>
+            <div class="rate-badge">
+              <span>Eslesme orani</span>
+              <strong id="experimentRate">18,55%</strong>
+            </div>
+          </div>
+
+          <p id="experimentDescription" class="experiment-copy">
+            Referanstaki DOI alinir ve Crossref works DOI endpoint'i ile kontrol edilir.
+          </p>
+          <p id="experimentNote" class="experiment-note">
+            DOI'li 1.948 referansin 1.855 tanesi Crossref'te bulundu.
+          </p>
+
+          <div class="result-grid">
+            <article class="result-panel">
+              <div class="panel-title-row">
+                <h3>Sonuc</h3>
+                <span id="matchCount">1.855 / 10.000</span>
+              </div>
+              <div class="bar-track" aria-hidden="true">
+                <div id="matchBar" class="bar-fill"></div>
+              </div>
+              <div class="split-row">
+                <span id="foundText">Bulunan: 1.855</span>
+                <span id="missingText">Bulunamayan: 8.145</span>
+              </div>
+            </article>
+
+            <article class="result-panel">
+              <div class="panel-title-row">
+                <h3>Bilesenler</h3>
+                <span id="componentTotal">1.855</span>
+              </div>
+              <div id="componentBars" class="component-bars"></div>
+            </article>
+          </div>
+        </section>
+      </section>
+
+      <section class="comparison-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Karsilastirma</p>
+            <h2>Deneylerin yan yana sonucu</h2>
+          </div>
+          <p>Strict sadece guclu eslesmeleri sayar; Broad possible olanlari da ekler. SimpleTextQuery Crossref'in web formudur. OpenAlex, DergiPark, Europe PMC, TR Dizin, OpenCitations, PubMed ve GROBID kalan kayitlarda fallback olarak calisti.</p>
+        </div>
+
+        <div id="comparisonBars" class="comparison-bars" aria-label="Deney eslesme oranlari"></div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Deney</th>
+                <th>Bulunan</th>
+                <th>Oran</th>
+                <th>Kisa not</th>
+              </tr>
+            </thead>
+            <tbody id="experimentTable"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="comparison-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">STQ vs Pipeline</p>
+            <h2>Son deney ile pipeline farki</h2>
+          </div>
+          <p>Bu tablo SimpleTextQuery sonucunu onceki strict ve broad pipeline sonucuyla karsilastirir.</p>
+        </div>
+
+        <div class="delta-grid">
+          <article class="delta-tile">
+            <span>STQ - Strict net fark</span>
+            <strong>+66</strong>
+            <p>STQ 5.673, strict 5.607 eslesme buldu.</p>
+          </article>
+          <article class="delta-tile">
+            <span>STQ-only vs strict</span>
+            <strong>340</strong>
+            <p>Strict'te olmayan ama STQ'de bulunan kayit.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Strict-only vs STQ</span>
+            <strong>274</strong>
+            <p>STQ'nin kacirdigi strict eslesme.</p>
+          </article>
+          <article class="delta-tile">
+            <span>DOI farki</span>
+            <strong>95</strong>
+            <p>STQ ile pipeline DOI'si farkli gelen kayit.</p>
+          </article>
+          <article class="delta-tile">
+            <span>DataCite yeni ek</span>
+            <strong>0</strong>
+            <p>OpenAlex sonrasi kalan sette yeni eslesme gelmedi.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Deney 6 yeni ek</span>
+            <strong>1</strong>
+            <p>API key ile Deney 4'e gore bir strong OpenAlex eslesme geldi.</p>
+          </article>
+          <article class="delta-tile">
+            <span>DergiPark yeni ek</span>
+            <strong>27</strong>
+            <p>OAI-PMH GetRecord ile dogrudan bulunan strong kayit.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Deney 8 yeni ek</span>
+            <strong>2</strong>
+            <p>Siki filtreli Crossref cleanup ile gelen strong kayit.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Europe PMC yeni ek</span>
+            <strong>22</strong>
+            <p>Biomedical fallback ile bulunan strong kayit.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Article-file yeni ek</span>
+            <strong>0</strong>
+            <p>DergiPark file id probe yeni eslesme getirmedi.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Deney 11 yeni ek</span>
+            <strong>1</strong>
+            <p>Journal-like parser ve DergiPark lokal index ile gelen strong kayit.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Deney 12 yeni ek</span>
+            <strong>239</strong>
+            <p>TR Dizin targetPublication ile gelen strict ic eslesme.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Deney 13 yeni ek</span>
+            <strong>4</strong>
+            <p>TR Dizin title search ile gelen strict eslesme.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Deney 14 yeni ek</span>
+            <strong>0</strong>
+            <p>11 hidden DOI adayi Crossref'te strong eslesmedi.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Deney 15 yeni ek</span>
+            <strong>0</strong>
+            <p>11 DergiPark article-file hedefi guvenli metadata vermedi.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Deney 16 yeni ek</span>
+            <strong>0</strong>
+            <p>9 ISBN hedefi OpenCitations uzerinden strong eslesmedi.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Deney 17 DOI-eligible</span>
+            <strong>79,21%</strong>
+            <p>DOI-unlikely turler paydadan ayrilinca 6.367 / 8.038 oran.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Deney 18 yeni ek</span>
+            <strong>0</strong>
+            <p>15 PMID possible geldi; strict esikte strong sayilmadi.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Deney 19 yeni ek</span>
+            <strong>43</strong>
+            <p>GROBID re-parse ile 1.302 hedefte strict strong eslesme.</p>
+          </article>
+          <article class="delta-tile">
+            <span>Deney 19 toplam</span>
+            <strong>64,10%</strong>
+            <p>6.410 / 10.000 referans auto-resolved oldu.</p>
+          </article>
+        </div>
+
+        <div class="table-wrap compact-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Karsilastirma</th>
+                <th>Ortak</th>
+                <th>STQ-only</th>
+                <th>Pipeline-only</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>STQ vs Strict</td>
+                <td>5.333</td>
+                <td>340</td>
+                <td>274</td>
+              </tr>
+              <tr>
+                <td>STQ vs Broad</td>
+                <td>5.447</td>
+                <td>226</td>
+                <td>379</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="comparison-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Deney 19 sonrasi</p>
+            <h2>Kalan referans siniflandirmasi</h2>
+          </div>
+          <p>Bu dagilim Deney 19 sonunda hala eslesmeyen 3.590 referansin exclusive kategori dagilimidir. Overlap sinyalleri kaynak dosyada ayrica tutulur.</p>
+        </div>
+
+        <div class="remaining-metrics">
+          <article class="metric-tile">
+            <span>Bulunan</span>
+            <strong id="remainingFound">6.410</strong>
+            <p id="remainingFoundRate">64,10%</p>
+          </article>
+          <article class="metric-tile">
+            <span>Kalan</span>
+            <strong id="remainingCount">3.590</strong>
+            <p id="remainingRate">35,90%</p>
+          </article>
+          <article class="metric-tile">
+            <span>DOI beklenmesi zayif</span>
+            <strong id="doiUnlikelyCount">1.947</strong>
+            <p id="doiUnlikelyRate">54,23%</p>
+          </article>
+        </div>
+
+        <div class="type-chart-layout">
+          <article class="type-chart-panel">
+            <div class="panel-title-row">
+              <h3>Farkli turlerin grafigi</h3>
+              <span>Exclusive kategori</span>
+            </div>
+            <div class="type-chart-content">
+              <div id="remainingTypeDonut" class="donut-chart" role="img" aria-label="Kalan referans tur dagilimi">
+                <span>
+                  <strong id="remainingTypeDonutCount">3.590</strong>
+                  <small>Kalan</small>
+                </span>
+              </div>
+              <div id="remainingTypeLegend" class="donut-legend"></div>
+            </div>
+          </article>
+
+          <article class="type-chart-panel">
+            <div class="panel-title-row">
+              <h3>Neden plato?</h3>
+              <span>Deney 19 dahil</span>
+            </div>
+            <div id="remainingReasonList" class="reason-list"></div>
+          </article>
+        </div>
+
+        <div id="remainingCategoryBars" class="comparison-bars" aria-label="Kalan kategori oranlari"></div>
+        <div id="categoryExamplePanel" class="category-example-panel" aria-live="polite"></div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Kategori</th>
+                <th>Adet</th>
+                <th>Kalan icindeki oran</th>
+                <th>Toplam icindeki oran</th>
+                <th>Not</th>
+              </tr>
+            </thead>
+            <tbody id="remainingCategoryTable"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer class="source-footer">
+        <span>Kaynak ciktilar:</span>
+        <a href="../trdizin_crossref_doi_stats_10k/combined_crossref_matching_summary.json">combined summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/simple_text_query_combined/simple_text_query_summary.json">SimpleTextQuery summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/simple_text_query_combined/simple_text_query_vs_pipeline_summary.json">STQ comparison</a>
+        <a href="../trdizin_crossref_doi_stats_10k/openalex_fallback/openalex_fallback_summary.json">OpenAlex summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/datacite_fallback/datacite_fallback_summary.json">DataCite summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/openalex_api_key_fallback/openalex_fallback_summary.json">OpenAlex key summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/dergipark_oai_fallback/dergipark_oai_summary.json">DergiPark OAI summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/crossref_cleanup_fallback/crossref_cleanup_summary.json">Crossref cleanup summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/europepmc_fallback/europepmc_fallback_summary.json">Europe PMC summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/dergipark_article_file_probe/dergipark_article_file_probe_summary.json">Article-file summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/remaining_after_experiment10/remaining_after_experiment10_summary.json">Remaining summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/experiment11_journal_like/experiment11_summary.json">Experiment 11 summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/experiment12_trdizin_target/trdizin_target_publication_summary.json">Experiment 12 summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/experiment13_trdizin_title_search/trdizin_title_search_summary.json">Experiment 13 summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/remaining_after_experiment13/remaining_after_experiment13_summary.json">Remaining after Experiment 13</a>
+        <a href="../trdizin_crossref_doi_stats_10k/experiment14_hidden_doi/hidden_doi_summary.json">Experiment 14 summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/experiment15_dergipark_article_file/dergipark_article_file_summary.json">Experiment 15 summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/experiment16_isbn_book/isbn_book_summary.json">Experiment 16 summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/experiment17_doi_eligible_denominator/doi_eligible_denominator_summary.json">Experiment 17 summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/experiment18_pubmed_citation_matcher/pubmed_citation_summary.json">Experiment 18 summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/remaining_after_experiment18/remaining_after_experiment18_summary.json">Remaining after Experiment 18</a>
+        <a href="../trdizin_crossref_doi_stats_10k/experiment19_grobid_reparse/grobid_reparse_summary.json">Experiment 19 summary</a>
+        <a href="../trdizin_crossref_doi_stats_10k/remaining_after_experiment19/remaining_after_experiment19_summary.json">Remaining after Experiment 19</a>
+      </footer>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

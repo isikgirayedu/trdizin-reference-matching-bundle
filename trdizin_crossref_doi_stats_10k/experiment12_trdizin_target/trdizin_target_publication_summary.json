@@ -1,0 +1,33 @@
+{
+  "base_found_before_experiment12": 6124,
+  "base_found_before_experiment12_rate_percent": 61.24,
+  "complete": true,
+  "component_counts": {
+    "base_union_after_experiment11": 6124,
+    "cleanup": 2,
+    "crossref_union": 6052,
+    "dergipark": 27,
+    "doi_only": 1855,
+    "europepmc": 22,
+    "experiment11": 1,
+    "openalex": 20,
+    "trdizin_target_crossref_doi": 13,
+    "trdizin_target_id_only_or_unverified_doi": 226
+  },
+  "experiment12_auto_resolved_found": 6363,
+  "experiment12_auto_resolved_rate_percent": 63.63,
+  "experiment12_new_auto_resolved_rate_percent": 2.39,
+  "experiment_label": "Deney 12 - TR Dizin targetPublication resolver",
+  "sampled_references": 10000,
+  "target_publication_already_found": 510,
+  "target_publication_candidates_after_base": 239,
+  "target_publication_total": 749,
+  "trdizin_metadata_errors": 0,
+  "trdizin_metadata_not_found": 0,
+  "trdizin_target_crossref_doi_found": 13,
+  "trdizin_target_doi_not_crossref_verified": 3,
+  "trdizin_target_id_only_matches": 223,
+  "trdizin_target_strong_matches": 239,
+  "trdizin_target_with_doi": 16,
+  "trdizin_target_without_doi": 223
+}

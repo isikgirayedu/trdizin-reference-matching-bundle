@@ -1,0 +1,21 @@
+{
+  "advanced_parser_journal_count": 551,
+  "advanced_parser_title_count": 551,
+  "base_found_before_experiment11": 6123,
+  "base_found_before_experiment11_rate_percent": 61.23,
+  "crossref_structured_strong_matches": 0,
+  "dergipark_candidate_sets": 17,
+  "dergipark_harvest_errors": 0,
+  "dergipark_index_possible_matches": 0,
+  "dergipark_index_strong_matches": 1,
+  "dergipark_indexed_records": 1697,
+  "experiment11_broad_found": 6124,
+  "experiment11_broad_found_rate_percent": 61.24,
+  "experiment11_possible_matches": 0,
+  "experiment11_strict_found": 6124,
+  "experiment11_strict_found_rate_percent": 61.24,
+  "experiment11_strong_matches": 1,
+  "experiment11_target_journal_like": 740,
+  "experiment_label": "Deney 11 - Journal-like parser + DergiPark local index",
+  "sampled_references": 10000
+}

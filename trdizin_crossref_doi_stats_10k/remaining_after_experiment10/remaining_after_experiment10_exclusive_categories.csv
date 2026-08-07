@@ -1,0 +1,10 @@
+category,label,count,remaining_rate_percent,total_rate_percent,description
+hidden_doi,Gizli DOI,11,0.28,0.11,Referans metninde DOI benzeri ifade var ama onceki DOI pipeline'ina temiz yakalanmamis.
+dergipark_file,DergiPark article-file,15,0.39,0.15,DergiPark download/article-file URL'si var; OAI article id kesin degil.
+thesis,Tez,293,7.56,2.93,Tez veya dissertation referansi; Crossref DOI beklemek genelde dogru denominator degil.
+report_policy_legal,Rapor / mevzuat / hukuk,192,4.95,1.92,"Rapor, mevzuat, resmi belge, hukuk kaynagi veya kurum dokumani sinyali tasiyor."
+url_web,Web / haber / video,489,12.61,4.89,"Web sayfasi, haber, video, sosyal medya veya erisim URL'si agirlikli referans."
+conference,Konferans / bildiri,53,1.37,0.53,"Konferans, kongre, sempozyum veya bildiri sinyali tasiyor."
+book_or_chapter,Kitap / kitap bolumu,954,24.61,9.54,"Kitap, yayinevi veya kitap bolumu sinyali tasiyor."
+journal_like_left,Journal-like kalan,740,19.09,7.4,Cilt/sayi/sayfa formati var ama Crossref/STQ/OpenAlex/Europe PMC/DergiPark ile guvenli eslesmedi.
+other,Diger / zayif parse,1130,29.15,11.3,Belirgin kategoriye dusmeyen veya parse kalitesi zayif kalan referans.

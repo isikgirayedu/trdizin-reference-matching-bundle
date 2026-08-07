@@ -1,0 +1,38 @@
+{
+  "base_crossref_found": 6052,
+  "base_crossref_found_rate_percent": 60.52,
+  "complete": false,
+  "crossref_component_counts": {
+    "broad": 5826,
+    "crossref_union": 6052,
+    "doi_only": 1855,
+    "simple_text_query": 5673,
+    "strict": 5607
+  },
+  "experiment4_broad_found": 6071,
+  "experiment4_broad_found_rate_percent": 60.71,
+  "experiment4_strict_found": 6071,
+  "experiment4_strict_found_rate_percent": 60.71,
+  "last_openalex_rate_limit_headers": {
+    "x-ratelimit-cost-usd": "0.001",
+    "x-ratelimit-credits-used": "10",
+    "x-ratelimit-limit": "1000",
+    "x-ratelimit-remaining": "30",
+    "x-ratelimit-remaining-usd": "0.003",
+    "x-ratelimit-reset": "56266"
+  },
+  "openalex_checked": 125,
+  "openalex_no_match": 105,
+  "openalex_not_checked": 3823,
+  "openalex_possible_matches": 0,
+  "openalex_rate_limited_rows": 0,
+  "openalex_recovery_rate_checked_broad_percent": 15.2,
+  "openalex_recovery_rate_checked_strong_percent": 15.2,
+  "openalex_recovery_rate_target_broad_percent": 0.48,
+  "openalex_recovery_rate_target_strong_percent": 0.48,
+  "openalex_search_errors": 1,
+  "openalex_strong_matches": 19,
+  "openalex_target_total": 3948,
+  "sampled_references": 10000,
+  "scope": "crossref_union_not_found"
+}

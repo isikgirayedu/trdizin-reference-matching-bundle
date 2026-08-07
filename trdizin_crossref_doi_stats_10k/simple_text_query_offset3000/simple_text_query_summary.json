@@ -1,0 +1,10 @@
+{
+  "references_with_source_doi": 1381,
+  "references_without_source_doi": 5619,
+  "sampled_references": 7000,
+  "simple_text_query_found": 3988,
+  "simple_text_query_found_rate_percent": 56.97,
+  "stq_found_rate_without_source_doi_percent": 47.02,
+  "stq_found_with_source_doi": 1346,
+  "stq_found_without_source_doi": 2642
+}

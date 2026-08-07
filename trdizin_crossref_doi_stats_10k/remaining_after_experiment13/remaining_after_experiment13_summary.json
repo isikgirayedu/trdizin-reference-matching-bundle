@@ -1,0 +1,152 @@
+{
+  "doi_unlikely_exclusive_count": 1962,
+  "doi_unlikely_exclusive_remaining_rate_percent": 54.0,
+  "exclusive_categories": [
+    {
+      "category": "hidden_doi",
+      "count": 11,
+      "description": "Referans metninde DOI benzeri ifade var ama onceki DOI pipeline'ina temiz yakalanmamis.",
+      "label": "Gizli DOI",
+      "remaining_rate_percent": 0.3,
+      "total_rate_percent": 0.11
+    },
+    {
+      "category": "dergipark_file",
+      "count": 11,
+      "description": "DergiPark download/article-file URL'si var; OAI article id kesin degil.",
+      "label": "DergiPark article-file",
+      "remaining_rate_percent": 0.3,
+      "total_rate_percent": 0.11
+    },
+    {
+      "category": "thesis",
+      "count": 291,
+      "description": "Tez veya dissertation referansi; Crossref DOI beklemek genelde dogru denominator degil.",
+      "label": "Tez",
+      "remaining_rate_percent": 8.01,
+      "total_rate_percent": 2.91
+    },
+    {
+      "category": "report_policy_legal",
+      "count": 184,
+      "description": "Rapor, mevzuat, resmi belge, hukuk kaynagi veya kurum dokumani sinyali tasiyor.",
+      "label": "Rapor / mevzuat / hukuk",
+      "remaining_rate_percent": 5.06,
+      "total_rate_percent": 1.84
+    },
+    {
+      "category": "url_web",
+      "count": 482,
+      "description": "Web sayfasi, haber, video, sosyal medya veya erisim URL'si agirlikli referans.",
+      "label": "Web / haber / video",
+      "remaining_rate_percent": 13.27,
+      "total_rate_percent": 4.82
+    },
+    {
+      "category": "conference",
+      "count": 53,
+      "description": "Konferans, kongre, sempozyum veya bildiri sinyali tasiyor.",
+      "label": "Konferans / bildiri",
+      "remaining_rate_percent": 1.46,
+      "total_rate_percent": 0.53
+    },
+    {
+      "category": "book_or_chapter",
+      "count": 952,
+      "description": "Kitap, yayinevi veya kitap bolumu sinyali tasiyor.",
+      "label": "Kitap / kitap bolumu",
+      "remaining_rate_percent": 26.2,
+      "total_rate_percent": 9.52
+    },
+    {
+      "category": "journal_like_left",
+      "count": 556,
+      "description": "Cilt/sayi/sayfa formati var ama Crossref/STQ/OpenAlex/Europe PMC/DergiPark/TR Dizin ile guvenli eslesmedi.",
+      "label": "Journal-like kalan",
+      "remaining_rate_percent": 15.3,
+      "total_rate_percent": 5.56
+    },
+    {
+      "category": "other",
+      "count": 1093,
+      "description": "Belirgin kategoriye dusmeyen veya parse kalitesi zayif kalan referans.",
+      "label": "Diger / zayif parse",
+      "remaining_rate_percent": 30.09,
+      "total_rate_percent": 10.93
+    }
+  ],
+  "experiment_label": "Deney 13 sonrasi kalan referans siniflandirmasi",
+  "found_after_experiment13": 6367,
+  "found_after_experiment13_rate_percent": 63.67,
+  "journal_like_left_exclusive_count": 556,
+  "other_or_weak_parse_exclusive_count": 1093,
+  "overlap_flags": [
+    {
+      "category": "hidden_doi",
+      "count": 11,
+      "description": "Referans metninde DOI benzeri ifade var ama onceki DOI pipeline'ina temiz yakalanmamis.",
+      "label": "Gizli DOI",
+      "remaining_rate_percent": 0.3,
+      "total_rate_percent": 0.11
+    },
+    {
+      "category": "dergipark_file",
+      "count": 11,
+      "description": "DergiPark download/article-file URL'si var; OAI article id kesin degil.",
+      "label": "DergiPark article-file",
+      "remaining_rate_percent": 0.3,
+      "total_rate_percent": 0.11
+    },
+    {
+      "category": "thesis",
+      "count": 291,
+      "description": "Tez veya dissertation referansi; Crossref DOI beklemek genelde dogru denominator degil.",
+      "label": "Tez",
+      "remaining_rate_percent": 8.01,
+      "total_rate_percent": 2.91
+    },
+    {
+      "category": "report_policy_legal",
+      "count": 190,
+      "description": "Rapor, mevzuat, resmi belge, hukuk kaynagi veya kurum dokumani sinyali tasiyor.",
+      "label": "Rapor / mevzuat / hukuk",
+      "remaining_rate_percent": 5.23,
+      "total_rate_percent": 1.9
+    },
+    {
+      "category": "url_web",
+      "count": 618,
+      "description": "Web sayfasi, haber, video, sosyal medya veya erisim URL'si agirlikli referans.",
+      "label": "Web / haber / video",
+      "remaining_rate_percent": 17.01,
+      "total_rate_percent": 6.18
+    },
+    {
+      "category": "conference",
+      "count": 62,
+      "description": "Konferans, kongre, sempozyum veya bildiri sinyali tasiyor.",
+      "label": "Konferans / bildiri",
+      "remaining_rate_percent": 1.71,
+      "total_rate_percent": 0.62
+    },
+    {
+      "category": "book_or_chapter",
+      "count": 1032,
+      "description": "Kitap, yayinevi veya kitap bolumu sinyali tasiyor.",
+      "label": "Kitap / kitap bolumu",
+      "remaining_rate_percent": 28.41,
+      "total_rate_percent": 10.32
+    },
+    {
+      "category": "journal_like_left",
+      "count": 642,
+      "description": "Cilt/sayi/sayfa formati var ama Crossref/STQ/OpenAlex/Europe PMC/DergiPark ile guvenli eslesmedi.",
+      "label": "Journal-like kalan",
+      "remaining_rate_percent": 17.67,
+      "total_rate_percent": 6.42
+    }
+  ],
+  "remaining_after_experiment13": 3633,
+  "remaining_after_experiment13_rate_percent": 36.33,
+  "sampled_references": 10000
+}

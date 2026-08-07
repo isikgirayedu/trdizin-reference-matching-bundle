@@ -1,0 +1,725 @@
+{
+  "get:aji:18819": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/aji/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/18819",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "18819",
+        "creators": [
+          "Aktan, Osman",
+          "Padem, Serkan"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/aji/article/18819",
+          "https://izlik.org/JA35CA32ZW"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/18819",
+        "publisher": "Abdurrahman KILIÇ",
+        "source": "Asian Journal of Instruction (E-AJI), Vol. 1 No. 2",
+        "title": "İLKÖĞRETİM 5.SINIF SOSYAL BİLGİLER DERS KİTABINDA KULLANILAN OKUMA METİNLERİNDE YER ALAN DEĞERLER",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA35CA32ZW",
+        "year": 2013
+      }
+    ],
+    "status": "ok"
+  },
+  "get:akukeg:313983": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/akukeg/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/313983",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "313983",
+        "creators": [
+          "Uyanık, Özgün",
+          "Kandır, Adalet"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/akukeg/article/313983",
+          "https://izlik.org/JA48UA88KB"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/313983",
+        "publisher": "Afyon Kocatepe Üniversitesi",
+        "source": "Kuramsal Eğitimbilim Dergisi, Vol. 3 No. 2",
+        "title": "Early Academic Skills in Preschool Period",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA48UA88KB",
+        "year": 2010
+      }
+    ],
+    "status": "ok"
+  },
+  "get:atauniiibd:35829": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/atauniiibd/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/35829",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "35829",
+        "creators": [
+          "Torun, İshak"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/atauniiibd/article/35829",
+          "https://izlik.org/JA93JD44CJ"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/35829",
+        "publisher": "Atatürk Üniversitesi",
+        "source": "Atatürk Üniversitesi İktisadi ve İdari Bilimler Dergisi, Vol. 27 No. 1",
+        "title": "THE IMPORTANCE OF SECONDARY FUNCTIONS OF PROVINCIAL UNIVERSITIES",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA93JD44CJ",
+        "year": 2013
+      }
+    ],
+    "status": "ok"
+  },
+  "get:bayburt-ilahiyat:643862": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/bayburt-ilahiyat/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/643862",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "643862",
+        "creators": [
+          "Demir, Ömer"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/bayburt-ilahiyat/article/643862",
+          "https://izlik.org/JA62ZY78UT"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:record/643862",
+        "publisher": "Bayburt University",
+        "source": "Bayburt Üniversitesi İlahiyat Fakültesi Dergisi No. 10",
+        "title": "DKAB ve İHL Meslek Dersleri Öğretmenlerinin Derslerinde Kullandıkları Öğretim Teknolojileri-Materyaller ve Konuya İlişkin Görüşleri",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA62ZY78UT",
+        "year": 2019
+      }
+    ],
+    "status": "ok"
+  },
+  "get:buje:51451": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/buje/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/51451",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "51451",
+        "creators": [
+          "Saydam, Gözde",
+          "Telli, Sibel"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/buje/article/51451",
+          "https://izlik.org/JA23BJ94EL"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/51451",
+        "publisher": "Boğaziçi Üniversitesi",
+        "source": "Boğaziçi Üniversitesi Eğitim Dergisi, Vol. 28 No. 2",
+        "title": "Eğitimde Bir Araştırma Alanı Olarak Sınıfta Öğrenci-Öğretmen Kişilerarası İletişimi ve Öğretmen Etkileşim Ölçeği (QTI)",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA23BJ94EL",
+        "year": 2016
+      }
+    ],
+    "status": "ok"
+  },
+  "get:cutarim:332749": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/cutarim/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/332749",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "332749",
+        "creators": [
+          "Külahtaş, Barkın",
+          "Çokuysal, Burçin"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/cutarim/article/332749",
+          "https://izlik.org/JA48BJ48RL"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/332749",
+        "publisher": "Cukurova University",
+        "source": "Çukurova Tarım ve Gıda Bilimleri Dergisi, Vol. 31 No. 3",
+        "title": "Categorization of Biostimulants: Current Situation in Turkey",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA48BJ48RL",
+        "year": 2016
+      }
+    ],
+    "status": "ok"
+  },
+  "get:eibd:540868": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/eibd/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/540868",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "540868",
+        "creators": [
+          "Kılınç, Ali Çağatay",
+          "Bozkurt, Emine",
+          "İlhan, Hafize"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/eibd/article/540868",
+          "https://izlik.org/JA94AP74UA"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:record/540868",
+        "publisher": "Eğitim-Bir-Sen",
+        "source": "Eğitim Ve İnsani Bilimler Dergisi: Teori Ve Uygulama, Vol. 9 No. 18",
+        "title": "Öğretmen Özerkliğine İlişkin Öğretmen Görüşlerinin İncelenmesi",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA94AP74UA",
+        "year": 2018
+      }
+    ],
+    "status": "ok"
+  },
+  "get:erzifbed:289008": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/erzifbed/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/289008",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "289008",
+        "creators": [
+          "Beşe, Ayşe Vildan",
+          "Polatoğlu, Bilgehan"
+        ],
+        "doi": "10.18185/erzifbed.289008",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/erzifbed/article/289008",
+          "https://doi.org/10.18185/erzifbed.289008",
+          "https://izlik.org/JA33CJ55EU"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/289008",
+        "publisher": "Erzincan Binali Yıldırım Üniversitesi",
+        "source": "Erzincan Üniversitesi Fen Bilimleri Enstitüsü Dergisi, Vol. 10 No. 1",
+        "title": "Sun Drying of Cornelian Cherry Fruits (Cornus mas L.)",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA33CJ55EU",
+        "year": 2017
+      }
+    ],
+    "status": "ok"
+  },
+  "get:estudamegitim:907669": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/estudamegitim/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/907669",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "907669",
+        "creators": [
+          "Şengür, Sedef",
+          "Anagun, Sengul"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/estudamegitim/article/907669",
+          "https://izlik.org/JA77JG64XF"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/907669",
+        "publisher": "Eskişehir Osmangazi Üniversitesi",
+        "source": "Eskişehir Osmangazi Üniversitesi Türk Dünyası Uygulama ve Araştırma Merkezi Eğitim Dergisi, Vol. 6 No. 2",
+        "title": "Sınıf Öğretmenlerinin Bilişim Teknolojileri Kullanım Düzeyleri ve Eğitimde Web 2.0 Uygulamaları",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA77JG64XF",
+        "year": 2021
+      }
+    ],
+    "status": "ok"
+  },
+  "get:isvehayat:679018": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/isvehayat/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/679018",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "679018",
+        "creators": [
+          "Subaşı, İbrahim",
+          "Kabakçı, Mahmut"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/isvehayat/article/679018",
+          "https://izlik.org/JA37SN55PE"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:record/679018",
+        "publisher": "Şeker-İş Sendikası",
+        "source": "İş ve Hayat, Vol. 4 No. 8",
+        "title": "15 YIL + 3600 GÜN = KIDEM TAZMİNATI?",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA37SN55PE",
+        "year": 2018
+      }
+    ],
+    "status": "ok"
+  },
+  "get:iusoskon:118909": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/iusoskon/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/118909",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "118909",
+        "creators": [
+          "Vatandaş, Doç. Dr. Celalettin"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/iusoskon/article/118909",
+          "https://izlik.org/JA54DC74LS"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:record/118909",
+        "publisher": "İstanbul Üniversitesi",
+        "source": "Istanbul Journal of Sociological Studies, Vol. 0 No. 35",
+        "title": "TOPLUMSAL CİNSİYET VE CİNSİYET ROLLERİNİN ALGILANIŞI",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA54DC74LS",
+        "year": 2011
+      }
+    ],
+    "status": "ok"
+  },
+  "get:jcnr:1179057": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/jcnr/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/1179057",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "1179057",
+        "creators": [
+          "Aydemir, Özgül",
+          "Görücü, Rabia",
+          "Ayoğlu, Tuluha"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/jcnr/article/1179057",
+          "https://izlik.org/JA49KM32SY"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/1179057",
+        "publisher": "Selcuk University",
+        "source": "Güncel Hemşirelik Araştırmaları Dergisi, Vol. 2 No. 3",
+        "title": "Care Practices According to the Model of Daily Living Activities of an Orthopedic Surgery Patient Diagnosed with Covid-19: A Case Report",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA49KM32SY",
+        "year": 2022
+      }
+    ],
+    "status": "ok"
+  },
+  "get:jeim:692583": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/jeim/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/692583",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "692583",
+        "creators": [
+          "Çubukçu, Ceren"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/jeim/article/692583",
+          "https://izlik.org/JA56JN42JK"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/692583",
+        "publisher": "Beta Basım Yayım Dağıtım A.Ş.",
+        "source": "Girişimcilik ve İnovasyon Yönetimi Dergisi, Vol. 6 No. 2",
+        "title": "Crowdfunding: An Assessment on Crowdfunding Platforms in Turkey",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA56JN42JK",
+        "year": 2017
+      }
+    ],
+    "status": "ok"
+  },
+  "get:joeep:1297415": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/joeep/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/1297415",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "1297415",
+        "creators": [
+          "Yurtoğlu Pek, Elif"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/joeep/article/1297415",
+          "https://izlik.org/JA25ZB46RJ"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/1297415",
+        "publisher": "Seyfettin ERDOĞAN",
+        "source": "JOEEP: Journal of Emerging Economies and Policy, Vol. 8 No. 2",
+        "title": "Robert Dahl İlkeleriyle Demokratikleşmenin Koşulları: Türkiye Örneği",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA25ZB46RJ",
+        "year": 2023
+      }
+    ],
+    "status": "ok"
+  },
+  "get:joeep:1524185": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/joeep/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/1524185",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "1524185",
+        "creators": [
+          "Pala, Fahrettin"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/joeep/article/1524185",
+          "https://izlik.org/JA49WP72SR"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/1524185",
+        "publisher": "Seyfettin ERDOĞAN",
+        "source": "JOEEP: Journal of Emerging Economies and Policy, Vol. 9 No. 2",
+        "title": "Seçili Risk Ve Belirsizlik Endeksleri İle Sektörel Hisse Senedi Getirileri Arasındaki Asimetrik İlişkinin İncelenmesi: OECD Ülkeleri İçin Ampirik Bir Analiz",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA49WP72SR",
+        "year": 2024
+      }
+    ],
+    "status": "ok"
+  },
+  "get:jss:256855": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/jss/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/256855",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "256855",
+        "creators": [
+          "Kabakçı Yurdakul, İşıl",
+          "Dönmez, Onur",
+          "Yaman, Fatih",
+          "Odabaşı, Hatice Ferhan"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/jss/article/256855",
+          "https://izlik.org/JA76UG48YE"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/256855",
+        "publisher": "Gaziantep Üniversitesi",
+        "source": "Gaziantep Üniversitesi Sosyal Bilimler Dergisi, Vol. 12 No. 4",
+        "title": "Dijital Ebeveynlik ve Değişen Roller",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA76UG48YE",
+        "year": 2013
+      }
+    ],
+    "status": "ok"
+  },
+  "get:marucog:3826": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/marucog/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/3826",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "3826",
+        "creators": [
+          "Özgen, Nurettin",
+          "Özgen, Nurettin"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/marucog/article/3826",
+          "https://izlik.org/JA87AM95GR"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/3826",
+        "publisher": "Marmara Üniversitesi",
+        "source": "Marmara Coğrafya Dergisi, Vol. 0 No. 23",
+        "title": "FİZİKİ COĞRAFYA DERSİ ÖĞRETİM METODUNA FARKLI BİR YAKLAŞIM: GEZİ- GÖZLEM DESTEKLİ ÖĞRETİM",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA87AM95GR",
+        "year": 2013
+      }
+    ],
+    "status": "ok"
+  },
+  "get:mrefdergi:845574": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/mrefdergi/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/845574",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "845574",
+        "creators": [
+          "Gezer, Yusuf"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/mrefdergi/article/845574",
+          "https://izlik.org/JA84GG28SC"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:record/845574",
+        "publisher": "Kilis 7 Aralık Üniversitesi",
+        "source": "Muallim Rıfat Eğitim Fakültesi Dergisi, Vol. 3 No. 1",
+        "title": "Okul Müdürlerinin Yöneticilikte Profesyonelleşmeye İlişkin Görüşleri",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA84GG28SC",
+        "year": 2021
+      }
+    ],
+    "status": "ok"
+  },
+  "get:neufmbd:691719": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/neufmbd/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/691719",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "691719",
+        "creators": [
+          "Endiz, Mustafa Sacid",
+          "Akkaya, Ramazan"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/neufmbd/article/691719",
+          "https://izlik.org/JA48NB87YY"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/691719",
+        "publisher": "Necmettin Erbakan Üniversitesi",
+        "source": "Necmettin Erbakan Üniversitesi Fen ve Mühendislik Bilimleri Dergisi, Vol. 2 No. 1",
+        "title": "Yarı Empedans Kaynaklı İnverterlerde Farklı PWM Kontrol Tekniklerinin Performans Etkisinin İncelenmesi",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA48NB87YY",
+        "year": 2020
+      }
+    ],
+    "status": "ok"
+  },
+  "get:odusobiad:332607": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/odusobiad/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/332607",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "332607",
+        "creators": [
+          "Aydoğan, Hediye"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/odusobiad/article/332607",
+          "https://izlik.org/JA44EE49MX"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/332607",
+        "publisher": "Ordu Üniversitesi",
+        "source": "Ordu Üniversitesi Sosyal Bilimler Enstitüsü Sosyal Bilimler Araştırmaları Dergisi, Vol. 7 No. 3",
+        "title": "The International Advertising Strategies of Turkish Airlines In The Context Of Globalisation",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA44EE49MX",
+        "year": 2017
+      }
+    ],
+    "status": "ok"
+  },
+  "get:oguiibf:785431": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/oguiibf/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/785431",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "785431",
+        "creators": [
+          "Uzun, Özlem",
+          "Yiğit, Elif"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/oguiibf/article/785431",
+          "https://izlik.org/JA62CJ77EA"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/785431",
+        "publisher": "Eskişehir Osmangazi Üniversitesi",
+        "source": "Eskişehir Osmangazi Üniversitesi İktisadi ve İdari Bilimler Dergisi, Vol. 6 No. 1",
+        "title": "Örgütsel Stres ve Örgütsel Bağlılık İlişkisi Üzeri‐ ne Orta Kademe Otel Yöneticileri Üzerinde Yapılan Bir Araştırma",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA62CJ77EA",
+        "year": 2011
+      }
+    ],
+    "status": "ok"
+  },
+  "get:sinopid:1565517": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/sinopid/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/1565517",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "1565517",
+        "creators": [
+          "Akbaş, Arif"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/sinopid/article/1565517",
+          "https://izlik.org/JA74SE26TJ"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/1565517",
+        "publisher": "Sinop Üniversitesi",
+        "source": "Sinop İlahiyat Dergisi No. 1",
+        "title": "Dijital Panoptikon: Elektronik Gözetimin Toplumsal Yansımaları",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA74SE26TJ",
+        "year": 2024
+      }
+    ],
+    "status": "ok"
+  },
+  "get:tayjournal:770193": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/tayjournal/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/770193",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "770193",
+        "creators": [
+          "Yavuzoğlu, Çiğdem",
+          "Pektaş, Murat"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/tayjournal/article/770193",
+          "https://izlik.org/JA36LP38ZD"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:record/770193",
+        "publisher": "Bayram TAY",
+        "source": "Türk Akademik Yayınlar Dergisi (TAY Journal), Vol. 4 No. 1",
+        "title": "Süreli Çocuk Yayınlarındaki Fen Bilimleri İçeriklerinin Bilim Tarihi Açısından İncelenmesi",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA36LP38ZD",
+        "year": 2020
+      }
+    ],
+    "status": "ok"
+  },
+  "get:teddergi:194703": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/teddergi/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/194703",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "194703",
+        "creators": [
+          "Çakmak, Banu"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/teddergi/article/194703",
+          "https://izlik.org/JA94DP39LX"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:record/194703",
+        "publisher": "İstanbul Üniversitesi",
+        "source": "Tiyatro Eleştirmenliği ve Dramaturji Bölümü Dergisi, Vol. 0 No. 18",
+        "title": "TANZİMATTAN CUMHURİYET&#039;E UZANAN ÇİZGİDE OSMANLIDA KADIN HAREKETLERİ, DÖNEMİN TİYATROSUNDA KADININ TEMSİLİ VE KADIN SORUNU",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA94DP39LX",
+        "year": 2013
+      }
+    ],
+    "status": "ok"
+  },
+  "get:tjst:873764": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/tjst/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/873764",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "873764",
+        "creators": [
+          "Cengil, Emine",
+          "Çınar, Ahmet"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/tjst/article/873764",
+          "https://izlik.org/JA47NM62MM"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:record/873764",
+        "publisher": "Fırat University",
+        "source": "Turkish Journal of Science and Technology, Vol. 16 No. 1",
+        "title": "Poisonous Mushroom Detection using YOLOV5",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA47NM62MM",
+        "year": 2021
+      }
+    ],
+    "status": "ok"
+  },
+  "get:uefad:173409": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/uefad/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/173409",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "173409",
+        "creators": [
+          "Kotaman, Hüseyin"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/uefad/article/173409",
+          "https://izlik.org/JA34AY42AM"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:record/173409",
+        "publisher": "Bursa Uludağ Üniversitesi",
+        "source": "Uludağ Üniversitesi Eğitim Fakültesi Dergisi, Vol. 21 No. 1",
+        "title": "Türk Ana Babalarının Çocuklarının Eğitim Öğretimlerine Katılım Düzeyleri",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA34AY42AM",
+        "year": 2008
+      }
+    ],
+    "status": "ok"
+  },
+  "get:yonveek:165738": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/yonveek/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/165738",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "165738",
+        "creators": [
+          "Karataş, Muhammed",
+          "Çankaya, Eda"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/yonveek/article/165738",
+          "https://izlik.org/JA44SE22ZB"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:record/165738",
+        "publisher": "Manisa Celal Bayar University",
+        "source": "Yönetim ve Ekonomi Dergisi, Vol. 18 No. 1",
+        "title": "Türkiye’de Beşeri Sermaye ve Ekonomik Büyüme İlişkisinin Analizi",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA44SE22ZB",
+        "year": 2011
+      }
+    ],
+    "status": "ok"
+  }
+}

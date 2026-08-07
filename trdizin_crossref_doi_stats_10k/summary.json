@@ -1,0 +1,19 @@
+{
+  "crossref_error_rate_doi_references_percent": 0.0,
+  "crossref_errors": 0,
+  "crossref_found_by_doi": 1855,
+  "crossref_found_rate_all_references_percent": 18.55,
+  "crossref_found_rate_doi_references_percent": 95.23,
+  "crossref_not_found_by_doi": 93,
+  "crossref_not_found_rate_doi_references_percent": 4.77,
+  "doi_presence_rate_percent": 19.48,
+  "references_with_doi": 1948,
+  "references_without_doi": 8052,
+  "sample_mode": "random",
+  "sampled_references": 10000,
+  "seed": 20260804,
+  "source": "veriler.jsonl",
+  "source_total_available_references": 400087,
+  "unique_dois": 1931,
+  "unique_dois_found_in_crossref": 1850
+}

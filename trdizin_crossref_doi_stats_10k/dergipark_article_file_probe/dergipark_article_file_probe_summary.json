@@ -1,0 +1,16 @@
+{
+  "article_file_probe_no_match": 14,
+  "article_file_probe_possible_matches": 0,
+  "article_file_probe_request_errors": 1,
+  "article_file_probe_strong_matches": 0,
+  "article_file_probe_targets": 15,
+  "base_found_before_article_file_probe": 6123,
+  "base_found_before_article_file_probe_rate_percent": 61.23,
+  "complete": false,
+  "experiment10_broad_found": 6123,
+  "experiment10_broad_found_rate_percent": 61.23,
+  "experiment10_strict_found": 6123,
+  "experiment10_strict_found_rate_percent": 61.23,
+  "experiment_label": "Deney 10 - DergiPark article-file id probe",
+  "sampled_references": 10000
+}

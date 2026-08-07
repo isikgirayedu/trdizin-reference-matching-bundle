@@ -1,0 +1,58 @@
+Traceback (most recent call last):
+  File "/Users/isikgiray/Desktop/ULAKBİM/grobid/trdizin_google_scholar_selenium_collector.py", line 283, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/Users/isikgiray/Desktop/ULAKBİM/grobid/trdizin_google_scholar_selenium_collector.py", line 277, in main
+    summary = run(parse_args())
+  File "/Users/isikgiray/Desktop/ULAKBİM/grobid/trdizin_google_scholar_selenium_collector.py", line 152, in run
+    driver = build_driver(args)
+  File "/Users/isikgiray/Desktop/ULAKBİM/grobid/trdizin_google_scholar_selenium_collector.py", line 46, in build_driver
+    return webdriver.Chrome(options=options)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=self.options)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/selenium/webdriver/common/webdriver.py", line 25, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py", line 300, in __init__
+    self.start_session(capabilities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py", line 396, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py", line 492, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   chromedriver                        0x0000000102a9f6fc chromedriver + 5945084
+1   chromedriver                        0x00000001025404e8 chromedriver + 312552
+2   chromedriver                        0x0000000102576dcc chromedriver + 536012
+3   chromedriver                        0x0000000102573e2c chromedriver + 523820
+4   chromedriver                        0x00000001025b7470 chromedriver + 799856
+5   chromedriver                        0x00000001025b6e70 chromedriver + 798320
+6   chromedriver                        0x000000010257f33c chromedriver + 570172
+7   chromedriver                        0x0000000102a64a04 chromedriver + 5704196
+8   chromedriver                        0x0000000102a68284 chromedriver + 5718660
+9   chromedriver                        0x0000000102a4a880 chromedriver + 5597312
+10  chromedriver                        0x0000000102a68b18 chromedriver + 5720856
+11  chromedriver                        0x0000000102a3b9f8 chromedriver + 5536248
+12  chromedriver                        0x0000000102a8d40c chromedriver + 5870604
+13  chromedriver                        0x0000000102a8d56c chromedriver + 5870956
+14  chromedriver                        0x0000000102a9f354 chromedriver + 5944148
+15  libsystem_pthread.dylib             0x00000001997b82e0 _pthread_start + 132
+16  libsystem_pthread.dylib             0x00000001997b30f8 thread_start + 4
+

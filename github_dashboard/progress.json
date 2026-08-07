@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-07-23 11:55:00",
+  "job_id": "6126604",
+  "status": {
+    "state": "COMPLETED",
+    "elapsed": "23:26:03",
+    "time_limit": "3-00:00:00",
+    "reason": "ExitCode 0:0"
+  },
+  "status_error": null,
+  "log_file": {
+    "exists": true,
+    "path": "/arf/scratch/isonal/grobid-training/grobid-source/train_citation_split_300.6126604.err",
+    "size": 24576,
+    "mtime": null,
+    "mtime_text": "2026-07-23 completed"
+  },
+  "summary": {
+    "has_rows": true,
+    "last_iteration": 200,
+    "stage": 1,
+    "raw_iteration": 200,
+    "objective": null,
+    "token_error_pct": 0.93,
+    "sequence_error_pct": 9.61,
+    "total_hours": 23.4341,
+    "avg_last_iterations_min": 6.707,
+    "target_iteration": 200,
+    "eta_to_target_hours": null,
+    "completed": true,
+    "phase": "evaluated"
+  },
+  "rows": [],
+  "checkpoints": {
+    "latest": "model.clean-date.iter0200.6126604.wapiti",
+    "count": 1,
+    "directory": "remote_training_artifacts/6126604"
+  },
+  "experiment": {
+    "name": "Clean-date good10k Wapiti citation",
+    "corpus": "trdizin_full_reference_training_clean_date_good10k",
+    "train_xml": 9000,
+    "dev_xml": 500,
+    "test_xml": 500,
+    "max_iter": 200,
+    "started_at": "2026-07-22 11:34:57 +03",
+    "completed_at": "2026-07-23",
+    "model_artifact": "remote_training_artifacts/6126604/model.clean-date.iter0200.6126604.wapiti"
+  },
+  "evaluation_summary": {
+    "stock_reference_match_rate": 0.9761,
+    "candidate_reference_match_rate": 0.9751,
+    "stock_date_coverage": 0.9881,
+    "candidate_date_coverage": 0.9727,
+    "stock_year_accuracy": 0.9731,
+    "candidate_year_accuracy": 0.9639,
+    "stock_article_title_coverage": 0.7476,
+    "candidate_article_title_coverage": 0.7062,
+    "stock_journal_title_coverage": 0.706,
+    "candidate_journal_title_coverage": 0.6834,
+    "stock_doi_coverage": 0.1892,
+    "candidate_doi_coverage": 0.1726,
+    "raw_candidate_date_coverage": 0.9626
+  },
+  "previous_results_summary": {
+    "job_id": "6118781",
+    "decision": "failed_eval_do_not_deploy",
+    "candidate_date_coverage": 0.3751,
+    "candidate_year_accuracy": 0.3593
+  }
+}

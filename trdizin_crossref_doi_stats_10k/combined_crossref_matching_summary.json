@@ -1,0 +1,23 @@
+{
+  "sampled_references": 10000,
+  "references_with_doi": 1948,
+  "references_without_doi": 8052,
+  "doi_only_crossref_found": 1855,
+  "doi_not_found_references": 93,
+  "doi_not_found_fallback_strong": 60,
+  "doi_not_found_fallback_possible": 3,
+  "doi_not_found_fallback_no_match": 30,
+  "no_doi_fallback_checked": 8052,
+  "no_doi_fallback_strong": 3692,
+  "no_doi_fallback_possible": 216,
+  "no_doi_fallback_no_match": 4144,
+  "search_errors": 0,
+  "strict_crossref_matches": 5607,
+  "possible_crossref_matches": 219,
+  "broad_crossref_matches": 5826,
+  "strict_crossref_match_rate_percent": 56.07,
+  "broad_crossref_match_rate_percent": 58.26,
+  "doi_only_match_rate_percent": 18.55,
+  "no_doi_strong_recovery_rate_percent": 45.85,
+  "no_doi_broad_recovery_rate_percent": 48.53
+}

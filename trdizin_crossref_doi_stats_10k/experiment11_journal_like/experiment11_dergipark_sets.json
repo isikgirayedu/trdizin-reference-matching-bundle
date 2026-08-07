@@ -1,0 +1,138 @@
+[
+  {
+    "set_name": "Marmara Üniversitesi Hukuk Fakültesi Hukuk Araştırmaları Dergisi",
+    "set_spec": "maruhad"
+  },
+  {
+    "set_name": "Marmara Üniversitesi Avrupa Araştırmaları Enstitüsü Avrupa Araştırmaları Dergisi",
+    "set_spec": "maruaad"
+  },
+  {
+    "set_name": "Marmara Üniversitesi Atatürk Eğitim Fakültesi Eğitim Bilimleri Dergisi",
+    "set_spec": "maruaebd"
+  },
+  {
+    "set_name": "Marmara Üniversitesi İktisadi ve İdari Bilimler Dergisi",
+    "set_spec": "muiibd"
+  },
+  {
+    "set_name": "Journal of Faculty of Pharmacy of Istanbul University",
+    "set_spec": "iujfp"
+  },
+  {
+    "set_name": "İstanbul Üniversitesi Siyasal Bilgiler Fakültesi Dergisi",
+    "set_spec": "iusiyasal"
+  },
+  {
+    "set_name": "İstanbul Üniversitesi İktisat Fakültesi Mecmuası",
+    "set_spec": "iuifm"
+  },
+  {
+    "set_name": "Journal of Istanbul University Faculty of Theology",
+    "set_spec": "iuilah"
+  },
+  {
+    "set_name": "Litera: Dil Edebiyat ve Kültür Araştırmaları Dergisi",
+    "set_spec": "iulitera"
+  },
+  {
+    "set_name": "Artvin Çoruh Üniversitesi Uluslararası Sosyal Bilimler Dergisi",
+    "set_spec": "acusbd"
+  },
+  {
+    "set_name": "Adıyaman Üniversitesi Sağlık Bilimleri Dergisi",
+    "set_spec": "adiyamansaglik"
+  },
+  {
+    "set_name": "Adıyaman Üniversitesi Eğitim Bilimleri Dergisi",
+    "set_spec": "adyuebd"
+  },
+  {
+    "set_name": "Adıyaman Üniversitesi Mühendislik Bilimleri Dergisi",
+    "set_spec": "adyumbd"
+  },
+  {
+    "set_name": "Adıyaman Üniversitesi Sosyal Bilimler Enstitüsü Dergisi",
+    "set_spec": "adyusbd"
+  },
+  {
+    "set_name": "Ahi Evran Üniversitesi Sosyal Bilimler Enstitüsü Dergisi",
+    "set_spec": "aeusbed"
+  },
+  {
+    "set_name": "Abant İzzet Baysal Üniversitesi Eğitim Fakültesi Dergisi",
+    "set_spec": "aibuefd"
+  },
+  {
+    "set_name": "Ağrı İbrahim Çeçen Üniversitesi Sosyal Bilimler Enstitüsü Dergisi",
+    "set_spec": "aicusbed"
+  },
+  {
+    "set_name": "Anadolu Journal of Educational Sciences International",
+    "set_spec": "ajesi"
+  },
+  {
+    "set_name": "Akdeniz Üniversitesi Ziraat Fakültesi Dergisi",
+    "set_spec": "akdenizfderg"
+  },
+  {
+    "set_name": "Afyon Kocatepe Üniversitesi Fen Ve Mühendislik Bilimleri Dergisi",
+    "set_spec": "akufemubid"
+  },
+  {
+    "set_name": "Afyon Kocatepe Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi",
+    "set_spec": "akuiibfd"
+  },
+  {
+    "set_name": "Afyon Kocatepe Üniversitesi Sosyal Bilimler Dergisi",
+    "set_spec": "akusosbil"
+  },
+  {
+    "set_name": "النور للدراسات الحضارية والفكرية - AL-NUR Academic Studies on Thought and Civilization",
+    "set_spec": "alnur"
+  },
+  {
+    "set_name": "Alternatives: Turkish Journal of International Relations",
+    "set_spec": "alternatives"
+  },
+  {
+    "set_name": "Afyon Kocatepe Üniversitesi Akademik Müzik Araştırmaları Dergisi",
+    "set_spec": "amader"
+  },
+  {
+    "set_name": "Amasya Üniversitesi İlahiyat Fakültesi Dergisi",
+    "set_spec": "amauifd"
+  },
+  {
+    "set_name": "ANADOLU Ege Tarımsal Araştırma Enstitüsü Dergisi",
+    "set_spec": "anadolu"
+  },
+  {
+    "set_name": "Anemon Muş Alparslan Üniversitesi Sosyal Bilimler Dergisi",
+    "set_spec": "anemon"
+  },
+  {
+    "set_name": "Academic Platform - Journal of Engineering and Science",
+    "set_spec": "apjes"
+  },
+  {
+    "set_name": "Artvin Çoruh Üniversitesi Orman Fakültesi Dergisi",
+    "set_spec": "artvinofd"
+  },
+  {
+    "set_name": "Atatürk Üniversitesi Diş Hekimliği Fakültesi Dergisi",
+    "set_spec": "ataunidfd"
+  },
+  {
+    "set_name": "Anadolu Hemşirelik ve Sağlık Bilimleri Dergisi",
+    "set_spec": "ataunihem"
+  },
+  {
+    "set_name": "Atatürk Üniversitesi İktisadi ve İdari Bilimler Dergisi",
+    "set_spec": "atauniiibd"
+  },
+  {
+    "set_name": "Atatürk Üniversitesi İlahiyat Fakültesi Dergisi",
+    "set_spec": "atauniilah"
+  }
+]

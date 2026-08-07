@@ -1,0 +1,32 @@
+{
+  "base_found_before_datacite": 6071,
+  "base_found_before_datacite_rate_percent": 60.71,
+  "complete": false,
+  "component_counts": {
+    "base_before_datacite": 6071,
+    "broad": 5826,
+    "crossref_union": 6052,
+    "doi_only": 1855,
+    "openalex_found": 19,
+    "simple_text_query": 5673,
+    "strict": 5607
+  },
+  "datacite_checked": 36,
+  "datacite_no_match": 33,
+  "datacite_not_checked": 3893,
+  "datacite_possible_matches": 0,
+  "datacite_rate_limited_rows": 0,
+  "datacite_recovery_rate_checked_broad_percent": 0.0,
+  "datacite_recovery_rate_checked_strong_percent": 0.0,
+  "datacite_recovery_rate_target_broad_percent": 0.0,
+  "datacite_recovery_rate_target_strong_percent": 0.0,
+  "datacite_search_errors": 3,
+  "datacite_strong_matches": 0,
+  "datacite_target_total": 3929,
+  "experiment5_broad_found": 6071,
+  "experiment5_broad_found_rate_percent": 60.71,
+  "experiment5_strict_found": 6071,
+  "experiment5_strict_found_rate_percent": 60.71,
+  "sampled_references": 10000,
+  "scope": "crossref_openalex_not_found"
+}

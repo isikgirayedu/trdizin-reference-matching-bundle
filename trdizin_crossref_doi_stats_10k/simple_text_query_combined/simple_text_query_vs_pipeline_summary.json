@@ -1,0 +1,12 @@
+{
+  "overlap_stq_pipeline_broad": 5447,
+  "overlap_stq_pipeline_strict": 5333,
+  "pipeline_broad_found": 5826,
+  "pipeline_broad_only_vs_stq": 379,
+  "pipeline_strict_found": 5607,
+  "pipeline_strict_only_vs_stq": 274,
+  "stq_found": 5673,
+  "stq_only_vs_pipeline_broad": 226,
+  "stq_only_vs_pipeline_strict": 340,
+  "stq_vs_pipeline_doi_mismatch_count": 95
+}

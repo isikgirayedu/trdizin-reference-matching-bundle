@@ -1,0 +1,19 @@
+{
+  "broad_crossref_found_after_fallback": 1918,
+  "broad_found_rate_all_references_percent": 19.18,
+  "broad_found_rate_doi_references_percent": 98.46,
+  "fallback_checked": 93,
+  "fallback_no_match": 30,
+  "fallback_possible_matches": 3,
+  "fallback_recovery_rate_broad_percent": 67.74,
+  "fallback_recovery_rate_strong_percent": 64.52,
+  "fallback_scope": "rows with DOI not found through Crossref works/{doi}",
+  "fallback_search_errors": 0,
+  "fallback_strong_matches": 60,
+  "original_crossref_found_by_doi": 1855,
+  "original_crossref_not_found_by_doi": 93,
+  "source_rows": 10000,
+  "strict_crossref_found_after_fallback": 1915,
+  "strict_found_rate_all_references_percent": 19.15,
+  "strict_found_rate_doi_references_percent": 98.31
+}

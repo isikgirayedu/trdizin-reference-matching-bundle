@@ -1,0 +1,351 @@
+{
+  "file-as-article:1068617": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/1068617",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "1068617",
+        "creators": [
+          "Agha, Yusra Yahya"
+        ],
+        "doi": "10.55549/epstem.1068617",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/epstem/article/1068617",
+          "https://doi.org/10.55549/epstem.1068617",
+          "https://izlik.org/JA39GX67ZG"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/1068617",
+        "publisher": "ISRES Organizasyon Turizm Eğitim Danışmanlık Ltd. Şti.",
+        "source": "The Eurasia Proceedings of Science Technology Engineering and Mathematics, Vol. 16",
+        "title": "Inhibition of the Growth of Staphylococcus Aureus by Using Some Antibiotics Produced from Bacillus Subtilis",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA39GX67ZG",
+        "year": 2021
+      }
+    ],
+    "status": "ok"
+  },
+  "file-as-article:108511": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/108511",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "108511",
+        "creators": [],
+        "doi": "",
+        "identifiers": [],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/108511",
+        "publisher": "",
+        "source": "",
+        "title": "",
+        "type": "",
+        "url": "",
+        "year": null
+      }
+    ],
+    "status": "ok"
+  },
+  "file-as-article:1172083": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/1172083",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "1172083",
+        "creators": [],
+        "doi": "",
+        "identifiers": [],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/1172083",
+        "publisher": "",
+        "source": "",
+        "title": "",
+        "type": "",
+        "url": "",
+        "year": null
+      }
+    ],
+    "status": "ok"
+  },
+  "file-as-article:1291023": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/1291023",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "1291023",
+        "creators": [],
+        "doi": "",
+        "identifiers": [],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/1291023",
+        "publisher": "",
+        "source": "",
+        "title": "",
+        "type": "",
+        "url": "",
+        "year": null
+      }
+    ],
+    "status": "ok"
+  },
+  "file-as-article:17498": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/17498",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "17498",
+        "creators": [
+          "Uyanıkoğlu, Ahmet",
+          "Binici, Doğan Nasır",
+          "Öztürk, Yasin"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/agd/article/17498",
+          "https://izlik.org/JA37FA75XH"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/17498",
+        "publisher": "Türk Gastroenteroloji Vakfı",
+        "source": "Akademik Gastroenteroloji Dergisi, Vol. 12 No. 1",
+        "title": "The incidence of endoscopic celiac (gluten) disease in the Erzurum area in an adult population",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA37FA75XH",
+        "year": 2013
+      }
+    ],
+    "status": "ok"
+  },
+  "file-as-article:200349": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/200349",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "200349",
+        "creators": [],
+        "doi": "",
+        "identifiers": [],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/200349",
+        "publisher": "",
+        "source": "",
+        "title": "",
+        "type": "",
+        "url": "",
+        "year": null
+      }
+    ],
+    "status": "ok"
+  },
+  "file-as-article:2107803": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/2107803",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "2107803",
+        "creators": [],
+        "doi": "",
+        "identifiers": [],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/2107803",
+        "publisher": "",
+        "source": "",
+        "title": "",
+        "type": "",
+        "url": "",
+        "year": null
+      }
+    ],
+    "status": "ok"
+  },
+  "file-as-article:227124": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/227124",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "227124",
+        "creators": [
+          "Can, Dr. Fizyoterapist Tuba",
+          "Cavlak, Prof. Dr. Uğur",
+          "Galiba, Ayşegül",
+          "Bahçeli, Ayhan",
+          "Merdan, Cemal",
+          "Çelebi, Yusuf"
+        ],
+        "doi": "10.21560/spçd.94157",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/spcd/article/227124",
+          "https://doi.org/10.21560/spçd.94157",
+          "https://izlik.org/JA36HX22DM"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/227124",
+        "publisher": "Aile ve Sosyal Hizmetler Bakanlığı",
+        "source": "Sosyal Politika Çalışmaları Dergisi, Vol. 7 No. 28",
+        "title": "PROFILE OF EDUCATION LEVEL AND WORK STATUS OF THE PEOPLE WITH DİSABILITIES LIVING IN TURKEY",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA36HX22DM",
+        "year": 2012
+      }
+    ],
+    "status": "ok"
+  },
+  "file-as-article:287160": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/287160",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "287160",
+        "creators": [
+          "Köylü, Murat"
+        ],
+        "doi": "",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/iisbf/article/287160",
+          "https://izlik.org/JA27PY58SR"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:record/287160",
+        "publisher": "Toros University",
+        "source": "Toros Üniversitesi İİSBF Sosyal Bilimler Dergisi, Vol. 2 No. 4",
+        "title": "YUNAN SİYASİ TARİHİNDE SİYASAL ÇALKANTILARIN (1909-1922) İSTİKLAL HARBİNE ETKİSİ",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA27PY58SR",
+        "year": 2015
+      }
+    ],
+    "status": "ok"
+  },
+  "file-as-article:3534084": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/3534084",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "3534084",
+        "creators": [],
+        "doi": "",
+        "identifiers": [],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/3534084",
+        "publisher": "",
+        "source": "",
+        "title": "",
+        "type": "",
+        "url": "",
+        "year": null
+      }
+    ],
+    "status": "ok"
+  },
+  "file-as-article:372845": {
+    "error": "Jina response did not include an OAI Dublin Core record",
+    "errors": [
+      {
+        "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/372845",
+        "error": "HTTP 422: {\"data\":null,\"code\":422,\"name\":\"AssertionFailureError\",\"status\":42206,\"message\":\"No content available for URL https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=o",
+        "status": "request_error"
+      }
+    ],
+    "status": "error"
+  },
+  "file-as-article:403970": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/403970",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "403970",
+        "creators": [
+          "Topçu, İlker Bekir",
+          "Uygunoğlu, Tayfun",
+          "Hocaoğlu, İsmail"
+        ],
+        "doi": "10.2339/politeknik.403970",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/politeknik/article/403970",
+          "https://doi.org/10.2339/politeknik.403970",
+          "https://izlik.org/JA22CE29SW"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/403970",
+        "publisher": "Gazi Üniversitesi",
+        "source": "Politeknik Dergisi, Vol. 21 No. 2",
+        "title": "Yüksek Fırın Cüruf Katkılı Çimento Pastalarının Elektriksel Özdirençlerinin Araştırılması",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA22CE29SW",
+        "year": 2018
+      }
+    ],
+    "status": "ok"
+  },
+  "file-as-article:417668": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/417668",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "417668",
+        "creators": [
+          "Bayraktar, Şule",
+          "Öksüz, Çiğdem"
+        ],
+        "doi": "10.30720/ered.417668",
+        "identifiers": [
+          "https://dergipark.org.tr/en/pub/ered/article/417668",
+          "https://doi.org/10.30720/ered.417668",
+          "https://izlik.org/JA27CW92EC"
+        ],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/417668",
+        "publisher": "Hacettepe Üniversitesi",
+        "source": "Ergoterapi ve Rehabilitasyon Dergisi, Vol. 6 No. 1",
+        "title": "Tekerlekli Sandalye Kullanan Sporcuların Öz Etkililik-Yeterlilik ve Başa Çıkma Stratejilerinin İncelenmesi",
+        "type": "info:eu-repo/semantics/article",
+        "url": "https://izlik.org/JA27CW92EC",
+        "year": 2018
+      }
+    ],
+    "status": "ok"
+  },
+  "file-as-article:539696": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/539696",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "539696",
+        "creators": [],
+        "doi": "",
+        "identifiers": [],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/539696",
+        "publisher": "",
+        "source": "",
+        "title": "",
+        "type": "",
+        "url": "",
+        "year": null
+      }
+    ],
+    "status": "ok"
+  },
+  "file-as-article:752881": {
+    "endpoint": "https://r.jina.ai/http://r.jina.ai/http://https://dergipark.org.tr/api/public/oai/?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:dergipark.org.tr:article/752881",
+    "fetch_mode": "jina",
+    "items": [
+      {
+        "article_id": "752881",
+        "creators": [],
+        "doi": "",
+        "identifiers": [],
+        "oai_datestamp": "",
+        "oai_identifier": "oai:dergipark.org.tr:article/752881",
+        "publisher": "",
+        "source": "",
+        "title": "",
+        "type": "",
+        "url": "",
+        "year": null
+      }
+    ],
+    "status": "ok"
+  }
+}

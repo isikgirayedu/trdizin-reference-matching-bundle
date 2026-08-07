@@ -1,0 +1,14 @@
+{
+  "base_found_before_experiment15": 6367,
+  "base_found_before_experiment15_rate_percent": 63.67,
+  "complete": true,
+  "dergipark_article_file_no_match": 11,
+  "dergipark_article_file_possible_matches": 0,
+  "dergipark_article_file_request_errors": 0,
+  "dergipark_article_file_strong_matches": 0,
+  "dergipark_article_file_targets": 11,
+  "experiment15_auto_resolved_found": 6367,
+  "experiment15_auto_resolved_rate_percent": 63.67,
+  "experiment_label": "Deney 15 - DergiPark article-file resolver",
+  "sampled_references": 10000
+}

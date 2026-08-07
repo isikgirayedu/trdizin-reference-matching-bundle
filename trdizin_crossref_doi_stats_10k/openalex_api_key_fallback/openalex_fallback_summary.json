@@ -1,0 +1,49 @@
+{
+  "added_over_deney4_partial": 1,
+  "base_crossref_found": 6052,
+  "base_crossref_found_rate_percent": 60.52,
+  "complete": false,
+  "crossref_component_counts": {
+    "broad": 5826,
+    "crossref_union": 6052,
+    "doi_only": 1855,
+    "simple_text_query": 5673,
+    "strict": 5607
+  },
+  "experiment4_broad_found": 6072,
+  "experiment4_broad_found_rate_percent": 60.72,
+  "experiment4_strict_found": 6072,
+  "experiment4_strict_found_rate_percent": 60.72,
+  "experiment_label": "Deney 6 - OpenAlex API key resume",
+  "final_rate_limit_observed": {
+    "http_status": 429,
+    "message": "Insufficient budget for another OpenAlex search request",
+    "retry-after-seconds": "53330",
+    "x-ratelimit-cost-required-usd": "0.001",
+    "x-ratelimit-limit": "10000",
+    "x-ratelimit-remaining": "9",
+    "x-ratelimit-remaining-usd": "0.0009"
+  },
+  "last_openalex_rate_limit_headers": {
+    "x-ratelimit-cost-usd": "0.001",
+    "x-ratelimit-credits-used": "10",
+    "x-ratelimit-limit": "10000",
+    "x-ratelimit-remaining": "2229",
+    "x-ratelimit-remaining-usd": "0.2229",
+    "x-ratelimit-reset": "53831"
+  },
+  "openalex_checked": 1041,
+  "openalex_no_match": 1021,
+  "openalex_not_checked": 2907,
+  "openalex_possible_matches": 0,
+  "openalex_rate_limited_rows": 0,
+  "openalex_recovery_rate_checked_broad_percent": 1.92,
+  "openalex_recovery_rate_checked_strong_percent": 1.92,
+  "openalex_recovery_rate_target_broad_percent": 0.51,
+  "openalex_recovery_rate_target_strong_percent": 0.51,
+  "openalex_search_errors": 0,
+  "openalex_strong_matches": 20,
+  "openalex_target_total": 3948,
+  "sampled_references": 10000,
+  "scope": "crossref_union_not_found"
+}

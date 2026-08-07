@@ -1,0 +1,10 @@
+category,label,count,remaining_rate_percent,total_rate_percent
+hidden_doi,Gizli DOI,11,0.31,0.11
+dergipark_file,DergiPark article-file,10,0.28,0.1
+thesis,Tez,291,8.11,2.91
+report_policy_legal,Rapor / mevzuat / hukuk,182,5.07,1.82
+url_web,Web / haber / video,473,13.18,4.73
+conference,Konferans / bildiri,52,1.45,0.52
+book_or_chapter,Kitap / kitap bolumu,949,26.43,9.49
+journal_like_left,Journal-like kalan,551,15.35,5.51
+other,Diger / zayif parse,1071,29.83,10.71

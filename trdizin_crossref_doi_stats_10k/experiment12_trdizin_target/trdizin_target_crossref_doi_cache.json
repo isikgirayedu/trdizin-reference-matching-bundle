@@ -1,0 +1,2448 @@
+{
+  "10.14744/hnhj.2019.83723": {
+    "doi": "10.14744/hnhj.2019.83723",
+    "http_status": 200,
+    "message": {
+      "DOI": "10.14744/hnhj.2019.83723",
+      "ISSN": [
+        "1300-6363"
+      ],
+      "URL": "https://doi.org/10.14744/hnhj.2019.83723",
+      "author": [
+        {
+          "affiliation": [],
+          "family": "Tekyol",
+          "given": "Davut",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        }
+      ],
+      "container-title": [
+        "Haydarpasa Numune Training and Research Hospital Medical Journal"
+      ],
+      "content-domain": {
+        "crossmark-restriction": false,
+        "domain": []
+      },
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            5,
+            29
+          ]
+        ],
+        "date-time": "2019-05-29T12:00:13Z",
+        "timestamp": 1559131213000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            11
+          ]
+        ],
+        "date-time": "2023-05-11T21:24:15Z",
+        "timestamp": 1683840255000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            12
+          ]
+        ],
+        "date-time": "2023-05-12T04:14:49Z",
+        "timestamp": 1683864889637
+      },
+      "is-referenced-by-count": 0,
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "1300-6363"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "link": [
+        {
+          "URL": "https://jag.journalagent.com/hnhjournal/pdfs/HNHJ_61_2_123_126.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "member": "5966",
+      "original-title": [],
+      "prefix": "10.14744",
+      "published": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "publisher": "Kare Publishing",
+      "reference-count": 0,
+      "references-count": 0,
+      "relation": {},
+      "resource": {
+        "primary": {
+          "URL": "http://hnhtipdergisi.com/jvi.aspx?un=HNHJ-83723"
+        }
+      },
+      "score": 1,
+      "short-container-title": [
+        "Haydarpasa Numune Med J"
+      ],
+      "short-title": [],
+      "source": "Crossref",
+      "subject": [],
+      "subtitle": [],
+      "title": [
+        "Evaluation of rabies risky contact cases admitted to emergency department last year"
+      ],
+      "type": "journal-article"
+    },
+    "status": "ok"
+  },
+  "10.14744/turkpediatriars.2019.69376": {
+    "doi": "10.14744/turkpediatriars.2019.69376",
+    "http_status": 200,
+    "message": {
+      "DOI": "10.14744/turkpediatriars.2019.69376",
+      "ISSN": [
+        "1306-0015"
+      ],
+      "URL": "https://doi.org/10.14744/turkpediatriars.2019.69376",
+      "author": [
+        {
+          "affiliation": [],
+          "family": "güler",
+          "given": "muhlike",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        }
+      ],
+      "container-title": [
+        "Türk Pediatri Arşivi"
+      ],
+      "content-domain": {
+        "crossmark-restriction": false,
+        "domain": []
+      },
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            5,
+            1
+          ]
+        ],
+        "date-time": "2019-05-01T19:11:03Z",
+        "timestamp": 1556737863000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            7
+          ]
+        ],
+        "date-time": "2023-11-07T18:05:17Z",
+        "timestamp": 1699380317000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            8
+          ]
+        ],
+        "date-time": "2023-11-08T00:26:31Z",
+        "timestamp": 1699403191143
+      },
+      "is-referenced-by-count": 1,
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "1306-0015"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "member": "3111",
+      "original-title": [],
+      "prefix": "10.5152",
+      "published": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "publisher": "AVES YAYINCILIK A.Ş.",
+      "reference-count": 0,
+      "references-count": 0,
+      "relation": {},
+      "resource": {
+        "primary": {
+          "URL": "https://turkarchpediatr.org/en/clinical-characteristics-of-pediatric-patients-with-first-attack-acute-rheumatic-fever-following-the-updated-guideline-13139"
+        }
+      },
+      "score": 1,
+      "short-container-title": [
+        "Turk Pediatri Ars"
+      ],
+      "short-title": [],
+      "source": "Crossref",
+      "subject": [],
+      "subtitle": [],
+      "title": [
+        "Güncellenen kılavuz sonrasında ilk atak akut romatizmal ateş tanısı alan çocuk hastaların klinik özellikleri"
+      ],
+      "type": "journal-article"
+    },
+    "status": "ok"
+  },
+  "10.17098/amj.625436": {
+    "doi": "10.17098/amj.625436",
+    "http_status": 200,
+    "message": {
+      "DOI": "10.17098/amj.625436",
+      "ISSN": [
+        "2148-4570"
+      ],
+      "URL": "https://doi.org/10.17098/amj.625436",
+      "author": [
+        {
+          "affiliation": [],
+          "family": "Yağcı",
+          "given": "İbrahim",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        },
+        {
+          "affiliation": [],
+          "family": "Perincek",
+          "given": "Gökhan",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        },
+        {
+          "affiliation": [],
+          "family": "Kıvrak",
+          "given": "Yüksel",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        }
+      ],
+      "container-title": [
+        "Ankara Medical Journal"
+      ],
+      "content-domain": {
+        "crossmark-restriction": false,
+        "domain": []
+      },
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            26
+          ]
+        ],
+        "date-time": "2019-09-26T20:57:03Z",
+        "timestamp": 1569531423000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            4
+          ]
+        ],
+        "date-time": "2021-06-04T18:12:58Z",
+        "timestamp": 1622830378000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            27
+          ]
+        ],
+        "date-time": "2026-03-27T10:15:28Z",
+        "timestamp": 1774606528595,
+        "version": "3.50.1"
+      },
+      "is-referenced-by-count": 1,
+      "issn-type": [
+        {
+          "type": "electronic",
+          "value": "2148-4570"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            30
+          ]
+        ]
+      },
+      "member": "6785",
+      "original-title": [],
+      "prefix": "10.17098",
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            30
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            30
+          ]
+        ]
+      },
+      "publisher": "Ankara Medical Journal",
+      "reference": [
+        {
+          "key": "ref1",
+          "unstructured": "World Health Organization, WHO Global Status Report on Noncommunicable Diseases 2014. İsviçre: 2014:36-7"
+        },
+        {
+          "key": "ref2",
+          "unstructured": "World Health Organization Tobacco Free Inıtiative. Building blocks for tobacco control: a handbook. 4-13, 2004."
+        },
+        {
+          "key": "ref3",
+          "unstructured": "Uğur M. Cerrahpaşa Tıp Fakültesi Sürekli etkinlikleri eğitimi. Türkiye’de sık karşılaşılan psikiyatrik hastalıklar.  İstanbul: 2008;62:59-84."
+        },
+        {
+          "DOI": "10.3109/10401239909147061",
+          "doi-asserted-by": "crossref",
+          "key": "ref4",
+          "unstructured": "Black DW, Zimmerman M, Coryell WH. Cigarette smoking and psychiatric disorder in a community sample. Ann Clin Psychiatry 1999;11:129-36."
+        },
+        {
+          "key": "ref5",
+          "unstructured": "Kural S, Evren C, Çakmak D. Alkol/Madde bağımlılığında kişilik bozukluğu ek tanısının diğer I. eksen tanıları ve çocukluk çağı kötüye kullanımı ve ihmali ile ilişkisi. Bağım \r\nDerg 2005; 6(1):11-24."
+        },
+        {
+          "DOI": "10.1097/01.psy.0000149256.81953.49",
+          "doi-asserted-by": "crossref",
+          "key": "ref6",
+          "unstructured": "Denollet J. DS14: Standard assessment of negative affectivity, social inhibition, and type D personality. Psychosom Med 2005;67(1):89‐97."
+        },
+        {
+          "key": "ref7",
+          "unstructured": "Grade G, Jordan J, Kümmel M, Stuwe C, Schubmann R, Schulze F. Evaluation of the German Type D Scale and prevalane of The type personality pattern in cardiological \r\nand psychosomatic patients and healthy subjects. Psycohother Psychosom Med Psychol 2004;54(11):413-22."
+        },
+        {
+          "DOI": "10.1186/1477-7525-8-9",
+          "doi-asserted-by": "crossref",
+          "key": "ref8",
+          "unstructured": "Mols F, Denollet J. Type D personality in the general population: A systematic review of health status, mechanisms of disease, and work‐related problems. Health Qual Life \r\nOutcomes 2010;8:1‐10."
+        },
+        {
+          "DOI": "10.1136/jnnp.23.1.56",
+          "doi-asserted-by": "crossref",
+          "key": "ref9",
+          "unstructured": "Hamilton M. A rating scale for depression. Journal of neurology, neurosurgery, and psychiatry. 1960;23:56-62."
+        },
+        {
+          "key": "ref10",
+          "unstructured": "Akdemir A, Örsel S, Dağ İ. Hamilton Depresyon Derecelendirme Ölçeği’nin geçerliği, güvenilirliği ve klinikte kullanımı. Psikiyatri Psikoloji Psikofarmakoloji Dergisi \r\n1996;4:251-9."
+        },
+        {
+          "DOI": "10.1111/j.2044-8341.1959.tb00467.x",
+          "doi-asserted-by": "crossref",
+          "key": "ref11",
+          "unstructured": "Hamilton M. The assessment of anxiety states by rating. The British journal of medical psychology 1959;32(Suppl.1):50-5."
+        },
+        {
+          "key": "ref12",
+          "unstructured": "Yazıcı MK, Demir B, Tanrıverdi N, Karaağaoğlu E, Yolaç P. Hamilton Anksiyete Değerlendirme Ölçeği, derecelendiriciler arası güvenilirlik ve geçerlilik çalışması. Türkiye \r\nPsikiyatri Dergisi 1998;9:114-7."
+        },
+        {
+          "DOI": "10.1176/ajp.151.8.1132",
+          "doi-asserted-by": "crossref",
+          "key": "ref13",
+          "unstructured": "Bernstein DP, Fink L, Handelsman L ve ark.. Initial reliability and validity of a new retrospective measure of child abuse and neglect. Am J Psychiatry 1994; 151(8):1132-36."
+        },
+        {
+          "key": "ref14",
+          "unstructured": "Şar V, Öztürk E, İkikardeş E. Çocukluk Çağı Ruhsal Travma Ölçeğinin (CTQ) Türkçe uyarlamasının geçerlik ve güvenilirliği. Türkiye Klinikleri Tıp Bilimleri Dergisi 2012; \r\n32(4):1054-63."
+        },
+        {
+          "DOI": "10.1097/01.psy.0000149256.81953.49",
+          "doi-asserted-by": "crossref",
+          "key": "ref15",
+          "unstructured": "Denollet J. DS14: Standard assessment of negative affectivity, social inhibition, and Type D personality. Psychosom Med 2015; 67(1):89-97."
+        },
+        {
+          "DOI": "10.1002/1097-4679(199511)51:6<768::AID-JCLP2270510607>3.0.CO;2-1",
+          "doi-asserted-by": "crossref",
+          "key": "ref16",
+          "unstructured": "Patton JH, Stanford MS, Barratt ES. Factor structure of the Barratt impulsiveness scale. J Clin Psychol 1995;51(6):768-74."
+        },
+        {
+          "key": "ref17",
+          "unstructured": "Güleç H, Tamam L, Güleç MY ve ark. Psychometric properties of the Turkish version of the Barratt Impulsiveness Scale-11. Klinik Psikofarmakoloji Bülteni 2008;18(4):251-\r\n58."
+        },
+        {
+          "key": "ref18",
+          "unstructured": "Health UDo, Services H. Reducing tobacco use: a report of the surgeon generalexecutive summary. Atlanta, Georgia: US Department of Health and Human Services, \r\nCenters for Disease Control and Prevention. National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health. 2000."
+        },
+        {
+          "key": "ref19",
+          "unstructured": "Uysal MA, Kadakal F, Karşidağ C, Bayram NG, Uysal O, Yilmaz V. Fagerstrom test for nicotine dependence: reliability in a Turkish sample and factor analysis. Tuberk \r\nToraks Derg 2004;52(2):115-21."
+        },
+        {
+          "key": "ref20",
+          "unstructured": "Şişman-Bal S, Ayçiçeği-Dinn A, Dinn WM. Sigara kullanımı, nöropsikolojik performans ve kişilik özellikleri. Nesne 2018;6(13):367-406."
+        },
+        {
+          "key": "ref21",
+          "unstructured": "Asendorpf JB. Social inhibition: a general developmental perspective. In: Traue HC, Pennebaker JW, eds. Emotion, inhibition and health. Seattle: Hogrefe & Huber \r\nPublishers; 1993:80-99."
+        },
+        {
+          "DOI": "10.1016/S0924-9338(00)00209-1",
+          "doi-asserted-by": "crossref",
+          "key": "ref22",
+          "unstructured": "Sonntag H, Wittchen HU, Höfler M, Kessler RC, Stein MB. Are social fears and DSM-IV social anxiety disorder associated with smoking and nicotine dependence in \r\nadolescents and young adults? Eur Psychiatry 2000; 15(1):67-74."
+        },
+        {
+          "DOI": "10.1016/j.addbeh.2003.07.001",
+          "doi-asserted-by": "crossref",
+          "key": "ref23",
+          "unstructured": "Dinn WM, Ayçiçeği A, Harris CL. Cigarette Smoking in a student sample: Neurocognitive and Clinical Correlates. Addictive Behaviors 2004;29(1):107-26."
+        },
+        {
+          "key": "ref24",
+          "unstructured": "Rezvanfard M, Ekhtiari H, Mokri A, Djavid GE. Psychological and behavioral traits in smokers and their relationship with nicotine dependence level. Archives of Iranian \r\nMedicine 2010;13(5):395-405."
+        },
+        {
+          "DOI": "10.1001/jama.284.20.2606",
+          "doi-asserted-by": "crossref",
+          "key": "ref25",
+          "unstructured": "Lasser K, Boyd JW, Woolhandler S, Himmelstein DU, McCormick D, Bor DH. Smoking and mental illness: A population-based prevalence study. JAMA 2000; \r\n284(20):2606-10."
+        },
+        {
+          "DOI": "10.2190/PM.39.4.f",
+          "doi-asserted-by": "crossref",
+          "key": "ref26",
+          "unstructured": "Spratt EG, Back SE, Yeatts SD ve ark. Relationship between child abuse and adult smoking.Int J Psychiatry Med 2009;39(4):417-26."
+        },
+        {
+          "DOI": "10.1097/00004583-199409000-00002",
+          "doi-asserted-by": "crossref",
+          "key": "ref27",
+          "unstructured": "Merry SN, Andrews LK. Psychiatric status of sexually abused children 12 months after disclosure of abuse. J Am Acad Child Adolesc Psychiatry 1994; 33(7):939-44."
+        },
+        {
+          "DOI": "10.1080/105504901750227769",
+          "doi-asserted-by": "crossref",
+          "key": "ref28",
+          "unstructured": "Westermeyer J, Wahmanholm K, Thuras P. Effects of childhood physical abuse on course and severity of substance abuse. American Journal of Addiction \r\n2001;10(2):101-10."
+        },
+        {
+          "DOI": "10.1016/S0306-4603(02)00220-4",
+          "doi-asserted-by": "crossref",
+          "key": "ref29",
+          "unstructured": "Kollins SH. “Delay Discounting is Associated with Substance use in College Students” Addict Behav 2002;28(6):1167-73."
+        }
+      ],
+      "reference-count": 29,
+      "references-count": 29,
+      "relation": {},
+      "resource": {
+        "primary": {
+          "URL": "https://dergipark.org.tr/tr/doi/10.17098/amj.625436"
+        }
+      },
+      "score": 1,
+      "short-container-title": [],
+      "short-title": [],
+      "source": "Crossref",
+      "subject": [],
+      "subtitle": [],
+      "title": [
+        "D-Type Personality, İmpulsiveness, Childhood Traumas, Anxiety and Depression Levels Among Patients Applying to The Smoking Cessation Polyclinic"
+      ],
+      "type": "journal-article"
+    },
+    "status": "ok"
+  },
+  "10.17681/hsp.370597": {
+    "doi": "10.17681/hsp.370597",
+    "http_status": 200,
+    "message": {
+      "DOI": "10.17681/hsp.370597",
+      "ISSN": [
+        "2687-4644"
+      ],
+      "URL": "https://doi.org/10.17681/hsp.370597",
+      "abstract": "<jats:p>The elderly population is increasing in all over the world. Within this rapidly increasing population, it is seen that women constitute 57.5% of the individuals aged 65 and over, 60.5% of the individuals aged 75 and above and 73.1% of the individuals aged 85 and above. This situation is defined as the feminization of elderliness. In this context, the advantages and disadvantages arising from the socio-cultural meanings attributed to the differences between male and female sexes also affect the aging and aging processes of these individuals. In this study, aging is considered as a multidimensional and multifaceted process, not limited to physical changes as people experience by age. In this context, the feminist gerontology approach, which advocates the idea that gender and especially the women constituting a large part of the elderly population should have an important place in explaining and making sense of aging processes constitutes the basic theoretical ground of this study. Objective: The purpose of this study is to examine the advantages and disadvantages of socio-cultural meanings attributed to differences between male and female genders, how it affects the aging process, and the problems experienced by women in their old ages. Conclusion and Recommendations: The problems faced by elderly women involve the general problems of the aging process, women problem, and biologically-psycho-social based problems of older women. It is very important to develop policies that ensure that women have equal conditions with men in order to prevent women from being constantly dependent on one another in social life.\n</jats:p>",
+      "author": [
+        {
+          "affiliation": [],
+          "family": "ARTAN",
+          "given": "Taner",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        },
+        {
+          "affiliation": [],
+          "family": "IRMAK",
+          "given": "Hatice Selin",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        }
+      ],
+      "container-title": [
+        "Archives of Health Science and Research"
+      ],
+      "content-domain": {
+        "crossmark-restriction": false,
+        "domain": []
+      },
+      "created": {
+        "date-parts": [
+          [
+            2018,
+            3,
+            19
+          ]
+        ],
+        "date-time": "2018-03-19T04:43:08Z",
+        "timestamp": 1521434588000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            8
+          ]
+        ],
+        "date-time": "2025-10-08T16:40:29Z",
+        "timestamp": 1759941629000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            26
+          ]
+        ],
+        "date-time": "2026-06-26T01:08:17Z",
+        "timestamp": 1782436097602,
+        "version": "3.54.5"
+      },
+      "is-referenced-by-count": 6,
+      "issn-type": [
+        {
+          "type": "electronic",
+          "value": "2687-4644"
+        }
+      ],
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            15
+          ]
+        ]
+      },
+      "journal-issue": {
+        "issue": "2",
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              15
+            ]
+          ]
+        }
+      },
+      "link": [
+        {
+          "URL": "https://archhealthscires.org/index.php/pub/article/download/222/222",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "member": "3111",
+      "original-title": [],
+      "page": "236-243",
+      "prefix": "10.5152",
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            15
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            15
+          ]
+        ]
+      },
+      "publisher": "AVES YAYINCILIK A.Ş.",
+      "reference": [
+        {
+          "key": "ref1",
+          "unstructured": "Arber, S., Davidson, K. ve Ginn, J., (2003). Gender and Ageing: Changing Roles and Relationships. Maidenhead: Open University Press."
+        },
+        {
+          "key": "ref2",
+          "unstructured": "Arpacı, F., Ersoy, A. F. (2012). Yaşlı Bakımı ve Yaşlılıkta Sağlıklı Beslenme. H. Bacanlı, Ş.I. Terzi, (Ed.), Yetişkinlik ve Yaşlılık Gelişimi ve Psikolojisi içinde. İstanbul: Açılım Kitap."
+        },
+        {
+          "key": "ref3",
+          "unstructured": "Artan, T. (2013) Huzurevinde Kalmakta Olan Yaşlılarda Aile İçi İstismar, Toplum ve Sosyal Hizmet, Cilt 24, Sayı 2; 109-122."
+        },
+        {
+          "key": "ref4",
+          "unstructured": "Artan, T. (2017) Yaşlılarla Sosyal Hizmet. SABEV Yayınları, Ankara."
+        },
+        {
+          "key": "ref5",
+          "unstructured": "Arun, Ö. (2014). \"QueVadis\" Türkiye? 2050'ye Doğru Yaşlanan Türkiye'yi Bekleyen Riskler. Selçuk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi, 32, 1-12.\n \nArun, Ö., Arun, B. (2011). Türkiye'de Yaşlı Kadının En Büyük Sorunu: Dulluk. Sosyal Bilimler Dergisi 10 (4), 1515-1527."
+        },
+        {
+          "key": "ref6",
+          "unstructured": "Baran, A. G. (2012) Aile ve yaşlanma. A. Kasapoğlu ve N. Karkıner (Ed.), Aile sosyolojisi içinde (s. 134-165). Eskişehir: Anadolu Üniversitesi."
+        },
+        {
+          "key": "ref7",
+          "unstructured": "Buz, S. (2015). Toplumsal Cinsiyet Ve Yoksulluk Odağında Yaşlılık Olgusu. 1 Ekim 2017, http://readgur.com."
+        },
+        {
+          "key": "ref8",
+          "unstructured": "Buz, S., Beydili, E. (2015). Ankara Örneğinde Yalnız Yaşayan Yaşlı Kadınların Gereksinimleri. Uluslararası Sosyal Araştırmalar Dergisi 8 (37): 557-570."
+        },
+        {
+          "key": "ref9",
+          "unstructured": "Canatan, A. (2012). Yaşlı ve Yaşlanma, Sosyoloji. (J. J. Macionis, V. Akan Çev.). Nobel Yayınları."
+        },
+        {
+          "key": "ref10",
+          "unstructured": "Canatan, A. (2012). Yaşlılar ve Toplum. H. Bacanlı, Ş. I. Terzi, (Ed.), Yetişkinlik ve Yaşlılık Gelişimi Psikolojisi içinde. İstanbul: Açılım Kitap."
+        },
+        {
+          "key": "ref11",
+          "unstructured": "Candaş, A., Buğra, A., Yılmaz, V., Günseli, S. ve Çakar Yakut, B. (2010). Türkiye’de Eşitsizlikler: Kalıcı Eşitsizliklere Genel Bir Bakış. İstanbul: Boğaziçi Üniversitesi Sosyal Politika Forumu. 2 Ekim 2017, http://www.aciktoplumvakfi.org.tr."
+        },
+        {
+          "key": "ref12",
+          "unstructured": "Choudhury, S. ve Leonesio, M. V. (1997). Life-Cycle Aspects of Poverty Among Older Women. Washington: ORES Working Paper Series, No:71. 21 Ekim 2017, https://www.ssa.gov."
+        },
+        {
+          "key": "ref13",
+          "unstructured": "Dayıoğlu, M., Kırdar, M. G. (2010). Türkiye'de Kadınların İşgücüne Katılımında Belirleyici Etkenler ve Eğilimler. Türkiye Cumhuriyeti Devlet Planlama Teşkilatı ve Dünya Bankası Refah ve Sosyal Politika Analitik Çalışma Programı-Çalışma Raporu, 5. 3 Ekim 2017, http://siteresources.worldbank.org."
+        },
+        {
+          "key": "ref14",
+          "unstructured": "Duyan, G. Ç. (2008). Yaşlı İstismarı. K. Ersanlı, M. Kalkan, (Ed.), Psikolojik Sosyal ve Bedensel Açıdan Yaşlılık içinde. Ankara: Pegem Akademi Yayınları."
+        },
+        {
+          "key": "ref15",
+          "unstructured": "Efe, A. ve Aydemir, M. (2015). Yaşlı Kadın Olmak: Psiko-Sosyolojik Kuramlar Çerçevesinde Yaşlılık Ve Kadın - Isparta Huzurevi Örneği. Süleyman Demirel Üniversitesi İlahiyat Fakültesi Dergisi, 1 (3): 193-223."
+        },
+        {
+          "key": "ref16",
+          "unstructured": "Fadıloğlu, Ç., Şenuzun Aykar F. (2012). Yaşlıda İstismar ve İhmale Yaklaşım. Ege Tıp Dergisi, 51 (Ek Sayı): 69-77."
+        },
+        {
+          "key": "ref17",
+          "unstructured": "Fodor, E. (2006). A Different Type of Gender Gap: How Women and Men Experience Poverty. East European Politics and Societies, 20 (1): 14–39."
+        },
+        {
+          "key": "ref18",
+          "unstructured": "Gökçe, Y. (2012). Yaşlanan Dünya ve Yaşlanan İnsan. Birinci Basamak İçin Temel Geriatri içinde, Ankara Tabip Odası, Türk Geriatri Derneği ve Pratisyen Hekimlik Derneği (Ed.). Ankara: Algı Tanıtım."
+        },
+        {
+          "key": "ref19",
+          "unstructured": "Hooyman, N., Kawamoto, K. ve Kiyak, A. (2015). Aging matters an introduction to social gerontology. New Jersey, NJ: Pearson."
+        },
+        {
+          "key": "ref20",
+          "unstructured": "Martin, M., Kliegel, M. (2005). Psychologische Grundlagen der Gerontologie. Kohlhammer, Stuttgart."
+        },
+        {
+          "DOI": "10.1007/978-1-4020-5682-6",
+          "doi-asserted-by": "crossref",
+          "key": "ref21",
+          "unstructured": "Mollenkopf, H., ve Walker, A., (2007). Quality of Life in Old Age: International and Multi-Disciplinary Perspectives. Dordrecht: Springer."
+        },
+        {
+          "key": "ref22",
+          "unstructured": "Neusel, A., Tekeli, S., Akkent, M. (1991). Aufstand im Haus der Frauen. Frauenforschung aus der Türkei. Orlando Frauenverlag: Berlin."
+        },
+        {
+          "key": "ref23",
+          "unstructured": "Özar, Ş. (2011). Eşi Vefat Etmiş Kadınlar İçin Bir Nakit Sosyal Yardım Programı Geliştirilmesine Yönelik Araştırma Projesi. İstanbul: Boğaziçi Üniversitesi Sosyal Politika Forumu Final Raporu. 19 Ekim 2017, http://www.spf.boun.edu.tr."
+        },
+        {
+          "key": "ref24",
+          "unstructured": "Özmete, E. (2016). Hwalek-Sengstock Yaşlı İstismarı Tarama Testi: Türkçeye Uyarlama Çalışması. Anadolu Psikiyatri Dergisi, 17 (Ek.1), 45-52."
+        },
+        {
+          "key": "ref25",
+          "unstructured": "Reinhold, G. (1991). Soziologie-Lexikon. Oldenbourg: Müncehn, Wien."
+        },
+        {
+          "key": "ref26",
+          "unstructured": "Şener, Ü. (2009). Kadın Yoksulluğu. Ankara: TEPAV Değerlendirme Notu. 14 Ekim 2017, http://www.tepav.org.tr."
+        },
+        {
+          "key": "ref27",
+          "unstructured": "Tews, H. P. (1971). Soziologie des Alterns Bd. 1. Heidelberg: Quelle&Meyer."
+        },
+        {
+          "key": "ref28",
+          "unstructured": "Tufan, İ. (2002). Antikçağdan Günümüze Yaşlılık. İstanbul: Aykırı Araştırma. 2 Ekim 2017, http://www.itgevakif.com."
+        },
+        {
+          "key": "ref29",
+          "unstructured": "Tufan, İ. (2003). Modernleşen Türkiye’de Yaşlılık ve Yaşlanmak. İstanbul: Anahtar Kitaplar Yayınları."
+        },
+        {
+          "key": "ref30",
+          "unstructured": "Tufan, İ. (2004). Modernleşme Hareketi Bağlamında Türkiye› De Kuşaklar Arasındaki İlişkiler; Türkiye’de Modernleşme Hareketi Genç Ve Yaşlı Kuşakların İlişkilerine Nasıl Bir Etki Yapıyor? TÜBİTAK Projesi. 12 Ekim 2017, http://itgevakif.com."
+        },
+        {
+          "key": "ref31",
+          "unstructured": "Tufan, İ. (2006). Yaşlılıkta Bakıma Muhtaçlık ve Yeni Bir Bakım Kültürü. Sosyal Bakım Sigortası: Demografik Değişimlerin Yarattığı Bir Sorun ve Tartışmaya Açık Bir Konsept. Yayınlanmamış Çalışma. 11 Ekim 2017, http://itgevakif.com."
+        },
+        {
+          "key": "ref32",
+          "unstructured": "Tufan, İ. (2007). Birinci Türkiye Yaşlılık Raporu. Antalya: GeroYay. 12 Kasım 2017, http://www.itgevakif.com."
+        },
+        {
+          "key": "ref33",
+          "unstructured": "Tufan, İ. (2014). Türkiye’de yaşlılığın yapısal değişimi. İstanbul: Koç Üniversitesi Yayınları."
+        },
+        {
+          "key": "ref34",
+          "unstructured": "Tufan, İ. (2015). Kadın ve yaşlılık: Türkiye gerontoloji atlası araştırması. Kimlik Toplumsal Cinsiyet ve Kadın Çalışmaları Dergisi, 1 (1), 10-16."
+        },
+        {
+          "key": "ref35",
+          "unstructured": "TÜİK, (2015). Nüfus İstatistikleri 2015. 19 Ekim 2017, https://biruni.tuik.gov.tr."
+        },
+        {
+          "key": "ref36",
+          "unstructured": "TÜİK. (2013). İstatistiklerle Yaşlılar 2013. 1 Ekim 2017. http://www.tuik.gov.tr."
+        },
+        {
+          "key": "ref37",
+          "unstructured": "TÜİK. (2014). İstatistiklerle Yaşlılar 2014. 2 Ekim 2017. http://www.tuik.gov.tr."
+        },
+        {
+          "key": "ref38",
+          "unstructured": "Ulutaş, Ç. Ö. (2009). Yoksulluğun Kadınsallaşması ve Görünmeyen Emek. Çalışma ve Toplum 2, 25-40. United Nations, (2015). Profiles of Ageing 2013. 10 Ekim 2017, http://esa.un.org."
+        }
+      ],
+      "reference-count": 38,
+      "references-count": 38,
+      "relation": {},
+      "resource": {
+        "primary": {
+          "URL": "https://archhealthscires.org/index.php/pub/article/view/222"
+        }
+      },
+      "score": 1,
+      "short-container-title": [
+        "AHSR"
+      ],
+      "short-title": [],
+      "source": "Crossref",
+      "subject": [],
+      "subtitle": [],
+      "title": [
+        "Feminization of Old Age in the Context of Feminist Gerontology"
+      ],
+      "type": "journal-article",
+      "volume": "5"
+    },
+    "status": "ok"
+  },
+  "10.18506/anemon.772594": {
+    "http_status": 404,
+    "status": "not_found"
+  },
+  "10.21547/jss.348833": {
+    "doi": "10.21547/jss.348833",
+    "http_status": 200,
+    "message": {
+      "DOI": "10.21547/jss.348833",
+      "ISSN": [
+        "1303-0094"
+      ],
+      "URL": "https://doi.org/10.21547/jss.348833",
+      "author": [
+        {
+          "affiliation": [],
+          "family": "Kundak",
+          "given": "Sabriye",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        },
+        {
+          "affiliation": [],
+          "family": "Aydoğuş",
+          "given": "ismail",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        }
+      ],
+      "container-title": [
+        "Gaziantep University Journal of Social Sciences"
+      ],
+      "content-domain": {
+        "crossmark-restriction": false,
+        "domain": []
+      },
+      "created": {
+        "date-parts": [
+          [
+            2018,
+            1,
+            29
+          ]
+        ],
+        "date-time": "2018-01-29T14:28:43Z",
+        "timestamp": 1517236123000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            3
+          ]
+        ],
+        "date-time": "2021-06-03T18:57:18Z",
+        "timestamp": 1622746638000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            1
+          ]
+        ],
+        "date-time": "2025-11-01T13:05:27Z",
+        "timestamp": 1762002327776,
+        "version": "build-2065373602"
+      },
+      "is-referenced-by-count": 7,
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "1303-0094"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            1,
+            31
+          ]
+        ]
+      },
+      "member": "8994",
+      "original-title": [],
+      "prefix": "10.21547",
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            1,
+            31
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2018,
+            1,
+            31
+          ]
+        ]
+      },
+      "publisher": "Gaziantep University Journal of Social Sciences",
+      "reference": [
+        {
+          "DOI": "10.1080/10168730300080028",
+          "doi-asserted-by": "crossref",
+          "key": "ref1",
+          "unstructured": "Alam, M. İ. (2003). Manufactured exports, capital good ımports and economic growth: experience of Mexica and Brazil. International Economic Journal, 17(4): 85-105."
+        },
+        {
+          "key": "ref2",
+          "unstructured": "Balaylar, A., N. (2011). Reel döviz kuru istihdam ilişkisi: Türkiye imalat sanayi örneği, Sosyoekonomi/2011-2/110207."
+        },
+        {
+          "key": "ref3",
+          "unstructured": "Barışık, S. & Yayar, R. (2012). Sanayi üretim endeksini etkileyen faktörlerin ekonometrik analizi. İktisat İşletme, Finans, 27, 53-70."
+        },
+        {
+          "key": "ref4",
+          "unstructured": "Bayar, G., Güloğlu, B. & Tokpunar S. (2011). Sanayi sektörü istihdamının temel belirleyicileri ve dış ticaret: Türkiye örneği, Ekonomikyaklasım.org/kongre 2011."
+        },
+        {
+          "key": "ref5",
+          "unstructured": "Bayar, G. & Tokpunar S. (2014). Türkiye imalat sanayi alt sektörleri üretiminin belirleyicileri: panel veri analizi, Business and Economics Research Journal 5(1)."
+        },
+        {
+          "key": "ref6",
+          "unstructured": "Egeli, H. A. (1998). Türk imalat sanayi sektörlerinin ihracata katkısı, Süleyman Demirel Üniversitesi, İİBF Dergisi, S.3, s. 1-14."
+        },
+        {
+          "key": "ref7",
+          "unstructured": "Eşiyok, A. B. (2012). Türkiye ekonomisinde cari açık sorunu ve nedenleri, Finans Politik & Ekonomik Yorumlar, Cilt: 49, Sayı: 569."
+        },
+        {
+          "key": "ref8",
+          "unstructured": "Füsunoğlu, M. H. & Yücel, F. (2008). Panel veri yaklaşımı altında gümrük birliği antlaşmasının Türk imalat sanayine etkilerinin bir analizi, Niğde Üniversitesi İİBF Dergisi, Cilt: 1, sayı: 2, ss.1-18."
+        },
+        {
+          "DOI": "10.1080/08853900050217444",
+          "doi-asserted-by": "crossref",
+          "key": "ref9",
+          "unstructured": "Ghosh, S. (2000). The casual relationship between ınternational trade and employmentin the manufacturing sector of united states. The International Trade Journal, 14(4), 399-418."
+        },
+        {
+          "key": "ref10",
+          "unstructured": "Hasanov, M. (2006). Enflasyon belirsizliğinin üretim üzerindeki etkileri: Türkiye örneği, Doğuş Üniversitesi Dergisi, 9 (2), ss. 191-206."
+        },
+        {
+          "key": "ref11",
+          "unstructured": "İnançlı, S. & Konak; A. (2011). Türkiye’de İhracatın ithalata bağımlılığı: otomotiv sektörü, Eskişehir Osmangazi Üniversitesi İİBF Dergisi, 6(2), 343-362."
+        },
+        {
+          "DOI": "10.21121/eab.2010419602",
+          "doi-asserted-by": "crossref",
+          "key": "ref12",
+          "unstructured": "Karadağ, M. (2010). The ımpact of public capital on efficiency of private manufacturing ındustry at regional level, Ege Akademik Bakış, 10 (4), 1167-1174."
+        },
+        {
+          "DOI": "10.1080/000368400404407",
+          "doi-asserted-by": "crossref",
+          "key": "ref13",
+          "unstructured": "Marcos-Martin, A. & Galvez Suarez C. (2000). Technical efficiency of Spanish manufacturing firms: a panel data approach. Applied Economics, 32, 1249-1258."
+        },
+        {
+          "key": "ref14",
+          "unstructured": "Özlale, Ü. & Karakurt, A. (2012). Türkiye’de tasarruf açığının nedenleri ve kapatılması için politika önerileri, Bankacılar Dergisi TBB, Sayı: 83, ss. 1-33."
+        },
+        {
+          "DOI": "10.1080/1384128042000285174",
+          "doi-asserted-by": "crossref",
+          "key": "ref15",
+          "unstructured": "Ribeiro, P. E., Corseuil, C.H., Santos, D., Furtado, P., Amorim B., Servo, L.& Souza, A. (2004). Trade liberalization, the exchange rate and job flows in Brazil. Policy Reform, 7 (4), 209-223."
+        },
+        {
+          "key": "ref16",
+          "unstructured": "Saatçi, M. & Aslan, A. (2007). Türkiye’de imalat sanayide ithalatın piyasayı disipline etme hipotezinin testi: panel veri yaklaşımı, Erciyes Üniversitesi İİBF Dergisi, Sayı: 29, ss.1-15."
+        },
+        {
+          "key": "ref17",
+          "unstructured": "Saygılı, Ş., Cihan, C., Yalçın, C. & Hamsici T. (2009). Türk imalat sanayinin ithalat yapısı (taslak rapor özeti). TCMB Araştırma ve Para Politikası Genel Müdürlüğü."
+        },
+        {
+          "key": "ref18",
+          "unstructured": "Şişman, M., (2004). Türkiye’nin rekabet gücü: imalat sanayi, ihracat ve sermaye hareketleri, Marmara Üniversitesi İİBF Dergisi, Cilt XIX. Sayı I."
+        },
+        {
+          "key": "ref19",
+          "unstructured": "TCMB, (2011). İmalat sanayi kapasite kullanım oranı aylık toplu sonuçları (aralık 2011). İstatistik Genel Müdürlüğü, Reel Sektör Verileri Müdürlüğü."
+        },
+        {
+          "key": "ref20",
+          "unstructured": "TCMB, (2014). İmalat sanayi kapasite kullanım oranı (Şubat 2014). www.tcmb.gov.tr"
+        },
+        {
+          "key": "ref21",
+          "unstructured": "TUİK, (2013). Yıllık sanayi ve hizmet istatistikleri 2011, Sayı: 15855."
+        },
+        {
+          "key": "ref22",
+          "unstructured": "TUİK, (2013). İmalat sanayi anketleri ve istatistik yıllıkları, DPT Beş Yıllık Kalkınma Planları."
+        },
+        {
+          "key": "ref23",
+          "unstructured": "Yalçınkaya, M.H., Çılbant, C. & Özçalık M. (2009). Avrupa birliği sürecinde Türk imalat sanayi dış ticaretinin rekabet gücü 1989-2009 VAR Analizi. Yönetim ve Ekonomi, 16(1), 115-137."
+        },
+        {
+          "key": "ref24",
+          "unstructured": "Yentürk, N. (2003). Türk sanayinin rekabet gücü, uygulanan politikalar ve etkileri, İktisat Dergisi, No:440: İstanbul."
+        },
+        {
+          "key": "ref25",
+          "unstructured": "Yükseler, Z. & Türkan, E. (2006). Türkiye’nin üretim ve dış ticaret yapısında dönüşüm:küresel yönelimler ve yansımalar, Ekonomik Araştırma Formu Çalışma Raporları, TÜSİAD:Koç Üniversitesi."
+        },
+        {
+          "key": "ref26",
+          "unstructured": "www.mmo.org.tr."
+        }
+      ],
+      "reference-count": 26,
+      "references-count": 26,
+      "relation": {},
+      "resource": {
+        "primary": {
+          "URL": "https://dergipark.org.tr/en/doi/10.21547/jss.348833"
+        }
+      },
+      "score": 1,
+      "short-container-title": [],
+      "short-title": [],
+      "source": "Crossref",
+      "subject": [],
+      "subtitle": [],
+      "title": [
+        "ANALYSIS OF THE TURKISH MANUFACTURING INDUSTRY'S DEPENDENCE ON IMPORTS"
+      ],
+      "type": "journal-article"
+    },
+    "status": "ok"
+  },
+  "10.30855/gmbd.2021.03.12": {
+    "doi": "10.30855/gmbd.2021.03.12",
+    "http_status": 200,
+    "message": {
+      "DOI": "10.30855/gmbd.2021.03.12",
+      "ISSN": [
+        "2149-9373"
+      ],
+      "URL": "https://doi.org/10.30855/gmbd.2021.03.12",
+      "author": [
+        {
+          "affiliation": [],
+          "family": "YILMAZ",
+          "given": "Ünal",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        },
+        {
+          "affiliation": [],
+          "family": "KIRÇAY",
+          "given": "Ali",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        }
+      ],
+      "container-title": [
+        "Gazi Journal of Engineering Sciences"
+      ],
+      "content-domain": {
+        "crossmark-restriction": false,
+        "domain": []
+      },
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            2
+          ]
+        ],
+        "date-time": "2022-01-02T10:42:45Z",
+        "timestamp": 1641120165000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            2
+          ]
+        ],
+        "date-time": "2022-01-02T10:43:04Z",
+        "timestamp": 1641120184000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            29
+          ]
+        ],
+        "date-time": "2022-03-29T03:43:12Z",
+        "timestamp": 1648525392970
+      },
+      "is-referenced-by-count": 0,
+      "issn-type": [
+        {
+          "type": "electronic",
+          "value": "2149-9373"
+        }
+      ],
+      "issue": "3",
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            31
+          ]
+        ]
+      },
+      "journal-issue": {
+        "issue": "3",
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              31
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              31
+            ]
+          ]
+        }
+      },
+      "member": "12308",
+      "original-title": [],
+      "page": "298-308",
+      "prefix": "10.30855",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            31
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            31
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            31
+          ]
+        ]
+      },
+      "publisher": "Gazi Publishing",
+      "reference-count": 0,
+      "references-count": 0,
+      "relation": {},
+      "resource": {
+        "primary": {
+          "URL": "https://dergipark.org.tr/tr/download/article-file/1670737"
+        }
+      },
+      "score": 1,
+      "short-container-title": [
+        "GMBD"
+      ],
+      "short-title": [],
+      "source": "Crossref",
+      "subject": [],
+      "subtitle": [],
+      "title": [
+        "Elektrikli Araçlarda Batarya Şarj Ünitesi için LLC Rezonans Dönüştürücünün Kurulumu, Modellemesi ve Analizi"
+      ],
+      "type": "journal-article",
+      "volume": "7"
+    },
+    "status": "ok"
+  },
+  "10.31067/acusaglik.847119": {
+    "doi": "10.31067/acusaglik.847119",
+    "http_status": 200,
+    "message": {
+      "DOI": "10.31067/acusaglik.847119",
+      "ISSN": [
+        "1309-470X"
+      ],
+      "URL": "https://doi.org/10.31067/acusaglik.847119",
+      "author": [
+        {
+          "affiliation": [],
+          "family": "ARITICI ÇOLAK",
+          "given": "Gözde",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        },
+        {
+          "affiliation": [],
+          "family": "SAĞLAM",
+          "given": "Duygu",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        }
+      ],
+      "container-title": [
+        "Acibadem Universitesi Saglik Bilimleri Dergisi"
+      ],
+      "content-domain": {
+        "crossmark-restriction": false,
+        "domain": []
+      },
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            24
+          ]
+        ],
+        "date-time": "2021-02-24T13:37:38Z",
+        "timestamp": 1614173858000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            28
+          ]
+        ],
+        "date-time": "2021-05-28T16:57:04Z",
+        "timestamp": 1622221024000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            21
+          ]
+        ],
+        "date-time": "2025-02-21T23:24:32Z",
+        "timestamp": 1740180272161,
+        "version": "3.37.3"
+      },
+      "is-referenced-by-count": 1,
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "1309-470X"
+        }
+      ],
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            1
+          ]
+        ]
+      },
+      "journal-issue": {
+        "issue": "2",
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              1
+            ]
+          ]
+        }
+      },
+      "member": "16024",
+      "original-title": [],
+      "prefix": "10.31067",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            1
+          ]
+        ]
+      },
+      "publisher": "Acibadem Universitesi Saglik Bilimleri Dergisi",
+      "reference": [
+        {
+          "key": "ref1",
+          "unstructured": "1.\tErişim: www.who.int/mediacentre/factsheets.2018. Erişim tarihi: 20.07.19"
+        },
+        {
+          "DOI": "10.2337/dcS13-2011",
+          "doi-asserted-by": "crossref",
+          "key": "ref2",
+          "unstructured": "2.\tRalph A. DeFronzo, Roy Eldor, and Muhammad Abdul-Ghani. Pathophysiologic Approach to Therapy in Patients With Newly Diagnosed Type 2 Diabetes. Diabetes care, volume 36, supplement 2, august 2013."
+        },
+        {
+          "key": "ref3",
+          "unstructured": "3.\tHatemi H, Turan N, Arık N, Yumuk V. Türkiye obezite ve hipertansiyon taraması sonuçları (TOHTA). Endokrinolojide Yenilikler Dergisi 2002; 11."
+        },
+        {
+          "key": "ref4",
+          "unstructured": "4.\tPekcan, A. G., Samur, G., Dikmen, D., Kızıl, M., Rakıcıoğlu, N., Yıldız, E. A., ... & Aksoy, B. Population based study of obesity in Turkey: results of the Turkey Nutrition and Health Survey (TNHS)-2010. Progress in Nutrition, 2017; 19(3), 248-256."
+        },
+        {
+          "key": "ref5",
+          "unstructured": "5.\tOlson, K.  Behavioral approaches to the treatment of obesity. Rhode Island Medical Journal, 2017;100(3), 21."
+        },
+        {
+          "DOI": "10.1001/jama.292.14.1724",
+          "doi-asserted-by": "crossref",
+          "key": "ref6",
+          "unstructured": "6.\tBuchwald H, Avidor Y, Braunwald E, Jensen MD, Pories W, Fahrbach K, Schoelles K. Bariatric surgery: a systematic review and meta-analysis. JAMA 59. 2004 Oct 13;292(14):1724-37."
+        },
+        {
+          "DOI": "10.1007/s11695-013-1067-z",
+          "doi-asserted-by": "crossref",
+          "key": "ref7",
+          "unstructured": "7.\tLee WJ, Lee KT, Kasama K, Seiki Y, Ser KH, Chun SC, Chen JC, Lee YC. Laparoscopic single-anastomosis duodenal-jejunal bypass with sleeve gastrectomy (SADJB-SG): short-term result and comparison with gastric bypass. Obes Surg. 2014;24:109–13."
+        },
+        {
+          "key": "ref8",
+          "unstructured": "8.\tRakıcıoğlu N, Tek NA, Ayaz A. Yemek ve besin Fotoğraf kataloğu. 5‘inci baskı. Ankara: Hacettepe Üniversitesi Sağlık Bilimleri Fakültesi Beslenme ve Diyetetik Bölümü, 2015."
+        },
+        {
+          "DOI": "10.2337/dc15-0575",
+          "doi-asserted-by": "crossref",
+          "key": "ref9",
+          "unstructured": "9.\tPanunzi S, Carlsson L, De Gaetano A, Peltonen M, Rice T, Sjöström L, Mingrone G, Dixon JB. Determinants of Diabetes Remission and Glycemic Control After Bariatric Surgery. Diabetes Care, 2016 Jan;39(1):166-74. doi: 10.2337/dc15-0575. Epub 2015 Dec 1."
+        },
+        {
+          "DOI": "10.1159/000355480",
+          "doi-asserted-by": "crossref",
+          "key": "ref10",
+          "unstructured": "10.\tFried M., Yumuk V., Oppert JM., Scopinaro N., Torres AJ., Weiner R., et al. Interdisciplinary European Guidelines on metabolic and bariatric surgery. Obes Facts, 2013; 5:449-68."
+        },
+        {
+          "DOI": "10.1016/j.diabet.2013.11.003",
+          "doi-asserted-by": "crossref",
+          "key": "ref11",
+          "unstructured": "11.\tQuercia I, Dutia R,Kotler DP, Belsley S, Laferrère B. Gastrointestinal changes after bariatric surgery. Diabetes Metab, 2014. Doi: 10.1016/j.diabet.2013.11.003."
+        },
+        {
+          "DOI": "10.1016/j.diabet.2013.11.003",
+          "doi-asserted-by": "crossref",
+          "key": "ref12",
+          "unstructured": "12.\tAshrafian H, Bueter M,Ahmed K, Suliman A, Bloom SR, Darzi A, Athanasiou T. Metabolic surgery: An evolution through bariatric animal models. Diabetes Metab. 2014 Apr;40(2):87-94. doi: 10.1016/j.diabet.2013.11.003. Epub 2013 Dec 17."
+        },
+        {
+          "DOI": "10.1155/2013/643530",
+          "doi-asserted-by": "crossref",
+          "key": "ref13",
+          "unstructured": "13.\tKhalid Al Khalifa, Ahmed Al Ansari,Abdul Rahim Alsayed, and Claudio Violato. The Impact of Sleeve Gastrectomy on Hyperlipidemia: A Systematic Review. Journal of Obesity Volume 2013, Article ID 643530, 7 pages. http://dx.doi.org/10.1155/2013/643530"
+        },
+        {
+          "DOI": "10.1177/000313481808400231",
+          "doi-asserted-by": "crossref",
+          "key": "ref14",
+          "unstructured": "14.\tAl Khalifa K., Al Ansari A., Showaiter M. Weight loss and glycemic control after sleeve gastrectomy: results from a Middle Eastern Center of Excellence. The American Surgeon. 2018;  84(2):238-243."
+        },
+        {
+          "DOI": "10.1016/j.soard.2008.03.002",
+          "doi-asserted-by": "crossref",
+          "key": "ref15",
+          "unstructured": "15.\tAills L., Blankenship J., Buffington C., Furtado M., Parrott J. ASMBS Allied Health Nutritional Guidelines for the Surgical Weight Loss Patient. Surgery for Obesity and Related Diseases. 2008; 4(5);73-108."
+        }
+      ],
+      "reference-count": 15,
+      "references-count": 15,
+      "relation": {},
+      "resource": {
+        "primary": {
+          "URL": "https://dergipark.org.tr/en/doi/10.31067/acusaglik.847119"
+        }
+      },
+      "score": 1,
+      "short-container-title": [],
+      "short-title": [],
+      "source": "Crossref",
+      "subject": [],
+      "subtitle": [],
+      "title": [
+        "Evaluation of the Effect of Laparoscopic Sleeve Gastrectomy Operation on Short-Term Nutrition, Biochemical Blood Parameters and Anthropometric Measurements"
+      ],
+      "type": "journal-article",
+      "volume": "12"
+    },
+    "status": "ok"
+  },
+  "10.5152/janhs.2023.22260": {
+    "doi": "10.5152/janhs.2023.22260",
+    "http_status": 200,
+    "message": {
+      "DOI": "10.5152/janhs.2023.22260",
+      "URL": "https://doi.org/10.5152/janhs.2023.22260",
+      "author": [
+        {
+          "affiliation": [],
+          "name": "Artvin Coruh Universitesi, Saglik Bilimleri Fakultesi, Hemsirelik Bolumu, Dogum Kadin Sagligi ve Hastaliklari Hemsireligi Anabilim Dali, Artvin, Turkiye",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        },
+        {
+          "affiliation": [],
+          "family": "GOKDEMIR",
+          "given": "Fulya",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        },
+        {
+          "affiliation": [],
+          "family": "YILMAZ",
+          "given": "Tulay",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        },
+        {
+          "affiliation": [],
+          "name": "Istanbul Universitesi-Cerrahpasa, Saglik Bilimleri Fakultesi, Ebelik Bolumu, Istanbul, Turkiye",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        }
+      ],
+      "container-title": [
+        "Journal of Nursology"
+      ],
+      "content-domain": {
+        "crossmark-restriction": false,
+        "domain": []
+      },
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            15
+          ]
+        ],
+        "date-time": "2023-05-15T13:55:57Z",
+        "timestamp": 1684158957000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            9
+          ]
+        ],
+        "date-time": "2024-02-09T20:40:05Z",
+        "timestamp": 1707511205000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            25
+          ]
+        ],
+        "date-time": "2026-07-25T08:03:03Z",
+        "timestamp": 1784966583930,
+        "version": "3.55.0"
+      },
+      "is-referenced-by-count": 71,
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            26
+          ]
+        ]
+      },
+      "journal-issue": {
+        "issue": "2",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              26
+            ]
+          ]
+        }
+      },
+      "member": "27366",
+      "original-title": [],
+      "page": "148-160",
+      "prefix": "10.17049",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            26
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            26
+          ]
+        ]
+      },
+      "publisher": "Ataturk Universitesi",
+      "reference-count": 0,
+      "references-count": 0,
+      "relation": {},
+      "resource": {
+        "primary": {
+          "URL": "https://nursing-ataunipress.org/en/processes-of-using-modifying-adapting-and-developing-likert-type-scales-131014"
+        }
+      },
+      "score": 1,
+      "short-container-title": [
+        "Journal of Nursology"
+      ],
+      "short-title": [],
+      "source": "Crossref",
+      "subject": [],
+      "subtitle": [],
+      "title": [
+        "Processes of Using, Modifying, Adapting and Developing Likert Type Scales"
+      ],
+      "type": "journal-article",
+      "volume": "26"
+    },
+    "status": "ok"
+  },
+  "10.5152/planarch.2023.23138": {
+    "doi": "10.5152/planarch.2023.23138",
+    "http_status": 200,
+    "message": {
+      "DOI": "10.5152/planarch.2023.23138",
+      "URL": "https://doi.org/10.5152/planarch.2023.23138",
+      "author": [
+        {
+          "affiliation": [],
+          "name": "Akdeniz Universitesi, Mimarlik Fakultesi, Mimarlik Bolumu, Antalya, Turkiye",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        },
+        {
+          "affiliation": [],
+          "family": "ULKERYILDIZ",
+          "given": "Evren",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        },
+        {
+          "affiliation": [],
+          "family": "YILDIRIM",
+          "given": "Sadiye",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        },
+        {
+          "affiliation": [],
+          "name": "Akdeniz Universitesi, Mimarlik Fakultesi, Mimarlik Bolumu, Antalya, Turkiye",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        }
+      ],
+      "container-title": [
+        "PLANARCH - Design and Planning Research"
+      ],
+      "content-domain": {
+        "crossmark-restriction": false,
+        "domain": []
+      },
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            24
+          ]
+        ],
+        "date-time": "2023-04-24T13:44:45Z",
+        "timestamp": 1682343885000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            2
+          ]
+        ],
+        "date-time": "2024-04-02T14:58:36Z",
+        "timestamp": 1712069916000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            7
+          ]
+        ],
+        "date-time": "2024-08-07T23:04:34Z",
+        "timestamp": 1723071874230
+      },
+      "is-referenced-by-count": 1,
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            24
+          ]
+        ]
+      },
+      "member": "27366",
+      "original-title": [],
+      "prefix": "10.54864",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            24
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            24
+          ]
+        ]
+      },
+      "publisher": "Ataturk Universitesi",
+      "reference-count": 0,
+      "references-count": 0,
+      "relation": {},
+      "resource": {
+        "primary": {
+          "URL": "https://planningdesign-ataunipress.org/en/a-study-on-the-perceptual-change-of-design-principles-acquired-by-architectural-students-in-basic-design-education-1372"
+        }
+      },
+      "score": 1,
+      "short-container-title": [
+        "PLANARCH - Design and Planning Research"
+      ],
+      "short-title": [],
+      "source": "Crossref",
+      "subject": [],
+      "subtitle": [],
+      "title": [
+        "A Study on the Perceptual Change of Design Principles Acquired by Architectural Students in Basic Design Education"
+      ],
+      "type": "journal-article"
+    },
+    "status": "ok"
+  },
+  "10.5505/megaron.2018.45087": {
+    "doi": "10.5505/megaron.2018.45087",
+    "http_status": 200,
+    "message": {
+      "DOI": "10.5505/megaron.2018.45087",
+      "ISSN": [
+        "1309-6915"
+      ],
+      "URL": "https://doi.org/10.5505/megaron.2018.45087",
+      "author": [
+        {
+          "affiliation": [],
+          "family": "Ateş",
+          "given": "Mücella",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        }
+      ],
+      "container-title": [
+        "MEGARON / Yıldız Technical University, Faculty of Architecture E-Journal"
+      ],
+      "content-domain": {
+        "crossmark-restriction": false,
+        "domain": []
+      },
+      "created": {
+        "date-parts": [
+          [
+            2018,
+            12,
+            25
+          ]
+        ],
+        "date-time": "2018-12-25T07:12:26Z",
+        "timestamp": 1545721946000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            22
+          ]
+        ],
+        "date-time": "2023-06-22T21:53:21Z",
+        "timestamp": 1687470801000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2023-06-24T04:34:12Z",
+        "timestamp": 1687581252855
+      },
+      "is-referenced-by-count": 4,
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "1309-6915"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "link": [
+        {
+          "URL": "https://jag.journalagent.com/megaron/pdfs/MEGARON-45087-ARTICLE_%28THESIS%29-ATES.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "member": "5966",
+      "original-title": [],
+      "prefix": "10.14744",
+      "published": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "publisher": "Kare Publishing",
+      "reference-count": 0,
+      "references-count": 0,
+      "relation": {},
+      "resource": {
+        "primary": {
+          "URL": "https://www.journalagent.com/megaron/pdfs/MEGARON-45087-ARTICLE_(THESIS)-ATES.pdf"
+        }
+      },
+      "score": 1,
+      "short-container-title": [
+        "Megaron"
+      ],
+      "short-title": [],
+      "source": "Crossref",
+      "subject": [],
+      "subtitle": [],
+      "title": [
+        "The concept of ‘Smart City’ and criticism within the context of its transforming meaning"
+      ],
+      "type": "journal-article"
+    },
+    "status": "ok"
+  },
+  "10.5505/pajes.2021.68700": {
+    "doi": "10.5505/pajes.2021.68700",
+    "http_status": 200,
+    "message": {
+      "DOI": "10.5505/pajes.2021.68700",
+      "ISSN": [
+        "1300-7009"
+      ],
+      "URL": "https://doi.org/10.5505/pajes.2021.68700",
+      "author": [
+        {
+          "affiliation": [],
+          "family": "Bilginer",
+          "given": "Onur",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        },
+        {
+          "affiliation": [],
+          "family": "Tunga",
+          "given": "Burcu",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        },
+        {
+          "affiliation": [],
+          "family": "Demirer",
+          "given": "Rüştü Murat",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        }
+      ],
+      "container-title": [
+        "Pamukkale University Journal of Engineering Sciences"
+      ],
+      "content-domain": {
+        "crossmark-restriction": false,
+        "domain": []
+      },
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            29
+          ]
+        ],
+        "date-time": "2022-06-29T10:39:42Z",
+        "timestamp": 1656499182000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            10
+          ]
+        ],
+        "date-time": "2025-11-10T12:10:47Z",
+        "timestamp": 1762776647000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            10
+          ]
+        ],
+        "date-time": "2025-11-10T12:16:06Z",
+        "timestamp": 1762776966472,
+        "version": "build-2065373602"
+      },
+      "is-referenced-by-count": 1,
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "1300-7009"
+        }
+      ],
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        }
+      },
+      "member": "4742",
+      "original-title": [],
+      "page": "208-214",
+      "prefix": "10.65206",
+      "published": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "publisher": "Pamukkale University",
+      "reference-count": 0,
+      "references-count": 0,
+      "relation": {},
+      "resource": {
+        "primary": {
+          "URL": "https://dergipark.org.tr/tr/pub/pajes/issue/69632/1110299"
+        }
+      },
+      "score": 1,
+      "short-container-title": [
+        "Pamukkale J Eng Sci"
+      ],
+      "short-title": [],
+      "source": "Crossref",
+      "subject": [],
+      "subtitle": [],
+      "title": [
+        "Classification of skin lesions using convolutional neural networks"
+      ],
+      "type": "journal-article",
+      "volume": "28"
+    },
+    "status": "ok"
+  },
+  "10.5505/vtd.2023.78972": {
+    "doi": "10.5505/vtd.2023.78972",
+    "http_status": 200,
+    "message": {
+      "DOI": "10.5505/vtd.2023.78972",
+      "ISSN": [
+        "2587-0351"
+      ],
+      "URL": "https://doi.org/10.5505/vtd.2023.78972",
+      "author": [
+        {
+          "affiliation": [],
+          "family": "Mermutluoğlu",
+          "given": "Çiğdem",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        },
+        {
+          "affiliation": [],
+          "family": "Çiftçi",
+          "given": "Elif Zelal",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        },
+        {
+          "affiliation": [],
+          "family": "Özcan",
+          "given": "Nida",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        },
+        {
+          "affiliation": [],
+          "family": "Dayan",
+          "given": "Saim",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        }
+      ],
+      "container-title": [
+        "Van Medical Journal"
+      ],
+      "content-domain": {
+        "crossmark-restriction": false,
+        "domain": []
+      },
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ],
+        "date-time": "2023-10-20T13:48:37Z",
+        "timestamp": 1697809717000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ],
+        "date-time": "2023-10-20T13:48:50Z",
+        "timestamp": 1697809730000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            31
+          ]
+        ],
+        "date-time": "2025-12-31T12:14:17Z",
+        "timestamp": 1767183257180
+      },
+      "is-referenced-by-count": 2,
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "2587-0351"
+        }
+      ],
+      "issue": "4",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "journal-issue": {
+        "issue": "4",
+        "published-print": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      "member": "3460",
+      "original-title": [],
+      "page": "374-381",
+      "prefix": "10.5505",
+      "published": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "publisher": "LookUs Bilisim A.S.",
+      "reference-count": 0,
+      "references-count": 0,
+      "relation": {},
+      "resource": {
+        "primary": {
+          "URL": "https://jag.journalagent.com/z4/download_fulltext.asp?pdir=vtd&plng=eng&un=VTD-78972"
+        }
+      },
+      "score": 1,
+      "short-container-title": [
+        "Van Med J"
+      ],
+      "short-title": [],
+      "source": "Crossref",
+      "subject": [],
+      "subtitle": [],
+      "title": [
+        "Investigation of Antibiotic Susceptibilities in Carbapenem-Resistant Klebsiella pneumoniae and Escherichia coli Strains Isolated from Clinical Samples: A Four-Year Analysis in a Comprehensive Healthcare Facility"
+      ],
+      "type": "journal-article",
+      "volume": "30"
+    },
+    "status": "ok"
+  },
+  "10.5961/jhes.2018.293": {
+    "doi": "10.5961/jhes.2018.293",
+    "http_status": 200,
+    "message": {
+      "DOI": "10.5961/jhes.2018.293",
+      "ISSN": [
+        "2146-5959",
+        "2146-5967"
+      ],
+      "URL": "https://doi.org/10.5961/jhes.2018.293",
+      "author": [
+        {
+          "affiliation": [],
+          "family": "Kozikoglu",
+          "given": "Ishak",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "first"
+        },
+        {
+          "affiliation": [],
+          "family": "Altunova",
+          "given": "Nebi",
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ],
+          "sequence": "additional"
+        }
+      ],
+      "container-title": [
+        "Journal of Higher Education and Science"
+      ],
+      "content-domain": {
+        "crossmark-restriction": false,
+        "domain": []
+      },
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            25
+          ]
+        ],
+        "date-time": "2019-01-25T07:23:38Z",
+        "timestamp": 1548401018000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            25
+          ]
+        ],
+        "date-time": "2019-01-25T07:23:43Z",
+        "timestamp": 1548401023000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            31
+          ]
+        ],
+        "date-time": "2026-07-31T23:26:12Z",
+        "timestamp": 1785540372649,
+        "version": "3.56.0"
+      },
+      "is-referenced-by-count": 34,
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "2146-5959"
+        },
+        {
+          "type": "electronic",
+          "value": "2146-5967"
+        }
+      ],
+      "issue": "3",
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        }
+      },
+      "link": [
+        {
+          "URL": "http://higheredu-sci.org/doi.php?doi=10.5961/jhes.2018.293",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "member": "3986",
+      "original-title": [],
+      "page": "522",
+      "prefix": "10.5961",
+      "published": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "publisher": "Zonguldak Karaelmas University",
+      "reference-count": 0,
+      "references-count": 0,
+      "relation": {},
+      "resource": {
+        "primary": {
+          "URL": "http://higheredu-sci.org/doi.php?doi=10.5961/jhes.2018.293"
+        }
+      },
+      "score": 1,
+      "short-container-title": [
+        "HIG"
+      ],
+      "short-title": [],
+      "source": "Crossref",
+      "subject": [],
+      "subtitle": [],
+      "title": [
+        "The predictive power of prospective teachers self-efficacy perceptions of 21st century skills for their lifelong learning tendencies"
+      ],
+      "type": "journal-article",
+      "volume": "8"
+    },
+    "status": "ok"
+  },
+  "10.7822/omuefd.747484": {
+    "http_status": 404,
+    "status": "not_found"
+  },
+  "10.7822/omuefd.856750": {
+    "http_status": 404,
+    "status": "not_found"
+  }
+}

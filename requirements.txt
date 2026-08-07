@@ -1,0 +1,20 @@
+# Tested runtime:
+# Python==3.14.0
+# sqlite3 CLI==3.43.2
+#
+# System/browser requirements:
+# - Google Chrome is required for Selenium/Playwright Google Scholar collectors.
+# - GROBID service is required only for experiment 19 re-parse flows.
+#   Tested URL: http://localhost:8072
+#
+# Optional environment variables:
+# - SERPAPI_KEY for SerpAPI-backed Google Scholar search.
+# - OpenAlex API key/email config if re-running OpenAlex authenticated flows.
+
+beautifulsoup4==4.14.3
+datasette==0.65.3
+Flask==3.0.3
+playwright==1.62.0
+requests==2.32.3
+selenium==4.46.0
+urllib3==2.7.0

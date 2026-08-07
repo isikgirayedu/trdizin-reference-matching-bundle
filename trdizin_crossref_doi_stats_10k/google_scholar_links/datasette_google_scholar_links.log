@@ -1,0 +1,42 @@
+INFO:     Started server process [6315]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8010 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49693 - "HEAD / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49700 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49700 - "GET /-/static/app.css?d59929 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49700 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49700 - "GET /google_scholar_links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49700 - "GET /-/static/app.css?d59929 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49701 - "GET /-/static/sql-formatter-2.3.3.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49702 - "GET /-/static/codemirror-5.57.0.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49703 - "GET /-/static/codemirror-5.57.0.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49704 - "GET /-/static/codemirror-5.57.0-sql.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49705 - "GET /-/static/cm-resize-1.0.1.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49700 - "GET /google_scholar_links?sql=select%0D%0A++*%0D%0Afrom%0D%0A++scholar_reference_links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49701 - "GET /-/static/codemirror-5.57.0.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49703 - "GET /-/static/app.css?d59929 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49705 - "GET /-/static/sql-formatter-2.3.3.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49700 - "GET /-/static/cm-resize-1.0.1.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49704 - "GET /-/static/codemirror-5.57.0.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49702 - "GET /-/static/codemirror-5.57.0-sql.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49753 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49753 - "GET /-/static/app.css?d59929 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49753 - "GET /google_scholar_links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49753 - "GET /-/static/app.css?d59929 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49754 - "GET /-/static/sql-formatter-2.3.3.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49755 - "GET /-/static/codemirror-5.57.0.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49756 - "GET /-/static/codemirror-5.57.0.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49757 - "GET /-/static/codemirror-5.57.0-sql.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49758 - "GET /-/static/cm-resize-1.0.1.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49759 - "GET /google_scholar_links?sql=select+*+from+scholar_reference_links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49759 - "GET /-/static/app.css?d59929 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49760 - "GET /-/static/sql-formatter-2.3.3.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49761 - "GET /-/static/codemirror-5.57.0.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49759 - "GET /-/static/codemirror-5.57.0.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49760 - "GET /-/static/codemirror-5.57.0-sql.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49762 - "GET /-/static/cm-resize-1.0.1.min.js HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6315]

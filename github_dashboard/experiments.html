@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GROBID Experiments</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <p class="eyebrow">TR Dizin training</p>
+      <h1>GROBID Dashboard</h1>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Canli takip</a>
+      <a class="active" href="experiments.html">Experiments</a>
+      <a href="architecture.html">Mimari</a>
+      <a href="https://github.com/isikgirayedu/grobid-dashboard" rel="noreferrer">GitHub</a>
+      <a href="https://grobid.readthedocs.io/en/latest/Principles/" rel="noreferrer">Official docs</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Experiment registry</p>
+        <h2>TR Dizin citation corpus icin acilan egitim denemeleri, kaynak kararlarinin ve split run'in kaydi.</h2>
+        <p>
+          Bu sayfa clean-date good10k Wapiti run'ini, eski kotu modelin kisa sonuc ozetini,
+          clean-date corpus gate'ini, daha yavas cikan 40-thread benchmark'i ve full DeLFT GPU
+          denemesini tek yerde tutar. Ana grafikler job <code>6126604</code> logundan uretilen
+          <code>progress.json</code> dosyasini okur.
+        </p>
+      </div>
+      <div class="hero-meta" aria-label="Experiment summary">
+        <div><span>Evaluated Wapiti job</span><strong>6126604</strong></div>
+        <div><span>Split</span><strong>9000 / 500 / 500</strong></div>
+        <div><span>Aligned date</span><strong>0.9727</strong></div>
+        <div><span>Cluster</span><strong>TRUBA Slurm</strong></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Guncel experimentler</h2>
+        <p>Durum alanlari son kontrol ve log olcumlerine gore yazildi; canli Wapiti metrikleri ana sayfada guncellenir.</p>
+      </div>
+      <div class="experiment-grid">
+        <article class="surface experiment-card">
+          <div class="experiment-topline">
+            <span class="status-pill status-ready">EVALUATED</span>
+            <span>Slurm job 6126604</span>
+          </div>
+          <h3>Clean-date good10k Wapiti citation</h3>
+          <p>
+            Eski corpus'taki date/year projection hatasi duzeltildikten sonra 10k good dokuman
+            yeniden splitlendi ve train split TRUBA'daki GROBID citation corpus klasorune kuruldu.
+            Job <code>MAX_ITER=200</code> ile tamamlandi. Local Docker testinde ayni
+            <code>0.9.1-SNAPSHOT</code> image ve ayni 100 PDF kullanildi.
+          </p>
+          <dl class="mini-facts">
+            <div><dt>Submit</dt><dd>2026-07-22 11:34 TR</dd></div>
+            <div><dt>Node</dt><dd>barbun75, 20 CPU, 128G RAM</dd></div>
+            <div><dt>Corpus</dt><dd>9000 train XML; dev/test 500 XML each</dd></div>
+            <div><dt>Training result</dt><dd>200 iter, token 0.93%, sequence 9.61%</dd></div>
+            <div><dt>Aligned eval</dt><dd>match 0.9751, date 0.9727, year 0.9639</dd></div>
+            <div><dt>Raw eval</dt><dd>date 0.9626, article 0.6917, journal 0.6677, DOI 0.1699</dd></div>
+          </dl>
+        </article>
+
+        <article class="surface experiment-card">
+          <div class="experiment-topline">
+            <span class="status-pill status-ready">PASSED</span>
+            <span>Local pilot, 22 Temmuz 2026</span>
+          </div>
+          <h3>Clean date/year citation corpus gate</h3>
+          <p>
+            Yeni corpus uretici TR Dizin <code>reference.year</code> alanini birincil yayin yili
+            kabul eder. Yil author span'i icinde kaliyorsa author etiketi yildan once kesilir ve
+            yil ayri <code>date</code> olarak basilir. DOI/URL ve erisim tarihi icindeki yillar
+            date adayi olarak kullanilmaz.
+          </p>
+          <dl class="mini-facts">
+            <div><dt>Pilot path</dt><dd>trdizin_full_reference_training_clean_date_pilot_v4</dd></div>
+            <div><dt>Pilot corpus</dt><dd>200 XML, 6866 included references, 989 review</dd></div>
+            <div><dt>Full corpus</dt><dd>10000 XML, 342078 included references, 47414 review</dd></div>
+            <div><dt>Date coverage</dt><dd>before 0.3678, pilot 0.9744, full 0.9705</dd></div>
+            <div><dt>Other coverage</dt><dd>title 0.9989, scope 0.8106, DOI 0.2991, URL 0.0412</dd></div>
+            <div><dt>Author-year ratio</dt><dd>before 0.6245, full 0.0021</dd></div>
+            <div><dt>Snapshot smoke</dt><dd>raw year accuracy 0.3946; author repair 0.4600</dd></div>
+            <div><dt>Gate</dt><dd>date coverage >= 0.80 and author-year <= 0.05 passed</dd></div>
+            <div><dt>Next</dt><dd>job 6126604 ile 200 iteration clean-date final training</dd></div>
+          </dl>
+        </article>
+
+        <article class="surface experiment-card">
+          <div class="experiment-topline">
+            <span class="status-pill status-cancelled">FAILED EVAL</span>
+            <span>Slurm job 6118781</span>
+          </div>
+          <h3>Previous Wapiti citation model</h3>
+          <p>
+            300 iteration tamamlandi ve model local Docker ile ayni <code>0.9.1-SNAPSHOT</code>
+            image uzerinde test edildi. Raw inference ve aligned evaluation ikisi de modelin stock
+            citation modelinden genel olarak geride kaldigini gosterdi.
+          </p>
+          <dl class="mini-facts">
+            <div><dt>Aligned 100 PDF</dt><dd>match 0.9761 -> 0.9463; date 0.9881 -> 0.3751</dd></div>
+            <div><dt>Raw 100 PDF</dt><dd>article 0.7330 -> 0.6773; journal 0.6924 -> 0.6605</dd></div>
+            <div><dt>Date raw</dt><dd>0.9759 -> 0.3723; author raw 0.9690 -> 0.9720</dd></div>
+            <div><dt>Decision</dt><dd>6118781 deploy edilmeyecek; temiz corpus ile tekrar egitim</dd></div>
+          </dl>
+        </article>
+
+        <article class="surface experiment-card">
+          <div class="experiment-topline">
+            <span class="status-pill status-pending">PENDING</span>
+            <span>Slurm job 6119305</span>
+          </div>
+          <h3>Full DeLFT citation GPU</h3>
+          <p>
+            Bu run, lightweight olmayan GROBID citation modelini DeLFT engine ile GPU kuyrugunda
+            egitmek icin guncel 9000 XML train split ile yeniden gonderildi. Mevcut Wapiti isinden
+            izole source tree'de calisir ve DeLFT venv'ini kullanir.
+          </p>
+          <dl class="mini-facts">
+            <div><dt>Source tree</dt><dd>/arf/scratch/isonal/grobid-training/grobid-source-full-citation</dd></div>
+            <div><dt>Trainer</dt><dd>DeLFT neural sequence labeling</dd></div>
+            <div><dt>Resources</dt><dd>akya-cuda, 1 GPU, 10 CPU, 128G RAM, 3 gun</dd></div>
+            <div><dt>Corpus</dt><dd>9000 train XML; dev/test training corpus'una kurulmaz</dd></div>
+            <div><dt>Log files</dt><dd>train_citation_full_delft.6119305.out / .err</dd></div>
+            <div><dt>Model output</dt><dd>Basarili bitiste citation-BidLSTM_CRF_FEATURES modeli ve tar.gz snapshot</dd></div>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Kaynak tuning karar kaydi</h2>
+        <p>Iteration hizini artirmak icin denenen isler ve neden iptal edildikleri.</p>
+      </div>
+      <div class="experiment-grid">
+        <article class="surface experiment-card">
+          <div class="experiment-topline">
+            <span class="status-pill status-cancelled">SUPERSEDED</span>
+            <span>Slurm job 6116002</span>
+          </div>
+          <h3>Previous DeLFT GPU submit</h3>
+          <p>
+            Eski GPU submit aktif kuyrukta degildi ve full-citation tree'de eski corpus kalmisti.
+            Guncel 9000 XML train split ile refresh edilip yeni job <code>6119305</code> gonderildi.
+          </p>
+          <dl class="mini-facts">
+            <div><dt>Old corpus</dt><dd>full-citation tree'de 10158 XML goruldu</dd></div>
+            <div><dt>Action</dt><dd>source refresh, corpus count guard, new submit</dd></div>
+          </dl>
+        </article>
+        <article class="surface experiment-card">
+          <div class="experiment-topline">
+            <span class="status-pill status-cancelled">CANCELLED</span>
+            <span>Slurm job 6118678</span>
+          </div>
+          <h3>40-core normal split training</h3>
+          <p>
+            Ilk split-aware submit 40 core / 192G ile feature generation ve Wapiti training hattina
+            girdi. Cluster tarafindan dusuk verim uyarisi gelince iptal edildi.
+          </p>
+          <dl class="mini-facts">
+            <div><dt>Reason</dt><dd>cluster efficiency warning, Eff 8.15%</dd></div>
+            <div><dt>Action</dt><dd>20-core configuration prepared</dd></div>
+          </dl>
+        </article>
+        <article class="surface experiment-card">
+          <div class="experiment-topline">
+            <span class="status-pill status-cancelled">CANCELLED</span>
+            <span>Slurm job 6118754</span>
+          </div>
+          <h3>20-core normal split training</h3>
+          <p>
+            Barbun kuyrugu node basina 20 core istedigi icin yeniden submit edildi. Is, feature
+            generation'i bastan tekrarladigi icin tamamlanmis feature dosyasina gecildi.
+          </p>
+          <dl class="mini-facts">
+            <div><dt>Reason</dt><dd>redundant feature generation</dd></div>
+            <div><dt>Action</dt><dd>from-features continuous run baslatildi</dd></div>
+          </dl>
+        </article>
+        <article class="surface experiment-card">
+          <div class="experiment-topline">
+            <span class="status-pill status-cancelled">CANCELLED</span>
+            <span>Slurm job 6118816</span>
+          </div>
+          <h3>40-thread from-features benchmark</h3>
+          <p>
+            Bos CPU varken iteration hizlanir mi diye model kurulumu kapali sekilde benchmark
+            calistirildi. 40 thread, 20 thread'den hizli cikmayinca iptal edildi.
+          </p>
+          <dl class="mini-facts">
+            <div><dt>20-thread pace</dt><dd>326-335s steady iteration</dd></div>
+            <div><dt>40-thread pace</dt><dd>iter1 768.33s, iter2 387.20s</dd></div>
+            <div><dt>Decision</dt><dd>ana egitim 20 thread ile devam</dd></div>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid-2">
+        <article class="surface">
+          <div class="surface-heading">
+            <h3>Neden ayri full source tree?</h3>
+          </div>
+          <p>
+            Wapiti egitimi halen calistigi icin ayni klasorde engine/config degistirmek riskli olurdu.
+            DeLFT run, <code>grobid-source-full-citation</code> altinda izole calisir; boylece mevcut
+            jobun config, model ve log dosyalarina dokunmadan neural modeli deneyebiliriz.
+          </p>
+        </article>
+        <article class="surface">
+          <div class="surface-heading">
+            <h3>200 iteration stage konusu</h3>
+          </div>
+          <p>
+            Wapiti'deki stage mantigi DeLFT icin birebir yok. DeLFT, GROBID'in neural training hattini
+            kullanir ve epoch/model save davranisi DeLFT tarafindan yonetilir. Bu yuzden bu experiment
+            25 iteration Wapiti checkpoint rejiminden bagimsiz kaydedilecek.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

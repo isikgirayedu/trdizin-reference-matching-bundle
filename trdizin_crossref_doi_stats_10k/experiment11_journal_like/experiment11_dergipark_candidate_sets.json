@@ -1,0 +1,121 @@
+[
+  {
+    "matched_journal": "Sosyal Bilimler Enstitüsü Dergisi",
+    "set_match_score": 1.0,
+    "set_name": "Adıyaman Üniversitesi Sosyal Bilimler Enstitüsü Dergisi",
+    "set_spec": "adyusbd",
+    "target_count": 12
+  },
+  {
+    "matched_journal": "Atatürk Üniversitesi İktisadi Ve İdari Bilimler Dergisi",
+    "set_match_score": 1.0,
+    "set_name": "Atatürk Üniversitesi İktisadi ve İdari Bilimler Dergisi",
+    "set_spec": "atauniiibd",
+    "target_count": 3
+  },
+  {
+    "matched_journal": "Dergisi",
+    "set_match_score": 1.0,
+    "set_name": "Marmara Üniversitesi Hukuk Fakültesi Hukuk Araştırmaları Dergisi",
+    "set_spec": "maruhad",
+    "target_count": 1
+  },
+  {
+    "matched_journal": "Uluslararası Sosyal Bilimler Dergisi",
+    "set_match_score": 1.0,
+    "set_name": "Artvin Çoruh Üniversitesi Uluslararası Sosyal Bilimler Dergisi",
+    "set_spec": "acusbd",
+    "target_count": 1
+  },
+  {
+    "matched_journal": "Marmara Üniversitesi İktisadi ve İdari Bilimler Dergisi",
+    "set_match_score": 1.0,
+    "set_name": "Marmara Üniversitesi İktisadi ve İdari Bilimler Dergisi",
+    "set_spec": "muiibd",
+    "target_count": 1
+  },
+  {
+    "matched_journal": "İstanbul Üniversitesi İktisat Fakültesi Mecmuası",
+    "set_match_score": 1.0,
+    "set_name": "İstanbul Üniversitesi İktisat Fakültesi Mecmuası",
+    "set_spec": "iuifm",
+    "target_count": 1
+  },
+  {
+    "matched_journal": "Anadolu Hemşirelik ve Sağlık Bilimleri Dergisi",
+    "set_match_score": 1.0,
+    "set_name": "Anadolu Hemşirelik ve Sağlık Bilimleri Dergisi",
+    "set_spec": "ataunihem",
+    "target_count": 1
+  },
+  {
+    "matched_journal": "Journal of Education",
+    "set_match_score": 1.0,
+    "set_name": "Anadolu Journal of Educational Sciences International",
+    "set_spec": "ajesi",
+    "target_count": 1
+  },
+  {
+    "matched_journal": "Ist",
+    "set_match_score": 1.0,
+    "set_name": "Journal of Faculty of Pharmacy of Istanbul University",
+    "set_spec": "iujfp",
+    "target_count": 1
+  },
+  {
+    "matched_journal": "Ahi Evran Üniversitesi Sosyal Bilimler Enstitüsü Dergisi",
+    "set_match_score": 1.0,
+    "set_name": "Ahi Evran Üniversitesi Sosyal Bilimler Enstitüsü Dergisi",
+    "set_spec": "aeusbed",
+    "target_count": 1
+  },
+  {
+    "matched_journal": "Atatürk Eğitim Fakültesi Eğitim Bilimleri Dergisi",
+    "set_match_score": 1.0,
+    "set_name": "Marmara Üniversitesi Atatürk Eğitim Fakültesi Eğitim Bilimleri Dergisi",
+    "set_spec": "maruaebd",
+    "target_count": 1
+  },
+  {
+    "matched_journal": "Abant İzzet Baysal Üniversitesi Eğitim Fakültesi Dergisi",
+    "set_match_score": 1.0,
+    "set_name": "Abant İzzet Baysal Üniversitesi Eğitim Fakültesi Dergisi",
+    "set_spec": "aibuefd",
+    "target_count": 1
+  },
+  {
+    "matched_journal": "Anemon Muş Alparslan Üniversitesi Sosyal Bilimler Dergisi",
+    "set_match_score": 1.0,
+    "set_name": "Anemon Muş Alparslan Üniversitesi Sosyal Bilimler Dergisi",
+    "set_spec": "anemon",
+    "target_count": 1
+  },
+  {
+    "matched_journal": "Niğde Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi",
+    "set_match_score": 0.7661,
+    "set_name": "Afyon Kocatepe Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi",
+    "set_spec": "akuiibfd",
+    "target_count": 4
+  },
+  {
+    "matched_journal": "Hitit Üniversitesi İlahiyat Fakültesi Dergisi",
+    "set_match_score": 0.7529,
+    "set_name": "Atatürk Üniversitesi İlahiyat Fakültesi Dergisi",
+    "set_spec": "atauniilah",
+    "target_count": 1
+  },
+  {
+    "matched_journal": "Pamukkale Üniversitesi Mühendislik Bilimleri Dergisi",
+    "set_match_score": 0.746,
+    "set_name": "Adıyaman Üniversitesi Mühendislik Bilimleri Dergisi",
+    "set_spec": "adyumbd",
+    "target_count": 1
+  },
+  {
+    "matched_journal": "Uludağ Üniversitesi Ziraat Fakültesi Dergisi",
+    "set_match_score": 0.7401,
+    "set_name": "Akdeniz Üniversitesi Ziraat Fakültesi Dergisi",
+    "set_spec": "akdenizfderg",
+    "target_count": 1
+  }
+]

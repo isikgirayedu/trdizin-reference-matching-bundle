@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GROBID Citation Training Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <p class="eyebrow">TR Dizin training</p>
+      <h1>GROBID Dashboard</h1>
+    </div>
+    <nav class="nav">
+      <a class="active" href="index.html">Canli takip</a>
+      <a href="experiments.html">Experiments</a>
+      <a href="architecture.html">Mimari</a>
+      <a href="https://github.com/isikgirayedu/grobid-dashboard" rel="noreferrer">GitHub</a>
+      <a href="https://grobid.readthedocs.io/en/latest/Principles/" rel="noreferrer">Official docs</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Canli egitim durumu</p>
+        <h2>TRUBA uzerinde calisan split-aware citation training run'inin okunabilir izleme sayfasi.</h2>
+        <p>
+          Bu dashboard, TR Dizin referanslarini ground truth kabul ederek uretilen clean-date
+          10k GROBID <code>citation</code> corpus'unun train split uzerindeki Wapiti training
+          logunu izler. Yeni run, author icinde kalan yayin yili hatasi duzeltilmis 9000 XML
+          train split ile baslatildi ve sabah 07:00 hedefi icin 200 iteration olarak ayarlandi.
+        </p>
+      </div>
+      <div class="hero-meta" aria-label="Run summary">
+        <div><span>Evaluated job</span><strong>6126604</strong></div>
+        <div><span>Train split</span><strong>9000 XML</strong></div>
+        <div><span>Trainer</span><strong>Wapiti CRF, L-BFGS</strong></div>
+        <div><span>Result</span><strong>date fixed, stock-close</strong></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <h2>Son durum</h2>
+          <p>Degerler GitHub Pages'teki son <code>progress.json</code> dosyasindan okunur.</p>
+        </div>
+        <button id="refresh" class="section-button" type="button">Refresh</button>
+      </div>
+      <div class="metrics" aria-label="Training metrics">
+        <div class="metric"><div class="label">Job</div><div id="job" class="value">-</div><div id="jobHint" class="hint"></div></div>
+        <div class="metric"><div class="label">State</div><div id="state" class="value">-</div><div id="elapsed" class="hint"></div></div>
+        <div class="metric"><div class="label">Iteration</div><div id="iter" class="value">-</div><div id="iterHint" class="hint"></div></div>
+        <div class="metric"><div class="label">Token Error</div><div id="tokenErr" class="value">-</div><div class="hint">token-level hata orani</div></div>
+        <div class="metric"><div class="label">Sequence Error</div><div id="seqErr" class="value">-</div><div class="hint">referans bazli hata</div></div>
+        <div class="metric"><div class="label">ETA to Target</div><div id="eta" class="value">-</div><div id="etaHint" class="hint"></div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <h2>Experiments</h2>
+          <p>Aktif clean-date run, clean-date gate ve onceki paralel egitim kayitlari.</p>
+        </div>
+        <a class="section-button" href="experiments.html">Tum experimentler</a>
+      </div>
+      <div class="experiment-grid">
+        <article class="surface experiment-card">
+          <div class="experiment-topline">
+            <span class="status-pill status-ready">EVALUATED</span>
+            <span>job 6126604</span>
+          </div>
+          <h3>Clean-date good10k Wapiti citation run</h3>
+          <p>
+            Eski modelin date/year hatasini ureten corpus yerine, yayin yilini <code>author</code>
+            alanindan ayiran clean-date 10k corpus ile yeni final run tamamlandi. 100 PDF
+            stock-vs-candidate testinde date/year problemi buyuk olcude duzeldi; model stock'a
+            yaklasti ama article title, journal title ve DOI tarafinda hala geride.
+          </p>
+          <dl class="mini-facts">
+            <div><dt>Training</dt><dd>200 iteration, final token 0.93%, sequence 9.61%</dd></div>
+            <div><dt>Aligned eval</dt><dd>match 0.9761 -> 0.9751, date 0.9881 -> 0.9727</dd></div>
+            <div><dt>Remaining gap</dt><dd>article 0.7476 -> 0.7062, journal 0.7060 -> 0.6834</dd></div>
+          </dl>
+        </article>
+        <article class="surface experiment-card">
+          <div class="experiment-topline">
+            <span class="status-pill status-ready">PASSED</span>
+            <span>clean-date pilot v4</span>
+          </div>
+          <h3>Date/year projection gate</h3>
+          <p>
+            Kotu local sonucun ana nedeni olan yil etiketleme problemi icin 200 dokumanlik pilot
+            yeniden uretildi. Publication year artik <code>author</code> icinden kesilip
+            <code>date</code> olarak basiliyor; DOI, URL ve erisim tarihi yillari publication date
+            sayilmiyor.
+          </p>
+          <dl class="mini-facts">
+            <div><dt>Full clean</dt><dd>342078 refs, date 0.9705, author-year 0.0021</dd></div>
+            <div><dt>Other fields</dt><dd>title 0.9989, scope 0.8106, DOI 0.2991</dd></div>
+            <div><dt>Old model smoke</dt><dd>raw year 0.3946; author repair 0.4600</dd></div>
+          </dl>
+        </article>
+        <article class="surface experiment-card">
+          <div class="experiment-topline">
+            <span class="status-pill status-cancelled">FAILED EVAL</span>
+            <span>job 6118781</span>
+          </div>
+          <h3>Previous Wapiti citation run</h3>
+          <p>
+            300 iteration tamamlandi, fakat ayni <code>0.9.1-SNAPSHOT</code> image ve ayni 100 PDF
+            uzerindeki raw inference testinde stock modelden kotu cikti. Ana hata date/year
+            etiketlerinin author icine kaymasiydi; bu yuzden yeni clean-date run acildi.
+          </p>
+          <dl class="mini-facts">
+            <div><dt>Stock vs 6118781</dt><dd>match 0.9761 -> 0.9463, date 0.9881 -> 0.3751</dd></div>
+            <div><dt>Other fields</dt><dd>article 0.7476 -> 0.7018, journal 0.7060 -> 0.6794</dd></div>
+            <div><dt>Decision</dt><dd>model kullanilmayacak; clean corpus ile yeniden egitim</dd></div>
+          </dl>
+        </article>
+        <article class="surface experiment-card">
+          <div class="experiment-topline">
+            <span class="status-pill status-cancelled">CANCELLED</span>
+            <span>job 6118816</span>
+          </div>
+          <h3>40-thread resource benchmark</h3>
+          <p>
+            Bos CPU varken iteration hizlanir mi diye 40 thread / 192G ile kisa benchmark acildi.
+            Model kurulumu kapaliydi, bu yuzden ana model dosyasina dokunmadi. Olcum 20 thread'den
+            yavas cikinca job iptal edildi.
+          </p>
+          <dl class="mini-facts">
+            <div><dt>Mode</dt><dd>INSTALL_MODEL=0 benchmark</dd></div>
+            <div><dt>40-thread</dt><dd>iter1 768.33s, iter2 387.20s</dd></div>
+            <div><dt>Decision</dt><dd>ana run 20 thread'de devam</dd></div>
+          </dl>
+        </article>
+        <article class="surface experiment-card">
+          <div class="experiment-topline">
+            <span class="status-pill status-pending">PENDING</span>
+            <span>job 6119305</span>
+          </div>
+          <h3>Full DeLFT citation GPU</h3>
+          <p>
+            Lightweight olmayan GROBID citation modeli icin ayri source tree uzerinde acilan GPU run.
+            Full-citation tree guncel 9000 XML train split ile refresh edildi ve DeLFT venv'iyle
+            yeniden submit edildi.
+          </p>
+          <dl class="mini-facts">
+            <div><dt>Engine</dt><dd>DeLFT</dd></div>
+            <div><dt>Resources</dt><dd>akya-cuda, 1 GPU, 10 CPU, 128G RAM</dd></div>
+            <div><dt>Corpus</dt><dd>9000 train XML</dd></div>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Grafikler</h2>
+        <p>Wapiti iteration satirlarindaki objective, hata ve sure degerleri.</p>
+      </div>
+      <div class="chart-grid">
+        <div class="surface">
+          <div class="surface-heading">
+            <h3>Objective</h3>
+            <p>Kayip fonksiyonunun iteration boyunca degisimi.</p>
+          </div>
+          <canvas id="objective"></canvas>
+        </div>
+        <div class="chart-row">
+          <div class="surface">
+            <div class="surface-heading">
+              <h3>Error</h3>
+              <p>Kirmizi token error, turuncu sequence error.</p>
+            </div>
+            <canvas id="errors"></canvas>
+          </div>
+          <div class="surface">
+            <div class="surface-heading">
+              <h3>Iteration Time</h3>
+              <p>Her Wapiti iteration'inin dakika cinsinden suresi.</p>
+            </div>
+            <canvas id="times"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="surface">
+        <div class="surface-heading">
+          <h3>Recent Iterations</h3>
+          <p>Son iteration satirlari <code>progress.json</code> dosyasindan okunur.</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>iter</th><th>stage</th><th>objective</th><th>token err</th><th>seq err</th><th>min</th><th>total h</th></tr></thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+        <p id="statusline" class="statusline"></p>
+        <div id="error" class="error" style="display:none"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Training akisi</h2>
+        <p>Bu sayfada izlenen veri, duzeltilmis TEI corpus'tan Wapiti loguna kadar ayni hattan gelir.</p>
+      </div>
+      <div class="pipeline">
+        <div class="pipeline-step"><strong>GROBID TEI</strong><span>Mevcut model referanslar icin ilk TEI etiketlerini uretir.</span></div>
+        <div class="pipeline-step"><strong>TR Dizin</strong><span>TR Dizin referans metinleri ground truth kabul edilerek TEI duzeltilir.</span></div>
+        <div class="pipeline-step"><strong>Split</strong><span>10k corpus 9000 train, 500 dev ve 500 test dosyasina ayrilir.</span></div>
+        <div class="pipeline-step"><strong>Features</strong><span>Clean-date train split icin feature dosyasi bastan uretilir.</span></div>
+        <div class="pipeline-step"><strong>Wapiti</strong><span>CRF modeli optimize edilir ve log satirlari dashboard'a akar.</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid-2">
+        <article class="surface">
+          <div class="surface-heading">
+            <h3>Metrikler nasil okunur?</h3>
+          </div>
+          <dl class="definitions">
+            <dt>Objective</dt>
+            <dd>Optimizer'in minimize etmeye calistigi kayip fonksiyonu. Dusmesi beklenir, ama tek basina kalite garantisi degildir.</dd>
+            <dt>Token error</dt>
+            <dd>Tek tek token etiketlerinde hata orani. <code>author</code>, <code>title</code>, <code>date</code>, <code>idno</code> gibi alanlari etkiler.</dd>
+            <dt>Sequence error</dt>
+            <dd>Bir referans kaydinda herhangi bir hata olup olmadigina daha sert bakar; bu yuzden token error'dan yuksek kalabilir.</dd>
+            <dt>ETA</dt>
+            <dd>Son iteration surelerinden hesaplanan kaba tahmin. Stage baslari, checkpoint yazimi ve cluster yuku bu tahmini bozabilir.</dd>
+          </dl>
+        </article>
+        <article class="surface">
+          <div class="surface-heading">
+            <h3>Run notlari</h3>
+          </div>
+          <dl class="definitions">
+            <dt>Modeli istedigim anda alabilir miyim?</dt>
+            <dd>Hayir. Wapiti normal training sirasinda her iteration'da kullanilabilir model dosyasi yazmaz. Bu kurulumda kullanilabilir cikti tamamlanan stage/checkpoint sonunda beklenir.</dd>
+            <dt>Neden site aninda degismeyebilir?</dt>
+            <dd>TRUBA update'i event-driven calisir. GitHub Pages tarafinda statik cache olabilir; yeni log satirindan sonra Refresh en son JSON'u ister.</dd>
+            <dt>Neden 200 iteration?</dt>
+            <dd>Onceki run steady-state hizda yaklasik 334 saniye/iteration calisti. Sabah 07:00 hedefi icin yeni job 200 iteration olarak acildi.</dd>
+            <dt>citation ile reference-segmenter farki</dt>
+            <dd><code>reference-segmenter</code> kaynakca bolumunu referanslara ayirir. <code>citation</code> modeli tek bir referans string'ini alanlara ayirir.</dd>
+          </dl>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    let lastData = null;
+
+    function fmt(value, digits = 2) {
+      if (value === null || value === undefined || Number.isNaN(value)) return "-";
+      return Number(value).toFixed(digits);
+    }
+    function fmtEta(hours) {
+      if (hours === null || hours === undefined) return "-";
+      if (hours < 1) return `${Math.round(hours * 60)}m`;
+      const h = Math.floor(hours);
+      const m = Math.round((hours - h) * 60);
+      return `${h}h ${m}m`;
+    }
+    function scale(values, height, pad) {
+      const min = Math.min(...values);
+      const max = Math.max(...values);
+      const span = max - min || 1;
+      return (value) => height - pad - ((value - min) / span) * (height - pad * 2);
+    }
+    function drawChart(canvas, series) {
+      const rect = canvas.getBoundingClientRect();
+      const dpr = window.devicePixelRatio || 1;
+      canvas.width = Math.max(600, Math.floor(rect.width * dpr));
+      canvas.height = Math.floor(rect.height * dpr);
+      const ctx = canvas.getContext("2d");
+      ctx.scale(dpr, dpr);
+      const width = canvas.width / dpr;
+      const height = canvas.height / dpr;
+      const pad = 34;
+      ctx.clearRect(0, 0, width, height);
+      ctx.strokeStyle = "#d8dde6";
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(pad, pad);
+      ctx.lineTo(pad, height - pad);
+      ctx.lineTo(width - pad, height - pad);
+      ctx.stroke();
+      const allY = series.flatMap(s => s.y).filter(Number.isFinite);
+      if (!allY.length) return;
+      const xValues = series[0].x;
+      const minX = Math.min(...xValues);
+      const maxX = Math.max(...xValues);
+      const spanX = maxX - minX || 1;
+      const yScale = scale(allY, height, pad);
+      const xScale = (x) => pad + ((x - minX) / spanX) * (width - pad * 2);
+      ctx.fillStyle = "#5d6673";
+      ctx.font = "12px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif";
+      ctx.fillText(`${Math.round(Math.max(...allY) * 100) / 100}`, 4, pad + 4);
+      ctx.fillText(`${Math.round(Math.min(...allY) * 100) / 100}`, 4, height - pad);
+      ctx.fillText(`${minX}`, pad, height - 8);
+      ctx.fillText(`${maxX}`, width - pad - 28, height - 8);
+      for (const s of series) {
+        ctx.strokeStyle = s.color;
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        s.x.forEach((x, i) => {
+          const px = xScale(x);
+          const py = yScale(s.y[i]);
+          if (i === 0) ctx.moveTo(px, py);
+          else ctx.lineTo(px, py);
+        });
+        ctx.stroke();
+      }
+    }
+    function render(data) {
+      lastData = data;
+      const summary = data.summary || {};
+      const status = data.status || {};
+      const rows = data.rows || [];
+      $("job").textContent = data.job_id || "-";
+      $("jobHint").textContent = data.checkpoints?.latest ? `checkpoint ${data.checkpoints.latest}` : "";
+      $("state").textContent = status.state || (rows.length ? "LOG ONLY" : "-");
+      $("elapsed").textContent = status.elapsed ? `${status.elapsed} / ${status.time_limit || ""}` : "";
+      $("iter").textContent = summary.last_iteration ?? "-";
+      $("iterHint").textContent = summary.avg_last_iterations_min ? `${fmt(summary.avg_last_iterations_min)} min/iter` : "";
+      $("tokenErr").textContent = summary.token_error_pct == null ? "-" : `${fmt(summary.token_error_pct)}%`;
+      $("seqErr").textContent = summary.sequence_error_pct == null ? "-" : `${fmt(summary.sequence_error_pct)}%`;
+      $("eta").textContent = fmtEta(summary.eta_to_target_hours);
+      $("etaHint").textContent = summary.target_iteration ? `to iter ${summary.target_iteration}` : "";
+      $("statusline").textContent = `generated ${data.generated_at}; log ${data.log_file?.mtime_text || "missing"}`;
+      const errors = [data.status_error].filter(Boolean);
+      $("error").textContent = errors.join(" | ");
+      $("error").style.display = errors.length ? "block" : "none";
+      $("rows").innerHTML = rows.slice(-12).reverse().map(r => (
+        `<tr><td>${r.iteration}</td><td>${r.stage}</td><td>${fmt(r.objective, 2)}</td><td>${fmt(r.token_error_pct, 2)}%</td><td>${fmt(r.sequence_error_pct, 2)}%</td><td>${fmt(r.iteration_seconds / 60, 2)}</td><td>${fmt(r.total_hours, 2)}</td></tr>`
+      )).join("");
+      const x = rows.map(r => r.iteration);
+      drawChart($("objective"), [{ x, y: rows.map(r => r.objective), color: "#1f65d6" }]);
+      drawChart($("errors"), [
+        { x, y: rows.map(r => r.token_error_pct), color: "#c93434" },
+        { x, y: rows.map(r => r.sequence_error_pct), color: "#d9741f" },
+      ]);
+      drawChart($("times"), [{ x, y: rows.map(r => r.iteration_seconds / 60), color: "#25835a" }]);
+    }
+    async function load() {
+      const response = await fetch(`progress.json?ts=${Date.now()}`, { cache: "no-store" });
+      render(await response.json());
+    }
+    $("refresh").addEventListener("click", load);
+    window.addEventListener("resize", () => { if (lastData) render(lastData); });
+    load().catch(error => {
+      $("error").textContent = error.message;
+      $("error").style.display = "block";
+    });
+  </script>
+</body>
+</html>

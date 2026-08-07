@@ -1,0 +1,22 @@
+{
+  "base_found_before_dergipark": 6072,
+  "base_found_before_dergipark_rate_percent": 60.72,
+  "complete": true,
+  "dergipark_file_url_only": 15,
+  "dergipark_get_record_targets": 27,
+  "dergipark_list_records_targets": 0,
+  "dergipark_no_match": 0,
+  "dergipark_no_oai_filter": 3886,
+  "dergipark_not_checked": 0,
+  "dergipark_oai_queryable": 27,
+  "dergipark_possible_matches": 0,
+  "dergipark_request_errors": 0,
+  "dergipark_strong_matches": 27,
+  "dergipark_target_total": 3928,
+  "experiment7_broad_found": 6099,
+  "experiment7_broad_found_rate_percent": 60.99,
+  "experiment7_strict_found": 6099,
+  "experiment7_strict_found_rate_percent": 60.99,
+  "experiment_label": "Deney 7 - DergiPark OAI-PMH direct filter",
+  "sampled_references": 10000
+}

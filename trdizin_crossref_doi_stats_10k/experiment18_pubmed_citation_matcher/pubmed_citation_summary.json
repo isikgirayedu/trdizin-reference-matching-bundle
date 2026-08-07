@@ -1,0 +1,16 @@
+{
+  "base_found_before_experiment18": 6367,
+  "base_found_before_experiment18_rate_percent": 63.67,
+  "complete": true,
+  "experiment18_auto_resolved_found": 6367,
+  "experiment18_auto_resolved_rate_percent": 63.67,
+  "experiment_label": "Deney 18 - PubMed Citation Matcher",
+  "pubmed_no_match": 35,
+  "pubmed_pmids_found": 15,
+  "pubmed_possible_matches": 15,
+  "pubmed_strong_matches": 0,
+  "pubmed_strong_with_doi": 0,
+  "pubmed_targets": 50,
+  "pubmed_unique_citations": 50,
+  "sampled_references": 10000
+}

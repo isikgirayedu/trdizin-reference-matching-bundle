@@ -1,0 +1,75 @@
+{
+  "doi_unlikely_exclusive_count": 1962,
+  "doi_unlikely_exclusive_remaining_rate_percent": 54.0,
+  "exclusive_categories": [
+    {
+      "category": "hidden_doi",
+      "count": 11,
+      "label": "Gizli DOI",
+      "remaining_rate_percent": 0.3,
+      "total_rate_percent": 0.11
+    },
+    {
+      "category": "dergipark_file",
+      "count": 11,
+      "label": "DergiPark article-file",
+      "remaining_rate_percent": 0.3,
+      "total_rate_percent": 0.11
+    },
+    {
+      "category": "thesis",
+      "count": 291,
+      "label": "Tez",
+      "remaining_rate_percent": 8.01,
+      "total_rate_percent": 2.91
+    },
+    {
+      "category": "report_policy_legal",
+      "count": 184,
+      "label": "Rapor / mevzuat / hukuk",
+      "remaining_rate_percent": 5.06,
+      "total_rate_percent": 1.84
+    },
+    {
+      "category": "url_web",
+      "count": 482,
+      "label": "Web / haber / video",
+      "remaining_rate_percent": 13.27,
+      "total_rate_percent": 4.82
+    },
+    {
+      "category": "conference",
+      "count": 53,
+      "label": "Konferans / bildiri",
+      "remaining_rate_percent": 1.46,
+      "total_rate_percent": 0.53
+    },
+    {
+      "category": "book_or_chapter",
+      "count": 952,
+      "label": "Kitap / kitap bolumu",
+      "remaining_rate_percent": 26.2,
+      "total_rate_percent": 9.52
+    },
+    {
+      "category": "journal_like_left",
+      "count": 556,
+      "label": "Journal-like kalan",
+      "remaining_rate_percent": 15.3,
+      "total_rate_percent": 5.56
+    },
+    {
+      "category": "other",
+      "count": 1093,
+      "label": "Diger / zayif parse",
+      "remaining_rate_percent": 30.09,
+      "total_rate_percent": 10.93
+    }
+  ],
+  "experiment_label": "Deney 18 sonrasi kalan referans siniflandirmasi",
+  "found_after_experiment18": 6367,
+  "found_after_experiment18_rate_percent": 63.67,
+  "remaining_after_experiment18": 3633,
+  "remaining_after_experiment18_rate_percent": 36.33,
+  "sampled_references": 10000
+}

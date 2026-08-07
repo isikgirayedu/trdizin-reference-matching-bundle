@@ -1,0 +1,22 @@
+{
+  "base_found_before_experiment13": 6363,
+  "base_found_before_experiment13_rate_percent": 63.63,
+  "complete": true,
+  "component_counts": {
+    "base_union_after_experiment12": 6363,
+    "trdizin_title_crossref_doi": 0,
+    "trdizin_title_id_only_or_unverified_doi": 4
+  },
+  "experiment13_auto_resolved_found": 6367,
+  "experiment13_auto_resolved_rate_percent": 63.67,
+  "experiment13_new_auto_resolved_rate_percent": 0.04,
+  "experiment_label": "Deney 13 - TR Dizin title search resolver",
+  "remaining_before_experiment13": 3637,
+  "sampled_references": 10000,
+  "title_search_targets": 551,
+  "trdizin_title_no_match": 547,
+  "trdizin_title_possible_matches": 0,
+  "trdizin_title_strong_crossref_doi_found": 0,
+  "trdizin_title_strong_matches": 4,
+  "trdizin_title_strong_with_doi": 0
+}

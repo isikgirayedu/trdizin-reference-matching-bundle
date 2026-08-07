@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GROBID Mimarisi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <p class="eyebrow">TR Dizin training</p>
+      <h1>GROBID Dashboard</h1>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Canli takip</a>
+      <a href="experiments.html">Experiments</a>
+      <a class="active" href="architecture.html">Mimari</a>
+      <a href="https://github.com/isikgirayedu/grobid-dashboard" rel="noreferrer">GitHub</a>
+      <a href="https://grobid.readthedocs.io/en/latest/Principles/" rel="noreferrer">Official docs</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Sistem mimarisi</p>
+        <h2>GROBID bilimsel PDF'leri birbirine baglanan sequence-labeling modelleriyle TEI XML'e cevirir.</h2>
+        <p>
+          Bu sayfa, TR Dizin referans projesini anlamak icin gereken parcalari tek akista toplar:
+          PDF layout analizi, layout token'lar, cascade modeller, <code>reference-segmenter</code> ile
+          <code>citation</code> ayrimi, Wapiti/DeLFT motorlari ve training corpus yapisi.
+        </p>
+      </div>
+      <div class="hero-meta" aria-label="Architecture summary">
+        <div><span>Input</span><strong>PDF veya referans string'i</strong></div>
+        <div><span>Representation</span><strong>Layout token</strong></div>
+        <div><span>Models</span><strong>Cascade sequence labelers</strong></div>
+        <div><span>Output</span><strong>TEI XML</strong></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Uctan uca isleme hatti</h2>
+        <p>GROBID tek buyuk model yerine, her isi daha dar bir modele veren ardisik bir yapi kullanir.</p>
+      </div>
+      <div class="pipeline">
+        <div class="pipeline-step"><strong>PDF input</strong><span>Makale PDF'i veya referans bolumu ham kaynak olarak gelir.</span></div>
+        <div class="pipeline-step"><strong>Layout analysis</strong><span>Metin, font, koordinat, satir, blok ve sayfa pozisyonlari cikarilir.</span></div>
+        <div class="pipeline-step"><strong>Layout tokens</strong><span>Token sadece string degildir; font, stil, bbox ve spacing bilgisi de tasir.</span></div>
+        <div class="pipeline-step"><strong>Cascade models</strong><span>Segmentation, header, fulltext, reference-segmenter ve citation gibi modeller sirayla calisir.</span></div>
+        <div class="pipeline-step"><strong>TEI XML</strong><span>Sonuc yazar, baslik, kaynakca, referans alanlari ve koordinatlari iceren yapisal XML'dir.</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid-2">
+        <article class="surface">
+          <div class="surface-heading">
+            <h3>Neden cascade?</h3>
+          </div>
+          <p>
+            Bilimsel PDF'de header, govde, kaynakca ve tekil referans string'i ayni istatistiksel
+            probleme benzemez. Her bolge farkli label seti ve farkli baglam ister. GROBID once
+            buyuk bolgeleri bulur, sonra her bolgeyi daha kucuk uzman modellerle isler.
+          </p>
+          <ul class="compact-list">
+            <li><code>segmentation</code> dokumani header, body, references, footnotes gibi ana bolgelere ayirir.</li>
+            <li><code>header</code> title, abstract, authors ve affiliation gibi alanlari etiketler.</li>
+            <li><code>reference-segmenter</code> kaynakca bolumunu tek tek referans kayitlarina ayirir.</li>
+            <li><code>citation</code> tek referans kaydinin icindeki author, title, date, journal, volume ve DOI gibi alanlari etiketler.</li>
+          </ul>
+        </article>
+        <article class="surface">
+          <div class="surface-heading">
+            <h3>Layout token mantigi</h3>
+          </div>
+          <p>
+            Duz metin, PDF'teki yapisal ipuclarini kaybettirir. GROBID tokenlari font buyuklugu,
+            bold/italic, superscript/subscript, satir ve bounding box gibi layout bilgisini de feature
+            olarak kullanir. Bu ozellikle header ve kaynakca gibi formatin semantigi isaret ettigi
+            alanlarda kritiktir.
+          </p>
+          <div class="tag-row">
+            <span class="tag">token text</span>
+            <span class="tag">font size</span>
+            <span class="tag">font name</span>
+            <span class="tag">bold/italic</span>
+            <span class="tag">x/y bbox</span>
+            <span class="tag">line/block</span>
+            <span class="tag">relative spacing</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Bu projede egitilen parca</h2>
+        <p>Bu run tum GROBID'i bastan egitmez; yalnizca <code>citation</code> modeline odaklanir.</p>
+      </div>
+      <div class="grid-3">
+        <div class="surface">
+          <h3>Girdi</h3>
+          <p>Tek bir bibliyografik referans string'i: yazar, baslik, dergi, yil, cilt, sayfa ve DOI gibi bolumler.</p>
+        </div>
+        <div class="surface">
+          <h3>Hedef etiketler</h3>
+          <p><code>author</code>, <code>title</code>, <code>date</code>, <code>biblScope</code>, <code>idno</code>, <code>publisher</code> gibi citation alanlari.</p>
+        </div>
+        <div class="surface">
+          <h3>Cikti</h3>
+          <p>TEI icinde <code>&lt;bibl&gt;</code> yapisi. Bu yapi GROBID'in downstream bibliyografik ciktilarina temel olur.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid-2">
+        <article class="surface">
+          <div class="surface-heading">
+            <h3>Citation ile reference-segmenter farki</h3>
+          </div>
+          <dl class="definitions">
+            <dt>reference-segmenter</dt>
+            <dd>Kaynakca bolumu icindeki her referansin sinirini bulur. Bir uzun bibliography string'ini referans listesine ayirir.</dd>
+            <dt>citation</dt>
+            <dd>Zaten tekil hale gelmis bir referansi alanlara ayirir. Bizim TR Dizin corpus'u bu model icindir.</dd>
+          </dl>
+          <div class="callout">
+            <strong>Pratik karar</strong>
+            <span>Referans satirlari yanlis bolunuyorsa <code>reference-segmenter</code>; yazar, baslik veya yil yanlis etiketleniyorsa <code>citation</code> egitilir.</span>
+          </div>
+        </article>
+        <article class="surface">
+          <div class="surface-heading">
+            <h3>Wapiti CRF ve DeLFT</h3>
+          </div>
+          <p>
+            GROBID sequence labeling icin soyut bir arayuz kullanir. Varsayilan motor Wapiti CRF'tir.
+            DeLFT tabanli BidLSTM-CRF veya BERT-CRF gibi neural modeller bazi modeller icin secilebilir.
+          </p>
+          <ul class="compact-list">
+            <li><strong>Wapiti CRF:</strong> CPU uzerinde calisan, feature-heavy, L-BFGS ile optimize edilen klasik sequence labeler.</li>
+            <li><strong>DeLFT:</strong> Neural sequence labeling modellerini GROBID'e baglayan yol.</li>
+            <li><strong>Mixed mode:</strong> Her model icin ayri engine secilebilir; tum sistemi tek engine'e zorlamak gerekmez.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Training data akisi</h2>
+        <p>GROBID modelleri TEI annotation dosyalarindan token/feature/label satirlarina iner.</p>
+      </div>
+      <div class="surface">
+        <ol class="steps">
+          <li><strong>Pre-annotation</strong><span>GROBID mevcut modelle training TEI dosyalari uretebilir.</span></li>
+          <li><strong>Correction</strong><span>Normal yontemde insan TEI taglerini duzeltir. Bizde bu duzeltme TR Dizin referanslariyla otomatiklestiriliyor.</span></li>
+          <li><strong>Corpus placement</strong><span>Dosyalar <code>grobid-trainer/resources/dataset/citation/corpus/</code> altina konur.</span></li>
+          <li><strong>Feature generation</strong><span>Trainer TEI'yi token, feature ve label satirlarina cevirir. Etiketlerin metin akisiyle hizasi bozulmamalidir.</span></li>
+          <li><strong>Wapiti training</strong><span>Wapiti her iteration'da objective ve error satiri yazar; tamamlanan stage sonunda checkpoint alinabilir.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid-2">
+        <article class="surface">
+          <div class="surface-heading">
+            <h3>TEI etiketleri neden hassas?</h3>
+          </div>
+          <p>
+            GROBID training dosyalarinda metin akisi korunmalidir. Etiketler hareket eder, ama PDF'ten
+            gelen token stream'i keyfi duzeltilmez. Model inference sirasinda yine ayni tur PDF kaynakli
+            noise, spacing, Unicode ve line-break problemleriyle calisir.
+          </p>
+          <p>
+            Citation modelinde <code>&lt;bibl&gt;</code> bir referansi temsil eder. Iceride
+            <code>&lt;author&gt;</code>, <code>&lt;title level="a"&gt;</code>,
+            <code>&lt;title level="j"&gt;</code>, <code>&lt;date&gt;</code>,
+            <code>&lt;biblScope&gt;</code> ve <code>&lt;idno&gt;</code> gibi alanlar bulunur.
+          </p>
+        </article>
+        <article class="surface">
+          <div class="surface-heading">
+            <h3>Hata yayilimi</h3>
+          </div>
+          <p>
+            Cascade mimaride onceki modelin hatasi sonraki modele tasinabilir. Kaynakca bolumu yanlis
+            segmentlenirse citation modeli eksik veya kirpilmis referans alir.
+          </p>
+          <p>
+            Bu projede basariyi en dogru olcen sey, TR Dizin benzeri referanslarda alan bazli
+            precision/recall ve gercek PDF'lerden gelen referans string'leri uzerindeki out-of-sample testtir.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Dashboard mimarisi</h2>
+        <p>Training sistemi TRUBA'da, yayin sistemi GitHub Pages uzerinde calisir.</p>
+      </div>
+      <div class="pipeline">
+        <div class="pipeline-step"><strong>Slurm job</strong><span>TRUBA'da <code>train_citation_continuous_from_features</code> Wapiti logu uretir.</span></div>
+        <div class="pipeline-step"><strong>Publisher</strong><span><code>tail -F</code> yeni iteration/checkpoint satiri gorunce JSON'u yeniden uretir.</span></div>
+        <div class="pipeline-step"><strong>Git push</strong><span><code>main</code> ve <code>gh-pages</code> branch'lerine <code>progress.json</code> push edilir.</span></div>
+        <div class="pipeline-step"><strong>GitHub Pages</strong><span>Statik HTML, CSS ve JSON dosyalarini public URL'den servis eder.</span></div>
+        <div class="pipeline-step"><strong>Browser</strong><span>Dashboard <code>progress.json</code> okuyup grafikleri client-side cizer.</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Kaynaklar</h2>
+        <p>GROBID mimarisi ve training detaylari icin resmi dokumanlar.</p>
+      </div>
+      <div class="surface">
+        <ul class="source-list">
+          <li><a href="https://grobid.readthedocs.io/en/latest/Principles/" rel="noreferrer">GROBID: How GROBID works</a> - cascade modeller, layout token ve tasarim prensipleri.</li>
+          <li><a href="https://grobid.readthedocs.io/en/latest/Training-the-models-of-Grobid/" rel="noreferrer">Training and evaluating GROBID models</a> - model listesi, corpus klasorleri, training komutlari.</li>
+          <li><a href="https://grobid.readthedocs.io/en/latest/training/General-principles/" rel="noreferrer">Training data general principles</a> - pre-annotation ve TEI duzeltme kurallari.</li>
+          <li><a href="https://grobid.readthedocs.io/en/latest/training/Bibliographical-references/" rel="noreferrer">Bibliographical references guidelines</a> - citation modelinin TEI etiketleri.</li>
+          <li><a href="https://grobid.readthedocs.io/en/latest/Deep-Learning-models/" rel="noreferrer">Deep Learning models</a> - Wapiti/DeLFT mixed mode ve citation modeli icin neural alternatifler.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

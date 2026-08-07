@@ -1,0 +1,20 @@
+{
+  "base_found_before_experiment8": 6099,
+  "base_found_before_experiment8_rate_percent": 60.99,
+  "complete": true,
+  "experiment8_article_like_targets": 848,
+  "experiment8_broad_found": 6101,
+  "experiment8_broad_found_rate_percent": 61.01,
+  "experiment8_hidden_doi_targets": 1,
+  "experiment8_no_match": 847,
+  "experiment8_not_article_like": 3052,
+  "experiment8_possible_matches": 0,
+  "experiment8_queryable": 849,
+  "experiment8_search_errors": 0,
+  "experiment8_strict_found": 6101,
+  "experiment8_strict_found_rate_percent": 61.01,
+  "experiment8_strong_matches": 2,
+  "experiment8_target_remaining": 3901,
+  "experiment_label": "Deney 8 - Crossref cleanup + query variants",
+  "sampled_references": 10000
+}

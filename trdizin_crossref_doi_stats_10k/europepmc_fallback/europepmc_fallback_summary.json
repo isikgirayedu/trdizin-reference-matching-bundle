@@ -1,0 +1,18 @@
+{
+  "base_found_before_europepmc": 6101,
+  "base_found_before_europepmc_rate_percent": 61.01,
+  "complete": true,
+  "europepmc_matches_with_doi": 3,
+  "europepmc_no_match": 59,
+  "europepmc_pmid_targets": 3,
+  "europepmc_possible_matches": 0,
+  "europepmc_search_errors": 0,
+  "europepmc_strong_matches": 22,
+  "europepmc_target_total": 81,
+  "experiment9_broad_found": 6123,
+  "experiment9_broad_found_rate_percent": 61.23,
+  "experiment9_strict_found": 6123,
+  "experiment9_strict_found_rate_percent": 61.23,
+  "experiment_label": "Deney 9 - Europe PMC biomedical fallback",
+  "sampled_references": 10000
+}

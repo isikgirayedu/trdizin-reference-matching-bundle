@@ -1,0 +1,13 @@
+{
+  "db": "trdizin_crossref_doi_stats_10k/google_scholar_links/google_scholar_links.sqlite",
+  "error_results": 0,
+  "input": "trdizin_crossref_doi_stats_10k/remaining_after_experiment19/remaining_after_experiment19_references.jsonl",
+  "null_results": 17,
+  "processed_rows": 20,
+  "profile_dir": "trdizin_crossref_doi_stats_10k/google_scholar_links/browser_profile",
+  "provider": "browser",
+  "requested_rows": 20,
+  "run_id": 2,
+  "skipped_existing": 0,
+  "unique_results_saved_with_link": 3
+}

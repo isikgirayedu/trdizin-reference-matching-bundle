@@ -1,0 +1,12 @@
+{
+  "db": "trdizin_crossref_doi_stats_10k/google_scholar_links/mock_google_scholar_links.sqlite",
+  "error_results": 0,
+  "input": "trdizin_crossref_doi_stats_10k/remaining_after_experiment19/remaining_after_experiment19_references.jsonl",
+  "null_results": 5,
+  "processed_rows": 5,
+  "provider": "mock",
+  "requested_rows": 5,
+  "run_id": 1,
+  "skipped_existing": 0,
+  "unique_results_saved_with_link": 0
+}

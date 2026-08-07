@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.sqlite-wal
+*.sqlite-shm
+
+# Browser automation profiles may contain local session/cookie/cache state.
+trdizin_crossref_doi_stats_10k/google_scholar_links/browser_profile/
+trdizin_crossref_doi_stats_10k/google_scholar_links/selenium_profile/
+trdizin_crossref_doi_stats_10k/google_scholar_links/selenium_profile_wait/
+trdizin_crossref_doi_stats_10k/google_scholar_links/selenium_profile_eager/
