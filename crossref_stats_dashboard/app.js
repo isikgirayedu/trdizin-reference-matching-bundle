@@ -318,16 +318,16 @@ const experiments = [
     id: "fuzzy-matching",
     label: "Deney 20",
     title: "Fuzzy Matching (Şükran)",
-    found: 6410,
-    rate: 64.1,
+    found: 6414,
+    rate: 64.14,
     description:
-      "Deney 19 sonrasi kalan 3.590 referans uzerinde harf hatalarini, Turkce karakter bozukluklarini ve format farklarini tolere eden esnek metin benzerligi (Fuzzy String Matching) ve Crossref API arama altyapisi eklendi.",
+      "Deney 19 sonrasi kalan 3.590 referans uzerinde harf hatalarini, Turkce karakter bozukluklarini ve format farklarini tolere eden esnek metin benzerligi (Fuzzy String Matching), OpenAlex ve Google Books API arama altyapisi eklendi.",
     note:
-      "gelistirme-sukran dalinda geliştirildi. Pilot test tamamlandi, esnek arama modulu dashboard'a entegre edildi.",
+      "gelistirme-sukran dalinda 3.590 kalan referansin tamamı tarandi. 4 yeni strong DOI eslesmesi kazanildi (%64.10 -> %64.14).",
     color: "#e11d48",
     components: [
       { label: "Deney 19 baz", value: 6410, color: "#2563eb" },
-      { label: "Fuzzy Matching (Geliştirilmekte)", value: 0, color: "#e11d48" },
+      { label: "Deney 20 Fuzzy Strong", value: 4, color: "#e11d48" },
     ],
   },
   {

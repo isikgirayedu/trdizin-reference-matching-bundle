@@ -1,8 +1,16 @@
 {
-  "total_processed": 10,
-  "new_strong_matches": 0,
-  "match_rate_percentage": 0.0,
+  "total_processed": 3590,
+  "new_strong_matches": 4,
+  "match_rate_percentage": 0.11,
   "category_breakdown": {
-    "journal_like_left": 10
+    "book_or_chapter": 949,
+    "report_policy_legal": 182,
+    "thesis": 291,
+    "other": 1071,
+    "url_web": 473,
+    "conference": 52,
+    "journal_like_left": 551,
+    "hidden_doi": 11,
+    "dergipark_file": 10
   }
 }

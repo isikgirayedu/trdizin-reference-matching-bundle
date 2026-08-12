@@ -100,6 +100,71 @@ def query_crossref_fuzzy(clean_title: str, year: Optional[int] = None) -> Option
     return None
 
 
+def query_openalex_fuzzy(clean_title: str, year: Optional[int] = None) -> Optional[Dict[str, Any]]:
+    """OpenAlex API'ye esnek arama sorgusu atar."""
+    if not clean_title or len(clean_title) < 10:
+        return None
+
+    url = "https://api.openalex.org/works"
+    params: Dict[str, Any] = {
+        "search": clean_title,
+        "per-page": 3,
+        "mailto": CONTACT_EMAIL
+    }
+    try:
+        resp = requests.get(url, params=params, headers=HEADERS, timeout=8)
+        if resp.status_code == 200:
+            data = resp.json()
+            results = data.get("results", [])
+            for item in results:
+                cand_title = item.get("title") or ""
+                sim = calculate_similarity(clean_title, cand_title)
+                doi = item.get("doi")
+                if sim >= 0.80 and doi:
+                    clean_doi = doi.replace("https://doi.org/", "")
+                    return {
+                        "doi": clean_doi,
+                        "title": cand_title,
+                        "similarity": round(sim, 3),
+                        "publisher": item.get("host_venue", {}).get("publisher") if item.get("host_venue") else None,
+                        "source": "openalex_fuzzy"
+                    }
+    except Exception:
+        pass
+    return None
+
+
+def query_google_books_fuzzy(clean_title: str) -> Optional[Dict[str, Any]]:
+    """Google Books API'ye kitap referansı için arama sorgusu atar."""
+    if not clean_title or len(clean_title) < 10:
+        return None
+
+    url = "https://www.googleapis.com/books/v1/volumes"
+    params = {"q": clean_title, "maxResults": 3}
+    try:
+        resp = requests.get(url, params=params, timeout=8)
+        if resp.status_code == 200:
+            data = resp.json()
+            items = data.get("items", [])
+            for item in items:
+                vinfo = item.get("volumeInfo", {})
+                cand_title = vinfo.get("title", "")
+                sim = calculate_similarity(clean_title, cand_title)
+                if sim >= 0.75:
+                    isbns = [id_obj.get("identifier") for id_obj in vinfo.get("industryIdentifiers", []) if id_obj.get("type") in ("ISBN_13", "ISBN_10")]
+                    isbn_val = isbns[0] if isbns else None
+                    return {
+                        "doi": f"ISBN:{isbn_val}" if isbn_val else f"GBOOKS:{item.get('id')}",
+                        "title": cand_title,
+                        "similarity": round(sim, 3),
+                        "publisher": vinfo.get("publisher"),
+                        "source": "google_books_fuzzy"
+                    }
+    except Exception:
+        pass
+    return None
+
+
 def load_remaining_references(input_path: Path) -> List[Dict[str, Any]]:
     """Deney 19 sonrası kalan referansları yükler."""
     references = []
@@ -115,9 +180,43 @@ def load_remaining_references(input_path: Path) -> List[Dict[str, Any]]:
     return references
 
 
-def process_fuzzy_matching(references: List[Dict[str, Any]], limit: Optional[int] = None, category_filter: Optional[str] = None) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+def _process_single_ref(ref: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    cat = ref.get("exclusive_category", "other")
+    context = ref.get("context", "")
+    clean_t = normalize_text(context)
+    ref_year = extract_year(context)
+
+    # 1. Crossref Fuzzy
+    match_res = query_crossref_fuzzy(clean_t, ref_year)
+    
+    # 2. OpenAlex Fuzzy (Eğer Crossref bulamadıysa)
+    if not match_res:
+        match_res = query_openalex_fuzzy(clean_t, ref_year)
+
+    # 3. Google Books Fuzzy (Kitaplar veya kalanlar için)
+    if not match_res and cat in ("book_or_chapter", "other"):
+        match_res = query_google_books_fuzzy(clean_t)
+
+    if match_res:
+        return {
+            "sample_index": ref.get("sample_index"),
+            "publication_id": ref.get("publication_id"),
+            "reference_id": ref.get("reference_id"),
+            "context": context,
+            "exclusive_category": cat,
+            "matched_doi": match_res["doi"],
+            "matched_title": match_res["title"],
+            "similarity": match_res["similarity"],
+            "source": match_res["source"]
+        }
+    return None
+
+
+def process_fuzzy_matching(references: List[Dict[str, Any]], limit: Optional[int] = None, category_filter: Optional[str] = None, max_workers: int = 12) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
     """
-    Kalan referanslar üzerinde esnek eşleştirme (Fuzzy Matching) algoritmasını çalıştırır.
+    Kalan referanslar üzerinde paralel (multithreaded) esnek eşleştirme (Fuzzy Matching) çalıştırır.
     """
     matches = []
     category_counts: Dict[str, int] = {}
@@ -130,36 +229,22 @@ def process_fuzzy_matching(references: List[Dict[str, Any]], limit: Optional[int
     if limit:
         target_refs = target_refs[:limit]
 
-    print(f"-> Toplam {len(target_refs)} referans üzerinde Fuzzy Matching çalıştırılıyor...")
-
-    for idx, ref in enumerate(target_refs, 1):
-        cat = ref.get("exclusive_category", "other")
+    for r in target_refs:
+        cat = r.get("exclusive_category", "other")
         category_counts[cat] = category_counts.get(cat, 0) + 1
 
-        context = ref.get("context", "")
-        clean_t = normalize_text(context)
-        ref_year = extract_year(context)
+    print(f"-> Toplam {len(target_refs)} referans üzerinde {max_workers} paralel iş parçacığı (worker) ile Fuzzy Matching çalıştırılıyor...")
 
-        # Öncelik: Journal-like referanslar ve generic metinler
-        match_res = query_crossref_fuzzy(clean_t, ref_year)
-        if match_res:
-            match_entry = {
-                "sample_index": ref.get("sample_index"),
-                "publication_id": ref.get("publication_id"),
-                "reference_id": ref.get("reference_id"),
-                "context": context,
-                "exclusive_category": cat,
-                "matched_doi": match_res["doi"],
-                "matched_title": match_res["title"],
-                "similarity": match_res["similarity"],
-                "source": match_res["source"]
-            }
-            matches.append(match_entry)
-
-        if idx % 5 == 0 or idx == len(target_refs):
-            print(f"   İşlenen: {idx}/{len(target_refs)} | Yeni Bulunan Eşleşme: {len(matches)}", end="\r", flush=True)
-
-        time.sleep(0.1)  # API rate-limit önlemi
+    completed_count = 0
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_ref = {executor.submit(_process_single_ref, ref): ref for ref in target_refs}
+        for future in as_completed(future_to_ref):
+            completed_count += 1
+            res = future.result()
+            if res:
+                matches.append(res)
+            if completed_count % 10 == 0 or completed_count == len(target_refs):
+                print(f"   İşlenen: {completed_count}/{len(target_refs)} | Yeni Bulunan Eşleşme: {len(matches)}", end="\r", flush=True)
 
     print()
     stats = {
