@@ -54,17 +54,121 @@ def extract_year(text: str) -> Optional[int]:
     return None
 
 
-def calculate_similarity(s1: str, s2: str) -> float:
-    """İki metin arasındaki SequenceMatcher benzerlik skorunu (0.0 - 1.0) hesaplar."""
+def damerau_levenshtein_distance(s1: str, s2: str) -> int:
+    """Damerau-Levenshtein mesafe hesabı (Ekleme, Silme, Değiştirme, Komşu Yer Değiştirme)."""
+    d: Dict[Tuple[int, int], int] = {}
+    len1, len2 = len(s1), len(s2)
+    for i in range(-1, len1 + 1):
+        d[(i, -1)] = i + 1
+    for j in range(-1, len2 + 1):
+        d[(-1, j)] = j + 1
+
+    for i in range(len1):
+        for j in range(len2):
+            cost = 0 if s1[i] == s2[j] else 1
+            d[(i, j)] = min(
+                d[(i - 1, j)] + 1,        # deletion
+                d[(i, j - 1)] + 1,        # insertion
+                d[(i - 1, j - 1)] + cost,  # substitution
+            )
+            if i > 0 and j > 0 and s1[i] == s2[j - 1] and s1[i - 1] == s2[j]:
+                d[(i, j)] = min(d[(i, j)], d[(i - 2, j - 2)] + 1)  # transposition
+
+    return d[(len1 - 1, len2 - 1)]
+
+
+def damerau_levenshtein_ratio(s1: str, s2: str) -> float:
+    """Damerau-Levenshtein benzerlik oranı (0.0 - 1.0)."""
+    max_len = max(len(s1), len(s2))
+    if max_len == 0:
+        return 1.0
+    dist = damerau_levenshtein_distance(s1, s2)
+    return 1.0 - (dist / max_len)
+
+
+def jaro_winkler_similarity(s1: str, s2: str, p: float = 0.1) -> float:
+    """Jaro-Winkler benzerlik oranı (Özellikle yazar adı ve başlık ön eki eşleşmesinde güçlüdür)."""
+    len1, len2 = len(s1), len(s2)
+    if len1 == 0 and len2 == 0:
+        return 1.0
+    if len1 == 0 or len2 == 0:
+        return 0.0
+
+    match_distance = max(len1, len2) // 2 - 1
+    if match_distance < 0:
+        match_distance = 0
+
+    s1_matches = [False] * len1
+    s2_matches = [False] * len2
+    matches = 0
+    transpositions = 0
+
+    for i in range(len1):
+        start = max(0, i - match_distance)
+        end = min(i + match_distance + 1, len2)
+        for j in range(start, end):
+            if s2_matches[j]:
+                continue
+            if s1[i] != s2[j]:
+                continue
+            s1_matches[i] = True
+            s2_matches[j] = True
+            matches += 1
+            break
+
+    if matches == 0:
+        return 0.0
+
+    k = 0
+    for i in range(len1):
+        if not s1_matches[i]:
+            continue
+        while not s2_matches[k]:
+            k += 1
+        if s1[i] != s2[k]:
+            transpositions += 1
+        k += 1
+
+    jaro = (matches / len1 + matches / len2 + (matches - transpositions / 2.0) / matches) / 3.0
+
+    # Winkler prefix bonusu (İlk 4 karaktere kadar ön ek ağırlığı)
+    prefix = 0
+    for i in range(min(4, len1, len2)):
+        if s1[i] == s2[i]:
+            prefix += 1
+        else:
+            break
+
+    return jaro + prefix * p * (1.0 - jaro)
+
+
+def calculate_similarity(s1: str, s2: str) -> Dict[str, float]:
+    """
+    Çoklu Algoritma Hibrit Harmanı:
+    - Ratcliff/Obershelp (Gestalt) : %40
+    - Damerau-Levenshtein Ratio     : %35
+    - Jaro-Winkler Similarity      : %25
+    """
     n1 = normalize_text(s1)
     n2 = normalize_text(s2)
     if not n1 or not n2:
-        return 0.0
-    return SequenceMatcher(None, n1, n2).ratio()
+        return {"hybrid": 0.0, "gestalt": 0.0, "damerau_levenshtein": 0.0, "jaro_winkler": 0.0}
+
+    gestalt = SequenceMatcher(None, n1, n2).ratio()
+    dl_ratio = damerau_levenshtein_ratio(n1, n2)
+    jw_score = jaro_winkler_similarity(n1, n2)
+
+    hybrid = (0.40 * gestalt) + (0.35 * dl_ratio) + (0.25 * jw_score)
+    return {
+        "hybrid": round(hybrid, 4),
+        "gestalt": round(gestalt, 4),
+        "damerau_levenshtein": round(dl_ratio, 4),
+        "jaro_winkler": round(jw_score, 4)
+    }
 
 
 def query_crossref_fuzzy(clean_title: str, year: Optional[int] = None) -> Optional[Dict[str, Any]]:
-    """Crossref API'ye esnek bibliyografik sorgu atar ve fuzzy similarity ile doğrulama yapar."""
+    """Crossref API'ye esnek bibliyografik sorgu atar ve hibrit similarity ile doğrulama yaparlar."""
     if not clean_title or len(clean_title) < 10:
         return None
 
@@ -86,14 +190,15 @@ def query_crossref_fuzzy(clean_title: str, year: Optional[int] = None) -> Option
                 if not title_list:
                     continue
                 cand_title = title_list[0]
-                sim = calculate_similarity(clean_title, cand_title)
-                if sim >= 0.82:  # Fuzzy threshold %82
+                sim_res = calculate_similarity(clean_title, cand_title)
+                if sim_res["hybrid"] >= 0.78:  # Hibrit eşik %78
                     return {
                         "doi": item.get("DOI"),
                         "title": cand_title,
-                        "similarity": round(sim, 3),
+                        "similarity": sim_res["hybrid"],
+                        "similarity_detail": sim_res,
                         "publisher": item.get("publisher"),
-                        "source": "crossref_fuzzy"
+                        "source": "crossref_hybrid_fuzzy"
                     }
     except Exception:
         pass
@@ -118,16 +223,17 @@ def query_openalex_fuzzy(clean_title: str, year: Optional[int] = None) -> Option
             results = data.get("results", [])
             for item in results:
                 cand_title = item.get("title") or ""
-                sim = calculate_similarity(clean_title, cand_title)
+                sim_res = calculate_similarity(clean_title, cand_title)
                 doi = item.get("doi")
-                if sim >= 0.80 and doi:
+                if sim_res["hybrid"] >= 0.78 and doi:
                     clean_doi = doi.replace("https://doi.org/", "")
                     return {
                         "doi": clean_doi,
                         "title": cand_title,
-                        "similarity": round(sim, 3),
+                        "similarity": sim_res["hybrid"],
+                        "similarity_detail": sim_res,
                         "publisher": item.get("host_venue", {}).get("publisher") if item.get("host_venue") else None,
-                        "source": "openalex_fuzzy"
+                        "source": "openalex_hybrid_fuzzy"
                     }
     except Exception:
         pass
@@ -149,16 +255,17 @@ def query_google_books_fuzzy(clean_title: str) -> Optional[Dict[str, Any]]:
             for item in items:
                 vinfo = item.get("volumeInfo", {})
                 cand_title = vinfo.get("title", "")
-                sim = calculate_similarity(clean_title, cand_title)
-                if sim >= 0.75:
+                sim_res = calculate_similarity(clean_title, cand_title)
+                if sim_res["hybrid"] >= 0.72:
                     isbns = [id_obj.get("identifier") for id_obj in vinfo.get("industryIdentifiers", []) if id_obj.get("type") in ("ISBN_13", "ISBN_10")]
                     isbn_val = isbns[0] if isbns else None
                     return {
                         "doi": f"ISBN:{isbn_val}" if isbn_val else f"GBOOKS:{item.get('id')}",
                         "title": cand_title,
-                        "similarity": round(sim, 3),
+                        "similarity": sim_res["hybrid"],
+                        "similarity_detail": sim_res,
                         "publisher": vinfo.get("publisher"),
-                        "source": "google_books_fuzzy"
+                        "source": "google_books_hybrid_fuzzy"
                     }
     except Exception:
         pass
