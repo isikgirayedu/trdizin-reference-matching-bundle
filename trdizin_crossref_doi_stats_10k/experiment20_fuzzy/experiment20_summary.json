@@ -1,0 +1,15 @@
+{
+  "total_remaining_input": 3590,
+  "total_new_matches": 0,
+  "category_breakdown": {
+    "book_or_chapter": 949,
+    "report_policy_legal": 182,
+    "thesis": 291,
+    "other": 1071,
+    "url_web": 473,
+    "conference": 52,
+    "journal_like_left": 551,
+    "hidden_doi": 11,
+    "dergipark_file": 10
+  }
+}
