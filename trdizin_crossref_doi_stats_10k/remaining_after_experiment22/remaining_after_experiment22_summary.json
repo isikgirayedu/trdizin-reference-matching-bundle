@@ -1,0 +1,18 @@
+{
+  "sampled_references": 10000,
+  "found_after_experiment22": 6701,
+  "found_after_experiment22_rate_percent": 67.01,
+  "remaining_after_experiment22": 3304,
+  "remaining_after_experiment22_rate_percent": 33.04,
+  "category_breakdown": {
+    "book_or_chapter": 796,
+    "report_policy_legal": 182,
+    "other": 1071,
+    "url_web": 473,
+    "conference": 52,
+    "journal_like_left": 551,
+    "thesis": 158,
+    "hidden_doi": 11,
+    "dergipark_file": 10
+  }
+}

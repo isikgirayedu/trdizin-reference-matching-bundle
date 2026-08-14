@@ -1,0 +1,14 @@
+{
+  "experiment_id": "experiment22_books",
+  "label": "Deney 22: Kitap ve Kitap Bölümü Resolver",
+  "total_book_target": 949,
+  "new_strong_matches": 153,
+  "new_possible_matches": 19,
+  "no_match_count": 777,
+  "target_resolution_rate_percent": 16.12,
+  "total_sample_size": 10000,
+  "previous_found_count": 6548,
+  "new_total_found_count": 6701,
+  "new_total_found_rate_percent": 67.01,
+  "remaining_after_experiment22": 3304
+}

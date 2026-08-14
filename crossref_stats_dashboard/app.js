@@ -347,6 +347,22 @@ const experiments = [
     ],
   },
   {
+    id: "book-resolver",
+    label: "Deney 22",
+    title: "Kitap / Book Resolver",
+    found: 6701,
+    rate: 67.01,
+    description:
+      "Deney 21 sonrası kalan 949 kitap ve kitap bölümü referansı, çoklu katalog motoru (OpenLibrary API, Toplu Katalog TO-KAT / Milli Kütüphane ve Crossref Books) üzerinden künye doğrulama ve ISBN atama filtresiyle sorgulandı.",
+    note:
+      "949 kitap hedefinden 153 tanesi OpenLibrary Works ID, TO-KAT demirbaş kaydı ve Crossref Book DOI ile kesin (strong) olarak eşleştirildi (%16,12 kitap çözüm oranı).",
+    color: "#d97706",
+    components: [
+      { label: "Deney 21 baz", value: 6548, color: "#0284c7" },
+      { label: "Kitap Strong Match (OL / TO-KAT / Crossref)", value: 153, color: "#d97706" },
+    ],
+  },
+  {
     id: "broad",
     label: "Ek Deney",
     title: "Broad",
@@ -364,12 +380,12 @@ const experiments = [
 ];
 
 const remainingAfterExperiment19 = {
-  found: 6548,
-  foundRate: 65.48,
-  remaining: 3452,
-  remainingRate: 34.52,
-  doiUnlikely: 1814,
-  doiUnlikelyRateOfRemaining: 52.55,
+  found: 6701,
+  foundRate: 67.01,
+  remaining: 3299,
+  remainingRate: 32.99,
+  doiUnlikely: 1661,
+  doiUnlikelyRateOfRemaining: 50.35,
 };
 
 const remainingCategories = [
@@ -377,7 +393,7 @@ const remainingCategories = [
     key: "other",
     label: "Diger / zayif parse",
     count: 1071,
-    remainingRate: 31.03,
+    remainingRate: 32.46,
     totalRate: 10.71,
     color: "#64748b",
     note: "Belirgin kategoriye dusmeyen veya parse kalitesi zayif kalan referans.",
@@ -385,17 +401,17 @@ const remainingCategories = [
   {
     key: "book_or_chapter",
     label: "Kitap / kitap bolumu",
-    count: 949,
-    remainingRate: 27.49,
-    totalRate: 9.49,
+    count: 796,
+    remainingRate: 24.13,
+    totalRate: 7.96,
     color: "#7c3aed",
-    note: "Kitap, yayinevi veya kitap bolumu sinyali tasiyor.",
+    note: "Deney 22 sonrasi kalan kitaplar; cogu yerel kucuk yayinevi veya ozel basim.",
   },
   {
     key: "journal_like_left",
     label: "Journal-like kalan",
     count: 551,
-    remainingRate: 15.96,
+    remainingRate: 16.70,
     totalRate: 5.51,
     color: "#2563eb",
     note: "Cilt/sayi/sayfa formati var ama guvenli API eslesmesi gelmedi.",

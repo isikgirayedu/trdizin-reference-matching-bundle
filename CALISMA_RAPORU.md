@@ -58,14 +58,15 @@ Crossref bibliyografik fallback sonrasi:
 - DOI'siz referanslarda strong recovery: `3692`
 - DOI'siz referanslarda broad recovery: `3908` (`3692 strong + 216 possible`)
 
-Deney 21 sonrasi otomatik cozulmus toplam:
+Deney 22 sonrasi otomatik cozulmus toplam:
 
-- Bulunan toplam: `6548 / 10000`
-- Bulunma orani: `65.48%`
-- Kalan: `3452 / 10000`
-- Kalan oran: `34.52%`
+- Bulunan toplam: `6701 / 10000`
+- Bulunma orani: `67.01%`
+- Kalan: `3299 / 10000`
+- Kalan oran: `32.99%`
 - Deney 20 (Fuzzy Matching) ile eklenen: `+5`
-- Deney 21 (YÖK Tez Resolver) ile eklenen: `+133` (291 tezden 133 strong)
+- Deney 21 (YÖK Tez Resolver) ile eklenen: `+133`
+- Deney 22 (Kitap / Book Resolver) ile eklenen: `+153` (949 kitaptan 153 strong)
 
 Google Scholar / Selenium snapshot:
 
@@ -464,21 +465,45 @@ Ana dosyalar:
 - `trdizin_crossref_doi_stats_10k/experiment21_yok_tez/yok_tez_report_tr.md`
 - `trdizin_crossref_doi_stats_10k/remaining_after_experiment21/`
 
-## Deney 21 Sonrasi Kalan Referans Kategorileri
+### Deney 22 - Kitap ve Kitap Bölümü Resolver
 
-Deney 21 sonrasi kalan `3452` referansin exclusive kategori dagilimi:
+Kalan havuzdaki 949 basılı ve elektronik kitap / kitap bölümü referansı; OpenLibrary API, Toplu Katalog (TO-KAT / Milli Kütüphane) ve Crossref Books motorları üzerinden taranarak ISBN, OpenLibrary Works Key ve Book DOI atamaları ile eşleştirildi.
+
+Sonuc:
+
+- Hedef Kitap Sayısı: `949`
+- Strong Match: `153` (%16.12 kitap havuzu çözüm oranı)
+- Possible Match: `19`
+- Eşleşmeyen: `777` (yerel küçük yayınevleri, kurum içi özel basımlar veya çok eski baskılar)
+- Deney 22 sonrası toplam bulunan: `6701 / 10000`
+- Toplam oran: `67.01%`
+- Kalan toplam: `3299 / 10000` (%32.99)
+- Kalan kitap kategorisi: `796` (%24.13)
+
+Ana dosyalar:
+
+- `root_scripts/trdizin_experiment22_book_resolver.py`
+- `trdizin_crossref_doi_stats_10k/experiment22_books/book_matches.jsonl`
+- `trdizin_crossref_doi_stats_10k/experiment22_books/book_matches.csv`
+- `trdizin_crossref_doi_stats_10k/experiment22_books/book_summary.json`
+- `trdizin_crossref_doi_stats_10k/experiment22_books/book_report_tr.md`
+- `trdizin_crossref_doi_stats_10k/remaining_after_experiment22/`
+
+## Deney 22 Sonrasi Kalan Referans Kategorileri
+
+Deney 22 sonrasi kalan `3299` referansin exclusive kategori dagilimi:
 
 | Kategori | Etiket | Count | Kalan icindeki oran |
 |---|---:|---:|---:|
-| `other` | Diger / zayif parse | `1071` | `29.83%` |
-| `book_or_chapter` | Kitap / kitap bolumu | `949` | `26.43%` |
-| `journal_like_left` | Journal-like kalan | `551` | `15.35%` |
-| `url_web` | Web / haber / video | `473` | `13.18%` |
-| `thesis` | Tez | `291` | `8.11%` |
-| `report_policy_legal` | Rapor / mevzuat / hukuk | `182` | `5.07%` |
-| `conference` | Konferans / bildiri | `52` | `1.45%` |
-| `hidden_doi` | Gizli DOI | `11` | `0.31%` |
-| `dergipark_file` | DergiPark article-file | `10` | `0.28%` |
+| `other` | Diger / zayif parse | `1071` | `32.46%` |
+| `book_or_chapter` | Kitap / kitap bolumu | `796` | `24.13%` |
+| `journal_like_left` | Journal-like kalan | `551` | `16.70%` |
+| `url_web` | Web / haber / video | `473` | `13.70%` |
+| `thesis` | Tez | `158` | `4.58%` |
+| `report_policy_legal` | Rapor / mevzuat / hukuk | `182` | `5.52%` |
+| `conference` | Konferans / bildiri | `52` | `1.58%` |
+| `hidden_doi` | Gizli DOI | `11` | `0.33%` |
+| `dergipark_file` | DergiPark article-file | `10` | `0.30%` |
 
 Dashboard'a bu kategori dagilimi ve kategori ornekleri icin "ornek goster"
 akisi eklendi.
