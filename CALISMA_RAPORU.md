@@ -58,12 +58,14 @@ Crossref bibliyografik fallback sonrasi:
 - DOI'siz referanslarda strong recovery: `3692`
 - DOI'siz referanslarda broad recovery: `3908` (`3692 strong + 216 possible`)
 
-Deney 19 sonrasi otomatik cozulmus toplam:
+Deney 21 sonrasi otomatik cozulmus toplam:
 
-- Bulunan toplam: `6410 / 10000`
-- Bulunma orani: `64.10%`
-- Kalan: `3590 / 10000`
-- Kalan oran: `35.90%`
+- Bulunan toplam: `6548 / 10000`
+- Bulunma orani: `65.48%`
+- Kalan: `3452 / 10000`
+- Kalan oran: `34.52%`
+- Deney 20 (Fuzzy Matching) ile eklenen: `+5`
+- Deney 21 (YÖK Tez Resolver) ile eklenen: `+133` (291 tezden 133 strong)
 
 Google Scholar / Selenium snapshot:
 
@@ -422,9 +424,49 @@ Ana dosyalar:
 - `trdizin_crossref_doi_stats_10k/experiment19_grobid_reparse/`
 - `trdizin_crossref_doi_stats_10k/remaining_after_experiment19/`
 
-## Deney 19 Sonrasi Kalan Referans Kategorileri
+### Deney 20 - Fuzzy Matching & Esnek Arama
 
-Deney 19 sonrasi kalan `3590` referansin exclusive kategori dagilimi:
+Kalan 3.590 referans üzerinde harf hatalarını, Türkçe karakter farklarını ve format bozukluklarını tolere eden Gestalt + Damerau-Levenshtein + Jaro-Winkler hibrit benzerlik modeli uygulandı.
+
+Sonuc:
+
+- Processed: `3590`
+- New Strong Match: `5`
+- Toplam bulunan: `6415`
+- Oran: `64.15%`
+
+Ana dosyalar:
+
+- `root_scripts/trdizin_experiment20_fuzzy_matching.py`
+- `trdizin_crossref_doi_stats_10k/experiment20_fuzzy/`
+
+### Deney 21 - YÖK Ulusal Tez Merkezi Resolver
+
+Kalan referans havuzundaki 291 lisansüstü tez (Yüksek Lisans, Doktora, Uzmanlık), YÖK Ulusal Tez Merkezi (`tez.yok.gov.tr`) arama motoru ve künye doğrulayıcısı üzerinden sorgulandı. Tez No, yazar, başlık ve üniversite mutabakatı ile kesin kayıtlar eşleştirildi.
+
+Sonuc:
+
+- Hedef Tez Sayısı: `291`
+- Strong Match: `133` (%45.70 tez çözüm oranı)
+- Possible Match: `12`
+- Eşleşmeyen: `146` (önemli bir kısmı yurt dışı tezler - Westminster, Rice, Bangladesh vb.)
+- Deney 21 sonrası toplam bulunan: `6548 / 10000`
+- Toplam oran: `65.48%`
+- Kalan toplam: `3452 / 10000` (%34.52)
+- Kalan tez kategorisi: `158` (%4.58)
+
+Ana dosyalar:
+
+- `root_scripts/trdizin_experiment21_yok_tez_resolver.py`
+- `trdizin_crossref_doi_stats_10k/experiment21_yok_tez/yok_tez_matches.jsonl`
+- `trdizin_crossref_doi_stats_10k/experiment21_yok_tez/yok_tez_matches.csv`
+- `trdizin_crossref_doi_stats_10k/experiment21_yok_tez/yok_tez_summary.json`
+- `trdizin_crossref_doi_stats_10k/experiment21_yok_tez/yok_tez_report_tr.md`
+- `trdizin_crossref_doi_stats_10k/remaining_after_experiment21/`
+
+## Deney 21 Sonrasi Kalan Referans Kategorileri
+
+Deney 21 sonrasi kalan `3452` referansin exclusive kategori dagilimi:
 
 | Kategori | Etiket | Count | Kalan icindeki oran |
 |---|---:|---:|---:|

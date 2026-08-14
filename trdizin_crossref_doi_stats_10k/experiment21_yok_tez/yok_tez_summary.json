@@ -1,0 +1,14 @@
+{
+  "experiment_id": "experiment21_yok_tez",
+  "label": "Deney 21: YÖK Ulusal Tez Merkezi Resolver",
+  "total_thesis_target": 291,
+  "new_strong_matches": 133,
+  "new_possible_matches": 12,
+  "no_match_count": 146,
+  "target_resolution_rate_percent": 45.7,
+  "total_sample_size": 10000,
+  "previous_found_count": 6410,
+  "new_total_found_count": 6543,
+  "new_total_found_rate_percent": 65.43,
+  "remaining_after_experiment21": 3457
+}

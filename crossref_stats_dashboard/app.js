@@ -331,6 +331,22 @@ const experiments = [
     ],
   },
   {
+    id: "yok-tez",
+    label: "Deney 21",
+    title: "YÖK Ulusal Tez Merkezi Resolver",
+    found: 6548,
+    rate: 65.48,
+    description:
+      "Deney 20 sonrası kalan referanslar içindeki 291 lisansüstü tez (Yüksek Lisans, Doktora, Tıpta Uzmanlık), YÖK Ulusal Tez Merkezi (tez.yok.gov.tr) arama motoru ve tez künye doğrulayıcısı üzerinden sorgulandı.",
+    note:
+      "291 tez hedefinden 133 tanesi YÖK Tez No, yazar, başlık ve üniversite mutabakatıyla kesin (strong) olarak çözümlendi (%45,70 tez başarı oranı). Kalan tez kategorisi 158'e geriledi.",
+    color: "#0284c7",
+    components: [
+      { label: "Deney 20 baz", value: 6415, color: "#e11d48" },
+      { label: "YÖK Tez Strong Match", value: 133, color: "#0284c7" },
+    ],
+  },
+  {
     id: "broad",
     label: "Ek Deney",
     title: "Broad",
@@ -348,12 +364,12 @@ const experiments = [
 ];
 
 const remainingAfterExperiment19 = {
-  found: 6410,
-  foundRate: 64.1,
-  remaining: 3590,
-  remainingRate: 35.9,
-  doiUnlikely: 1947,
-  doiUnlikelyRateOfRemaining: 54.23,
+  found: 6548,
+  foundRate: 65.48,
+  remaining: 3452,
+  remainingRate: 34.52,
+  doiUnlikely: 1814,
+  doiUnlikelyRateOfRemaining: 52.55,
 };
 
 const remainingCategories = [
@@ -361,7 +377,7 @@ const remainingCategories = [
     key: "other",
     label: "Diger / zayif parse",
     count: 1071,
-    remainingRate: 29.83,
+    remainingRate: 31.03,
     totalRate: 10.71,
     color: "#64748b",
     note: "Belirgin kategoriye dusmeyen veya parse kalitesi zayif kalan referans.",
@@ -370,7 +386,7 @@ const remainingCategories = [
     key: "book_or_chapter",
     label: "Kitap / kitap bolumu",
     count: 949,
-    remainingRate: 26.43,
+    remainingRate: 27.49,
     totalRate: 9.49,
     color: "#7c3aed",
     note: "Kitap, yayinevi veya kitap bolumu sinyali tasiyor.",
@@ -379,7 +395,7 @@ const remainingCategories = [
     key: "journal_like_left",
     label: "Journal-like kalan",
     count: 551,
-    remainingRate: 15.35,
+    remainingRate: 15.96,
     totalRate: 5.51,
     color: "#2563eb",
     note: "Cilt/sayi/sayfa formati var ama guvenli API eslesmesi gelmedi.",
@@ -388,7 +404,7 @@ const remainingCategories = [
     key: "url_web",
     label: "Web / haber / video",
     count: 473,
-    remainingRate: 13.18,
+    remainingRate: 13.70,
     totalRate: 4.73,
     color: "#dc2626",
     note: "Web sayfasi, haber, video, sosyal medya veya erisim URL'si agirlikli.",
@@ -396,11 +412,11 @@ const remainingCategories = [
   {
     key: "thesis",
     label: "Tez",
-    count: 291,
-    remainingRate: 8.11,
-    totalRate: 2.91,
+    count: 158,
+    remainingRate: 4.58,
+    totalRate: 1.58,
     color: "#0891b2",
-    note: "Tez/dissertation sinyali tasiyor; Crossref DOI denominator'i icin zayif aday.",
+    note: "Deney 21 YÖK Tez sonrasi kalan tezler; cogu yabanci universite (Westminster, Rice, Bangladesh vs.).",
   },
   {
     key: "report_policy_legal",
