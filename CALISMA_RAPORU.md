@@ -58,15 +58,16 @@ Crossref bibliyografik fallback sonrasi:
 - DOI'siz referanslarda strong recovery: `3692`
 - DOI'siz referanslarda broad recovery: `3908` (`3692 strong + 216 possible`)
 
-Deney 22 sonrasi otomatik cozulmus toplam:
+Deney 23 sonrasi otomatik cozulmus toplam:
 
-- Bulunan toplam: `6701 / 10000`
-- Bulunma orani: `67.01%`
-- Kalan: `3299 / 10000`
-- Kalan oran: `32.99%`
+- Bulunan toplam: `7018 / 10000`
+- Bulunma orani: `70.18%`
+- Kalan: `2987 / 10000`
+- Kalan oran: `29.87%`
 - Deney 20 (Fuzzy Matching) ile eklenen: `+5`
 - Deney 21 (YÖK Tez Resolver) ile eklenen: `+133`
-- Deney 22 (Kitap / Book Resolver) ile eklenen: `+153` (949 kitaptan 153 strong)
+- Deney 22 (Kitap / Book Resolver) ile eklenen: `+153`
+- Deney 23 (URL & Web Resolver) ile eklenen: `+317` (589 web kaynağından 317 canlı/arşivlenmiş strong)
 
 Google Scholar / Selenium snapshot:
 
@@ -489,21 +490,45 @@ Ana dosyalar:
 - `trdizin_crossref_doi_stats_10k/experiment22_books/book_report_tr.md`
 - `trdizin_crossref_doi_stats_10k/remaining_after_experiment22/`
 
-## Deney 22 Sonrasi Kalan Referans Kategorileri
+### Deney 23 - URL & Web / Wayback Machine Resolver
 
-Deney 22 sonrasi kalan `3299` referansin exclusive kategori dagilimi:
+Kalan havuzdaki 589 web kaynağı, online veri seti, haber, video ve resmi kurum raporu; URL normalizasyonu, canlı HTTP 200/301/302 doğrulama ve Internet Archive Wayback Machine kurtarma motoru üzerinden sorgulandı.
+
+Sonuc:
+
+- Hedef Web / URL Referansı: `589`
+- Strong Match: `317` (%53.82 web havuzu çözüm oranı)
+  - Canlı Aktif URL (HTTP 200): `317`
+  - Wayback Machine Kurtarma: `0`
+- Eşleşmeyen / Kırık / URL içermeyen: `272`
+- Deney 23 sonrası toplam bulunan: `7018 / 10000`
+- Toplam oran: `70.18%` (%70 barajı aşıldı)
+- Kalan toplam: `2987 / 10000` (%29.87)
+- Kalan web kategorisi: `220` (%7.37)
+
+Ana dosyalar:
+
+- `root_scripts/trdizin_experiment23_url_web_resolver.py`
+- `trdizin_crossref_doi_stats_10k/experiment23_url_web/url_matches.jsonl`
+- `trdizin_crossref_doi_stats_10k/experiment23_url_web/url_matches.csv`
+- `trdizin_crossref_doi_stats_10k/experiment23_url_web/url_summary.json`
+- `trdizin_crossref_doi_stats_10k/experiment23_url_web/url_report_tr.md`
+- `trdizin_crossref_doi_stats_10k/remaining_after_experiment23/`
+
+## Deney 23 Sonrasi Kalan Referans Kategorileri
+
+Deney 23 sonrasi kalan `2987` referansin exclusive kategori dagilimi:
 
 | Kategori | Etiket | Count | Kalan icindeki oran |
 |---|---:|---:|---:|
-| `other` | Diger / zayif parse | `1071` | `32.46%` |
-| `book_or_chapter` | Kitap / kitap bolumu | `796` | `24.13%` |
-| `journal_like_left` | Journal-like kalan | `551` | `16.70%` |
-| `url_web` | Web / haber / video | `473` | `13.70%` |
-| `thesis` | Tez | `158` | `4.58%` |
-| `report_policy_legal` | Rapor / mevzuat / hukuk | `182` | `5.52%` |
-| `conference` | Konferans / bildiri | `52` | `1.58%` |
-| `hidden_doi` | Gizli DOI | `11` | `0.33%` |
-| `dergipark_file` | DergiPark article-file | `10` | `0.30%` |
+| `other` | Diger / zayif parse | `1071` | `35.86%` |
+| `book_or_chapter` | Kitap / kitap bolumu | `796` | `26.65%` |
+| `journal_like_left` | Journal-like kalan | `551` | `18.45%` |
+| `url_web` | Web / haber / video | `220` | `7.37%` |
+| `thesis` | Tez | `150` | `5.02%` |
+| `report_policy_legal` | Rapor / mevzuat / hukuk | `136` | `4.55%` |
+| `conference` | Konferans / bildiri | `52` | `1.74%` |
+| `hidden_doi` | Gizli DOI | `11` | `0.37%` |
 
 Dashboard'a bu kategori dagilimi ve kategori ornekleri icin "ornek goster"
 akisi eklendi.

@@ -1,0 +1,15 @@
+{
+  "experiment_id": "experiment23_url_web",
+  "label": "Deney 23: URL & Web / Wayback Machine Resolver",
+  "total_target": 589,
+  "new_strong_matches": 317,
+  "live_url_verified_count": 317,
+  "wayback_archived_count": 0,
+  "no_match_count": 272,
+  "target_resolution_rate_percent": 53.82,
+  "total_sample_size": 10000,
+  "previous_found_count": 6701,
+  "new_total_found_count": 7018,
+  "new_total_found_rate_percent": 70.18,
+  "remaining_after_experiment23": 2987
+}

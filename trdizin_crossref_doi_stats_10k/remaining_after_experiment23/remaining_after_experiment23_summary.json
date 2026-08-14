@@ -1,0 +1,17 @@
+{
+  "sampled_references": 10000,
+  "found_after_experiment23": 7018,
+  "found_after_experiment23_rate_percent": 70.18,
+  "remaining_after_experiment23": 2987,
+  "remaining_after_experiment23_rate_percent": 29.87,
+  "category_breakdown": {
+    "book_or_chapter": 796,
+    "report_policy_legal": 136,
+    "other": 1071,
+    "conference": 52,
+    "url_web": 220,
+    "journal_like_left": 551,
+    "thesis": 150,
+    "hidden_doi": 11
+  }
+}
