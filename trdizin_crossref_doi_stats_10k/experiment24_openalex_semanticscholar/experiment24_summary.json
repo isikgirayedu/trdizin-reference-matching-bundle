@@ -1,0 +1,11 @@
+{
+  "experiment_id": "experiment24_openalex_semanticscholar",
+  "label": "Deney 24: OpenAlex & Semantic Scholar Resolver",
+  "total_sample_size": 10000,
+  "previous_found_count": 7018,
+  "new_strong_matches": 28,
+  "new_total_found_count": 7046,
+  "new_total_found_rate_percent": 70.46,
+  "remaining_after_experiment24": 2959,
+  "remaining_after_experiment24_rate_percent": 29.59
+}

@@ -58,16 +58,19 @@ Crossref bibliyografik fallback sonrasi:
 - DOI'siz referanslarda strong recovery: `3692`
 - DOI'siz referanslarda broad recovery: `3908` (`3692 strong + 216 possible`)
 
-Deney 23 sonrasi otomatik cozulmus toplam:
+Deney 26 sonrasi otomatik cozulmus toplam:
 
-- Bulunan toplam: `7018 / 10000`
-- Bulunma orani: `70.18%`
-- Kalan: `2987 / 10000`
-- Kalan oran: `29.87%`
+- Bulunan toplam: `7053 / 10000`
+- Bulunma orani: `70.53%`
+- Kalan: `2952 / 10000`
+- Kalan oran: `29.52%`
 - Deney 20 (Fuzzy Matching) ile eklenen: `+5`
 - Deney 21 (YÖK Tez Resolver) ile eklenen: `+133`
 - Deney 22 (Kitap / Book Resolver) ile eklenen: `+153`
-- Deney 23 (URL & Web Resolver) ile eklenen: `+317` (589 web kaynağından 317 canlı/arşivlenmiş strong)
+- Deney 23 (URL & Web Resolver) ile eklenen: `+317`
+- Deney 24 (OpenAlex & Semantic Scholar Resolver) ile eklenen: `+28`
+- Deney 25 (DataCite Report, Dataset & Repository Resolver) ile eklenen: `+3`
+- Deney 26 (Structured Citation & DOAJ / DergiPark Resolver) ile eklenen: `+4`
 
 Google Scholar / Selenium snapshot:
 
@@ -515,19 +518,73 @@ Ana dosyalar:
 - `trdizin_crossref_doi_stats_10k/experiment23_url_web/url_report_tr.md`
 - `trdizin_crossref_doi_stats_10k/remaining_after_experiment23/`
 
-## Deney 23 Sonrasi Kalan Referans Kategorileri
+### Deney 24 - OpenAlex & Semantic Scholar Resolver
 
-Deney 23 sonrasi kalan `2987` referansin exclusive kategori dagilimi:
+Deney 23 sonrasında kalan referans havuzu OpenAlex Works API (API Key destekli) ve Semantic Scholar Graph API üzerinden çoklu stratejiyle (Title, Author+Title, Snippet Arama ve Batch ID Lookup) sorgulandı.
+
+Sonuc:
+
+- Hedeflenen Referans Sayısı: `2987`
+- New Strong Match: `28`
+- Deney 24 sonrası toplam bulunan: `7046 / 10000`
+- Toplam oran: `70.46%`
+- Kalan toplam: `2959 / 10000` (%29.59)
+
+Ana dosyalar:
+
+- `root_scripts/trdizin_experiment24_openalex_semanticscholar.py`
+- `trdizin_crossref_doi_stats_10k/experiment24_openalex_semanticscholar/`
+- `trdizin_crossref_doi_stats_10k/remaining_after_experiment24/`
+
+### Deney 25 - DataCite Report, Dataset & Thesis Resolver
+
+Kalan 2.959 referans DataCite REST API üzerinden sorgulanarak özellikle kurum raporları, açık veri setleri, pre-printler ve açık arşiv tezleri resmi DataCite DOI'leriyle eşleştirildi.
+
+Sonuc:
+
+- Hedeflenen Referans Sayısı: `2959`
+- New Strong Match: `3`
+- Deney 25 sonrası toplam bulunan: `7049 / 10000`
+- Toplam oran: `70.49%`
+- Kalan toplam: `2956 / 10000` (%29.56)
+
+Ana dosyalar:
+
+- `root_scripts/trdizin_experiment25_datacite_reports_datasets.py`
+- `trdizin_crossref_doi_stats_10k/experiment25_datacite_reports_datasets/`
+- `trdizin_crossref_doi_stats_10k/remaining_after_experiment25/`
+
+### Deney 26 - Structured Citation & DOAJ / DergiPark Resolver
+
+Deney 25 sonrası kalan 2.956 referans gelişmiş yapısal ayrıştırma (Citation Structuring) ile temizlenip DOAJ (Directory of Open Access Journals) REST API üzerinden açık erişim dergiler ve resmi DOI'lerle eşleştirildi.
+
+Sonuc:
+
+- Hedeflenen Referans Sayısı: `2956`
+- New Strong Match: `4`
+- Deney 26 sonrası toplam bulunan: `7053 / 10000`
+- Toplam oran: `70.53%`
+- Kalan toplam: `2952 / 10000` (%29.52)
+
+Ana dosyalar:
+
+- `root_scripts/trdizin_experiment26_structured_doaj_dergipark.py`
+- `trdizin_crossref_doi_stats_10k/experiment26_structured_doaj_dergipark/`
+- `trdizin_crossref_doi_stats_10k/remaining_after_experiment26/`
+
+## Deney 26 Sonrasi Kalan Referans Kategorileri
+
+Deney 26 sonrasi kalan `2952` referansin exclusive kategori dagilimi:
 
 | Kategori | Etiket | Count | Kalan icindeki oran |
 |---|---:|---:|---:|
-| `other` | Diger / zayif parse | `1071` | `35.86%` |
-| `book_or_chapter` | Kitap / kitap bolumu | `796` | `26.65%` |
-| `journal_like_left` | Journal-like kalan | `551` | `18.45%` |
-| `url_web` | Web / haber / video | `220` | `7.37%` |
-| `thesis` | Tez | `150` | `5.02%` |
-| `report_policy_legal` | Rapor / mevzuat / hukuk | `136` | `4.55%` |
-| `conference` | Konferans / bildiri | `52` | `1.74%` |
+| `other` | Diger / zayif parse | `1061` | `35.94%` |
+| `book_or_chapter` | Kitap / kitap bolumu | `792` | `26.83%` |
+| `journal_like_left` | Journal-like kalan | `534` | `18.09%` |
+| `url_web` | Web / haber / video | `220` | `7.45%` |
+| `thesis` | Tez | `149` | `5.05%` |
+| `report_policy_legal` | Rapor / mevzuat / hukuk | `134` | `4.54%` |
+| `conference` | Konferans / bildiri | `51` | `1.73%` |
 | `hidden_doi` | Gizli DOI | `11` | `0.37%` |
 
 Dashboard'a bu kategori dagilimi ve kategori ornekleri icin "ornek goster"

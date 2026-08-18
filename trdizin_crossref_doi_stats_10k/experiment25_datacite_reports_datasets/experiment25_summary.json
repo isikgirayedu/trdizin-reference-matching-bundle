@@ -1,0 +1,15 @@
+{
+  "experiment_id": "experiment25_datacite_reports_datasets",
+  "label": "Deney 25: DataCite Report, Dataset, Thesis & Repository Resolver",
+  "target_category_filter": "all",
+  "total_target": 2959,
+  "new_strong_matches": 3,
+  "target_resolution_rate_percent": 0.1,
+  "total_sample_size": 10000,
+  "previous_found_count": 7046,
+  "new_total_found_count": 7049,
+  "new_total_found_rate_percent": 70.49,
+  "remaining_after_experiment25": 2956,
+  "remaining_after_experiment25_rate_percent": 29.56,
+  "elapsed_seconds": 125.25
+}

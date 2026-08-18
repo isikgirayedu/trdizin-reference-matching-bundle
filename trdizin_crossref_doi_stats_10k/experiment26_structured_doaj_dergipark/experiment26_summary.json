@@ -1,0 +1,15 @@
+{
+  "experiment_id": "experiment26_structured_doaj_dergipark",
+  "label": "Deney 26: LLM/Structured Citation + DOAJ & DergiPark Resolver",
+  "target_category_filter": "all",
+  "total_target": 2956,
+  "new_strong_matches": 4,
+  "target_resolution_rate_percent": 0.14,
+  "total_sample_size": 10000,
+  "previous_found_count": 7049,
+  "new_total_found_count": 7053,
+  "new_total_found_rate_percent": 70.53,
+  "remaining_after_experiment26": 2952,
+  "remaining_after_experiment26_rate_percent": 29.52,
+  "elapsed_seconds": 124.55
+}
